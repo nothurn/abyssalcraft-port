@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalport:coralium_crystal_cluster"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:coralium_crystal",
+    "count": 9
+  }
+}

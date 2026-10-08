@@ -1,0 +1,15 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "abyssalport:coralium_plagued_flesh"
+  },
+  "result": {
+    "id": "abyssalport:phosphorus_crystal_shard",
+    "count": 8
+  },
+  "experience": 0.2,
+  "secondary": {
+    "id": "abyssalport:coralium_crystal_shard",
+    "count": 1
+  }
+}

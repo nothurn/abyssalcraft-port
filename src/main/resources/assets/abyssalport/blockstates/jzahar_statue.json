@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "abyssalport:block/jzahar_statue",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "abyssalport:block/jzahar_statue",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "abyssalport:block/jzahar_statue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "abyssalport:block/jzahar_statue",
+      "y": 270
+    }
+  }
+}

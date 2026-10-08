@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "abyssalport:wasteland_stronghold",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "salt": 0,
+    "distance": 32,
+    "spread": 3,
+    "count": 128,
+    "preferred_biomes": "#abyssalport:has_structure/wasteland_stronghold"
+  }
+}

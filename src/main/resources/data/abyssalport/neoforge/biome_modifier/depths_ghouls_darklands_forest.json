@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "abyssalport:darklands_forest",
+  "spawners": {
+    "type": "abyssalport:depths_ghoul",
+    "weight": 60,
+    "minCount": 1,
+    "maxCount": 5
+  }
+}

@@ -1,0 +1,130 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+
+> Task :compileJava FAILED
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:187: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        ServerPlayer visitor = helper.makeMockServerPlayerInLevel();
+                                     ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:188: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        ServerPlayer bystander = helper.makeMockServerPlayerInLevel();
+                                       ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:510: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        ServerPlayer finder = helper.makeMockServerPlayerInLevel();
+                                    ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:511: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        ServerPlayer crafter = helper.makeMockServerPlayerInLevel();
+                                     ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1041: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1073: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1163: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1197: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1549: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1566: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        ServerPlayer other = helper.makeMockServerPlayerInLevel();
+                                   ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1689: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1700: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        ServerPlayer secondPlayer = helper.makeMockServerPlayerInLevel();
+                                          ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1770: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1851: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\ShoggothAcidGameTests.java:164: Fehler: Symbol nicht gefunden
+        var previousModes=new HashMap<net.minecraft.server.level.ServerPlayer,GameType>();
+                                                                              ^
+  Symbol: Klasse GameType
+  Ort: Klasse ShoggothAcidGameTests
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\ShoggothAcidGameTests.java:166: Fehler: Symbol nicht gefunden
+            previousModes.put(player,player.gameMode.getGameModeForPlayer()); player.setGameMode(GameType.SPECTATOR);
+                                                                                                 ^
+  Symbol: Variable GameType
+  Ort: Klasse ShoggothAcidGameTests
+Hinweis: Einige Eingabedateien verwenden oder überschreiben eine veraltete API.
+Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+2 Fehler
+14 Warnungen
+
+[Incubating] Problems report is available at: file:///B:/Claude/Projekte/AbyssalCraftPort/modern/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\ShoggothAcidGameTests.java:164: Fehler: Symbol nicht gefunden
+          var previousModes=new HashMap<net.minecraft.server.level.ServerPlayer,GameType>();
+                                                                                ^
+    Symbol: Klasse GameType
+    Ort: Klasse ShoggothAcidGameTests
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\ShoggothAcidGameTests.java:166: Fehler: Symbol nicht gefunden
+              previousModes.put(player,player.gameMode.getGameModeForPlayer()); player.setGameMode(GameType.SPECTATOR);
+                                                                                                   ^
+    Symbol: Variable GameType
+    Ort: Klasse ShoggothAcidGameTests
+  Hinweis: Einige Eingabedateien verwenden oder überschreiben eine veraltete API.
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:187: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          ServerPlayer visitor = helper.makeMockServerPlayerInLevel();
+                                       ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:188: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          ServerPlayer bystander = helper.makeMockServerPlayerInLevel();
+                                         ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:510: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          ServerPlayer finder = helper.makeMockServerPlayerInLevel();
+                                      ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:511: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          ServerPlayer crafter = helper.makeMockServerPlayerInLevel();
+                                       ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1041: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                      ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1073: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                      ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1163: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                      ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1197: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                      ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1549: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                      ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1566: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          ServerPlayer other = helper.makeMockServerPlayerInLevel();
+                                     ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1689: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                      ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1700: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          ServerPlayer secondPlayer = helper.makeMockServerPlayerInLevel();
+                                            ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1770: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                      ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PortGameTests.java:1851: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                      ^
+  2 Fehler
+  14 Warnungen
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1s
+2 actionable tasks: 1 executed, 1 up-to-date

@@ -1,0 +1,27 @@
+> Task :betaSourceBundle UP-TO-DATE
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :jarJar NO-SOURCE
+> Task :jar UP-TO-DATE
+> Task :sourcesJar UP-TO-DATE
+> Task :stageBetaCandidate FAILED
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file 'B:\Claude\Projekte\AbyssalCraftPort\modern\build.gradle' line: 144
+
+* What went wrong:
+Could not evaluate onlyIf predicate for task ':stageBetaCandidate'.
+> Could not evaluate spec for 'Task satisfies onlyIf closure'.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 989ms
+7 actionable tasks: 1 executed, 6 up-to-date

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "abyssalport:block/orange_head"
+    },
+    "facing=east": {
+      "model": "abyssalport:block/orange_head",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "abyssalport:block/orange_head",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "abyssalport:block/orange_head",
+      "y": 270
+    }
+  }
+}

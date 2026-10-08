@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "minecraft:redstone"
+  },
+  "result": {
+    "id": "abyssalport:redstone_crystal",
+    "count": 1
+  },
+  "experience": 0.1
+}

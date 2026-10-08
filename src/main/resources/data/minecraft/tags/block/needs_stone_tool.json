@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:prototype_effigy",
+    "abyssalport:energy_collector",
+    "abyssalport:energy_relay",
+    "abyssalport:energy_container",
+    "abyssalport:ritual_altar",
+    "abyssalport:ritual_pedestal",
+    "abyssalport:overworld_energy_collector",
+    "abyssalport:overworld_energy_relay",
+    "abyssalport:overworld_energy_container",
+    "abyssalport:abyssal_wasteland_energy_collector",
+    "abyssalport:abyssal_wasteland_energy_relay",
+    "abyssalport:abyssal_wasteland_energy_container",
+    "abyssalport:dreadlands_energy_collector",
+    "abyssalport:dreadlands_energy_relay",
+    "abyssalport:dreadlands_energy_container",
+    "abyssalport:energy_pedestal",
+    "abyssalport:overworld_energy_pedestal",
+    "abyssalport:abyssal_wasteland_energy_pedestal",
+    "abyssalport:dreadlands_energy_pedestal",
+    "abyssalport:sacrificial_altar",
+    "abyssalport:overworld_sacrificial_altar",
+    "abyssalport:abyssal_wasteland_sacrificial_altar",
+    "abyssalport:dreadlands_sacrificial_altar"
+  ]
+}

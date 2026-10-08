@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "abyssalport:liquified_coralium_ore"
+  },
+  "result": {
+    "id": "abyssalport:refined_coralium_ingot"
+  },
+  "experience": 3,
+  "cookingtime": 100
+}

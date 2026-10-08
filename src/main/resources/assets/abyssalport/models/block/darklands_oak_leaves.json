@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "abyssalport:block/darklands_oak_leaves"
+  }
+}

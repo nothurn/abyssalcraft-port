@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "abyssalport:block/phosphorus_crystal_cluster"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["FF", "FF"],
+  "key": {"F": {"item": "abyssalport:shadow_fragment"}},
+  "result": {"id": "abyssalport:shadow_shard", "count": 1}
+}

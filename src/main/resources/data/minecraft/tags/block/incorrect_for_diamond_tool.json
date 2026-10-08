@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:liquified_coralium_ore",
+    "abyssalport:pearlescent_coralium_ore",
+    "abyssalport:dreadlands_infused_powerstone",
+    "abyssalport:dreadstone",
+    "abyssalport:dreadstone_cobblestone",
+    "abyssalport:elysian_stone",
+    "abyssalport:elysian_cobblestone",
+    "abyssalport:dreaded_abyssalnite_ore",
+    "abyssalport:dreadlands_abyssalnite_ore",
+    "abyssalport:dreadium_block",
+    "abyssalport:dreadstone_bricks"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:abyssal_stone",
+    "abyssalport:abyssal_sand",
+    "abyssalport:fused_abyssal_sand",
+    "abyssalport:dreadstone",
+    "abyssalport:dreadstone_cobblestone",
+    "abyssalport:elysian_stone",
+    "abyssalport:elysian_cobblestone",
+    "abyssalport:dreaded_abyssalnite_ore",
+    "abyssalport:dreadlands_abyssalnite_ore"
+  ]
+}

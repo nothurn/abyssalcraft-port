@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "abyssalport:coralium_gem"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "id": "abyssalport:powerstone_tracker",
+    "count": 4
+  }
+}

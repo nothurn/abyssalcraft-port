@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FFF",
+    "FEF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "abyssalport:dread_fragment"
+    },
+    "E": {
+      "item": "abyssalport:dreadlands_essence"
+    }
+  },
+  "result": {
+    "id": "abyssalport:skin_of_the_dreadlands"
+  }
+}

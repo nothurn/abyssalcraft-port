@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "abyssalport:darkstone"
+  },
+  "result": {
+    "id": "abyssalport:darkstone_slab",
+    "count": 2
+  }
+}

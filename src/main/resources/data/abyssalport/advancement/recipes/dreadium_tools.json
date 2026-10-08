@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalport:dreadium_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "abyssalport:dreadium_pickaxe",
+      "abyssalport:dreadium_axe",
+      "abyssalport:dreadium_shovel",
+      "abyssalport:dreadium_sword",
+      "abyssalport:dreadium_hoe"
+    ]
+  }
+}

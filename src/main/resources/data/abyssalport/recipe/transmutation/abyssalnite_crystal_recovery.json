@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:transmutation",
+  "ingredient": {
+    "item": "abyssalport:abyssalnite_crystal"
+  },
+  "result": {
+    "id": "abyssalport:abyssalnite_nugget",
+    "count": 1
+  },
+  "experience": 0.1
+}

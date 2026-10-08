@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "abyssalport:energy_depositioner",
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "block_entity",
+              "ops": [
+                {
+                  "source": "PotEnergy",
+                  "target": "PotEnergy",
+                  "op": "replace"
+                },
+                {
+                  "source": "Items",
+                  "target": "Items",
+                  "op": "replace"
+                },
+                {
+                  "source": "ProcessingStack",
+                  "target": "ProcessingStack",
+                  "op": "replace"
+                },
+                {
+                  "source": "ProcessingTime",
+                  "target": "ProcessingTime",
+                  "op": "replace"
+                },
+                {
+                  "source": "Tolerance",
+                  "target": "Tolerance",
+                  "op": "replace"
+                },
+                {
+                  "source": "ActiveAmplifier",
+                  "target": "ActiveAmplifier",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

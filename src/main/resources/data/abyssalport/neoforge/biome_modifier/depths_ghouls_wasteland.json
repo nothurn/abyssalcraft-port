@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#abyssalport:wasteland_graveyards",
+  "spawners": {
+    "type": "abyssalport:depths_ghoul",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 5
+  }
+}

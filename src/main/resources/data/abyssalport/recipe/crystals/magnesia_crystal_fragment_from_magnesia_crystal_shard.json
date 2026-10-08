@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalport:magnesia_crystal_shard"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:magnesia_crystal_fragment",
+    "count": 9
+  }
+}

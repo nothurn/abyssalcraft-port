@@ -1,0 +1,11 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :downloadAssets UP-TO-DATE
+> Task :writeClientLegacyClasspath UP-TO-DATE
+> Task :prepareClientRun
+> Task :createClientLaunchScript
+
+BUILD SUCCESSFUL in 3s
+7 actionable tasks: 2 executed, 5 up-to-date

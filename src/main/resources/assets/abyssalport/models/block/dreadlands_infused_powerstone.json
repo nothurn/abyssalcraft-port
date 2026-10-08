@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "all": "abyssalport:block/dreadlands_infused_powerstone",
+    "particle": "abyssalport:block/dreadlands_infused_powerstone"
+  },
+  "elements": [
+    {
+      "from": [
+        3.2,
+        0,
+        3.2
+      ],
+      "to": [
+        12.8,
+        16,
+        12.8
+      ],
+      "faces": {
+        "up": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

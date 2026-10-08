@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "minecraft:copper_block"
+  },
+  "result": {
+    "id": "abyssalport:copper_crystal_cluster",
+    "count": 1
+  },
+  "experience": 0.9
+}

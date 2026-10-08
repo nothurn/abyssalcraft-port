@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:transmutation",
+  "ingredient": {
+    "item": "minecraft:stone_bricks"
+  },
+  "result": {
+    "id": "abyssalport:darkstone_bricks",
+    "count": 1
+  },
+  "experience": 0.0
+}

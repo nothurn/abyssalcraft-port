@@ -1,0 +1,56 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+
+> Task :compileJava
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\CrystallizerGameTests.java:88: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player=helper.makeMockServerPlayerInLevel(); var other=helper.makeMockServerPlayerInLevel();
+                         ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\CrystallizerGameTests.java:88: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player=helper.makeMockServerPlayerInLevel(); var other=helper.makeMockServerPlayerInLevel();
+                                                                         ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\CrystallizerGameTests.java:162: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player=helper.makeMockServerPlayerInLevel(); player.moveTo(pos.getCenter());
+                         ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\CrystallizerGameTests.java:199: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+            var player=helper.makeMockServerPlayerInLevel(); var menu=new CrystallizerMenu(1,player.getInventory(),restored);
+                             ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\GraveyardGameTests.java:89: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player=helper.makeMockServerPlayerInLevel(); player.setGameMode(GameType.SURVIVAL);
+                         ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\GraveyardGameTests.java:168: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var level=helper.getLevel(); var player=helper.makeMockServerPlayerInLevel(); var pos=helper.absolutePos(new BlockPos(3,1,3)); var prior=level.getBlockState(pos);
+                                                      ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\GraveyardGameTests.java:272: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player=helper.makeMockServerPlayerInLevel(); var playerPos=player.position();
+                         ^
+Hinweis: Einige Eingabedateien verwenden oder überschreiben eine veraltete API.
+Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+7 Warnungen
+
+> Task :processResources UP-TO-DATE
+> Task :classes
+> Task :jarJar NO-SOURCE
+> Task :jar
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test FAILED
+
+CrystallizerAssetsTest > allReachableRecipesHaveValidOutputsAndOnlyWaterPotionGetsAContainerRule() FAILED
+    org.opentest4j.AssertionFailedError at CrystallizerAssetsTest.java:34
+
+70 tests completed, 1 failed
+
+[Incubating] Problems report is available at: file:///B:/Claude/Projekte/AbyssalCraftPort/modern/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///B:/Claude/Projekte/AbyssalCraftPort/modern/build/reports/tests/test/index.html
+
+* Try:
+> Run with --scan to get full insights.
+
+BUILD FAILED in 4s
+6 actionable tasks: 4 executed, 2 up-to-date

@@ -1,0 +1,747 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :downloadAssets UP-TO-DATE
+> Task :writeGameTestServerLegacyClasspath UP-TO-DATE
+> Task :prepareGameTestServerRun UP-TO-DATE
+
+> Task :runGameTestServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[09:30:50] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.234, --fml.neoFormVersion, 20240808.144430]
+[09:30:50] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.12+8-LTS
+[09:30:50] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[09:30:50] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[09:30:50] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/NoahT/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[09:30:50] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[09:30:50] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		AbyssalCraft Port Study (Unreleased) 0.1.0-dev (abyssalport)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.234 (neoforge)
+		TerraBlender 4.1.0.8 (terrablender)
+[09:30:51] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[09:30:51] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[09:30:51] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:30:51] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:30:53] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[09:30:58] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:30:58] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:30:58] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09:30:58] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09:30:58] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:30:58] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.234, for MC 1.21.1
+[09:30:59] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[09:30:59] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[09:30:59] [modloading-sync-worker/INFO] [terrablender/]: Registered region abyssalport:darklands_region to index 1 for type OVERWORLD
+[09:30:59] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:30:59] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/B:/Claude/Projekte/AbyssalCraftPort/modern/build/moddev/artifacts/neoforge-21.1.234.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[09:30:59] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/B:/Claude/Projekte/AbyssalCraftPort/modern/build/moddev/artifacts/neoforge-21.1.234.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[09:30:59] [main/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: [abyssalport]
+[09:31:00] [main/INFO] [minecraft/RecipeManager]: Loaded 1651 recipes
+[09:31:00] [main/INFO] [minecraft/AdvancementTree]: Loaded 1429 advancements
+[09:31:00] [main/INFO] [de.ab.ri.RitualCatalog/]: Loaded 10 AbyssalPort ritual definitions
+[09:31:01] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[09:31:01] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[09:31:01] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[09:31:01] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 163 ms
+[09:31:01] [Server thread/INFO] [minecraft/GameTestServer]: Started game test server
+[09:31:01] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[09:31:02] [Server thread/INFO] [minecraft/GameTestServer]: 155 tests are now running at position 2545585, -59, -12193010!
+[09:31:02] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_stone:0' (1 tests)...
+[09:31:02] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                           ]
+[09:31:02] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                           ]
+[09:31:02] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'ghoul_templates:0' (1 tests)...
+[09:31:02] [Server thread/INFO] [minecraft/GameTestServer]: [+                                                                                                                                                          ]
+[09:31:02] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystallizer_menu_hoppers:0' (1 tests)...
+[09:31:02] [Server thread/INFO] [minecraft/GameTestServer]: [++                                                                                                                                                         ]
+[09:31:03] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 87 at (10.5, -60.0, 8.5)
+[09:31:03] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:03] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_ecology_attributes:0' (1 tests)...
+[09:31:03] [Server thread/INFO] [minecraft/GameTestServer]: [+++                                                                                                                                                        ]
+[09:31:03] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_lair_templates:0' (1 tests)...
+[09:31:03] [Server thread/INFO] [minecraft/GameTestServer]: [++++                                                                                                                                                       ]
+[09:31:03] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'ghoul_machine_chain:0' (1 tests)...
+[09:31:03] [Server thread/INFO] [minecraft/GameTestServer]: [+++++                                                                                                                                                      ]
+[09:31:03] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 94 at (-1.5, -60.0, 5.5)
+[09:31:03] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:03] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_features:0' (1 tests)...
+[09:31:03] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:03] [Server thread/INFO] [minecraft/GameTestServer]: [++++++                                                                                                                                                     ]
+[09:31:03] [Server thread/INFO] [minecraft/GameTestServer]: [++++++                                                                                                                                                     ]
+[09:31:03] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_ecology_death:0' (1 tests)...
+[09:31:03] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++                                                                                                                                                    ]
+[09:31:03] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++_                                                                                                                                                   ]
+[09:31:03] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_acid_damage:0' (1 tests)...
+[09:31:03] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++                                                                                                                                                   ]
+[09:31:03] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_ecology_limits:0' (1 tests)...
+[09:31:03] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++                                                                                                                                                  ]
+[09:31:03] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++_                                                                                                                                                 ]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_ritual_gates:0' (1 tests)...
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++                                                                                                                                                 ]
+[09:31:04] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 246 at (-8.5, -60.0, -8.5)
+[09:31:04] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadguard_native_spray:0' (1 tests)...
+[09:31:04] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++                                                                                                                                                ]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_oak_native_parts:0' (1 tests)...
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++                                                                                                                                               ]
+[09:31:04] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 251 at (-1.5, -60.0, 8.5)
+[09:31:04] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'relay_live:0' (1 tests)...
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++                                                                                                                                              ]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++_                                                                                                                                             ]
+[09:31:04] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++_                                                                                                                                             ]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++_                                                                                                                                             ]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystallizer_dual_atomicity:0' (1 tests)...
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++                                                                                                                                             ]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'container_live:0' (1 tests)...
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++                                                                                                                                            ]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++_                                                                                                                                           ]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++_                                                                                                                                           ]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadium_native_tools:0' (1 tests)...
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++                                                                                                                                           ]
+[09:31:04] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 253 at (-4.5, -60.0, -4.5)
+[09:31:04] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_multipart_damage:0' (1 tests)...
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++                                                                                                                                          ]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadium_armor_crafting:0' (1 tests)...
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++                                                                                                                                         ]
+[09:31:04] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 273 at (-0.5, -60.0, -6.5)
+[09:31:04] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_key_tiers:0' (1 tests)...
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++                                                                                                                                        ]
+[09:31:04] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 274 at (-0.5, -60.0, -9.5)
+[09:31:04] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:04] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 275 at (0.5, -60.0, -4.5)
+[09:31:04] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'stronghold_templates:0' (1 tests)...
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++                                                                                                                                       ]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystallizer_native_recipes:0' (1 tests)...
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++                                                                                                                                      ]
+[09:31:04] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 276 at (-4.5, -60.0, 2.5)
+[09:31:04] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:04] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 277 at (9.5, -60.0, -7.5)
+[09:31:04] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadguard_melee:0' (1 tests)...
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++                                                                                                                                     ]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_acid_shield:0' (1 tests)...
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++                                                                                                                                    ]
+[09:31:04] [Server thread/INFO] [minecraft/PlayerList]: acid-survival-test[embedded] logged in with entity id 286 at (-4.5, -60.0, -6.5)
+[09:31:04] [Server thread/INFO] [minecraft/MinecraftServer]: acid-survival-test joined the game
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++_                                                                                                                                   ]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++_                                                                                                                                   ]
+[09:31:04] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++_                                                                                                                                   ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++_                                                                                                                                   ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'ghoul_tombstone_save:0' (1 tests)...
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++                                                                                                                                   ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_acid_impact_veto:0' (1 tests)...
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++                                                                                                                                  ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++_                                                                                                                                 ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'coralium_catalyst:0' (1 tests)...
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++                                                                                                                                 ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_ai:0' (1 tests)...
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++                                                                                                                                ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:05] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++_                                                                                                                               ]
+[09:31:06] [Server thread/ERROR] [minecraft/LogTestReporter]: fourshoggothsbuildautonomously failed at 2545603, -60, -12192989! Autonomous group should build one new monolith, found []; participantsBuilt=false; preexisting=[]; difficulty=NORMAL; phase=1; day=18700; spacing=true; participants=4 [ticks=700,timer=1500,building=false,target=null, ticks=700,timer=1500,building=false,target=null, ticks=700,timer=1500,building=true,target=null, ticks=700,timer=1500,building=false,target=null]; spawned=[ticks=700,removed=false,pos=BlockPos{x=2545603, y=-57, z=-12192982}, ticks=700,removed=false,pos=BlockPos{x=2545611, y=-57, z=-12192989}, ticks=700,removed=false,pos=BlockPos{x=2545603, y=-57, z=-12192982}, ticks=700,removed=false,pos=BlockPos{x=2545603, y=-57, z=-12192982}]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_acid_passenger_clearance:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X                                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'transmutator_xp_break_reload:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+                                                                                                                              ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+                                                                                                                              ]
+[09:31:06] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 377 at (6.5, -60.0, -2.5)
+[09:31:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_multipart_tracking:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Diamonds!]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++                                                                                                                             ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'transmutator_native_recipes:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++                                                                                                                            ]
+[09:31:06] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 389 at (8.5, -60.0, 3.5)
+[09:31:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:06] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 390 at (2.5, -60.0, 4.5)
+[09:31:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'ghoul_tombstone_vetos:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++                                                                                                                           ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_fluid:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++                                                                                                                          ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_biomass_timer:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++                                                                                                                         ]
+[09:31:06] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 395 at (3.5, -60.0, 0.5)
+[09:31:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_tier_gates:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++                                                                                                                        ]
+[09:31:06] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 396 at (6.5, -60.0, 7.5)
+[09:31:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_upgrade_materials:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++                                                                                                                       ]
+[09:31:06] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 397 at (-8.5, -60.0, -8.5)
+[09:31:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:06] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 398 at (9.5, -60.0, -0.5)
+[09:31:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'gateway_recipe:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++                                                                                                                      ]
+[09:31:06] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 399 at (-5.5, -60.0, -1.5)
+[09:31:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystallizer_save_containers:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++                                                                                                                     ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_rending_rejection:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++                                                                                                                    ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dimensional_ghoul_food:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++                                                                                                                   ]
+[09:31:06] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 403 at (-8.5, -60.0, 1.5)
+[09:31:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darkstone_shapes:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++                                                                                                                  ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_ecology_offspring:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++                                                                                                                 ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'ghoul_tombstone_cap:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++                                                                                                                ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++_                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++_                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_ecology_merge:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++                                                                                                               ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++_                                                                                                              ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dimensional_ghoul_rules:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++++                                                                                                              ]
+[09:31:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_ruin_materials:0' (1 tests)...
+[09:31:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++                                                                                                             ]
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 524 at (-1.5, -60.0, 10.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_book_recipe:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++++++                                                                                                            ]
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 525 at (-7.5, -60.0, 0.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 526 at (1.5, -60.0, 8.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_conversion:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++                                                                                                           ]
+[09:31:07] [Server thread/INFO] [minecraft/Villager]: Villager Villager['Villager'/529, l='ServerLevel[Test Level]', x=2545590.50, y=-59.00, z=-12192965.50] died, message: 'Villager was slain by Abyssal Zombie'
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_ecology_nonfood:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++++++++                                                                                                          ]
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shadow_grove:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++                                                                                                         ]
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'sacrifice_missing:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++++++++++                                                                                                        ]
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 551 at (-7.5, -60.0, -7.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 553 at (-9.5, -60.0, 1.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 555 at (6.5, -60.0, 8.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 557 at (-8.5, -60.0, 8.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 559 at (1.5, -60.0, -9.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_acid_native_flight:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++                                                                                                       ]
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++_                                                                                                      ]
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_armor:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++++++++++++                                                                                                      ]
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 569 at (-1.5, -60.0, 2.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 570 at (-2.5, -60.0, -2.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_ecology_actual_food:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++                                                                                                     ]
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++                                                                                                     ]
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_equipment:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++++++++++++++                                                                                                    ]
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 630 at (-7.5, -60.0, 0.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_mob_loot:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++                                                                                                   ]
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 632 at (-8.5, -60.0, -2.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'transmutator_fuel_remainders:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++++++++++++++++                                                                                                  ]
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_biome:0' (2 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++                                                                                                 ]
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 634 at (8.5, -60.0, 8.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 635 at (-6.5, -60.0, -7.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_oak_native_leaf_loot:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++                                                                                               ]
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 636 at (3.5, -60.0, -6.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_native_materials:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++                                                                                              ]
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'abyssalnite_effects:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++                                                                                             ]
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 637 at (-0.5, -60.0, 9.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 638 at (6.5, -60.0, 8.5)
+[09:31:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'graveyard_native_palette:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++                                                                                            ]
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystal_bag_offhand_ownership:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++                                                                                           ]
+[09:31:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadium_equipped_effects:0' (1 tests)...
+[09:31:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++                                                                                          ]
+[09:31:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 640 at (-6.5, -60.0, -1.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 641 at (-1.5, -60.0, -5.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'abyssalnite_equipment:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++                                                                                         ]
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 642 at (-5.5, -60.0, 6.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darkstone_masonry:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++                                                                                        ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_ecology_native_values:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++                                                                                       ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'sacrifice_timeout:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++                                                                                      ]
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 698 at (-0.5, -60.0, -8.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'container_inventory:0' (2 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++                                                                                     ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++                                                                                     ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_biomass_veto:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++                                                                                   ]
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 701 at (-6.5, -60.0, 10.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_multipart_geometry:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++                                                                                  ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'abyssalnite_ore:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++                                                                                 ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_oak_native_growth:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++                                                                                ]
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 774 at (4.5, -60.0, -7.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_acid_actual_ai:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++                                                                               ]
+[09:31:08] [Server thread/ERROR] [minecraft/LogTestReporter]: realserverticksstartonespitforeachlargerformbutnotthelesser failed at 2545609, -60, -12192947! Native ticking AI does not start exactly the two larger spits
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'research_devices:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X                                                                              ]
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 796 at (-7.5, -60.0, 8.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 797 at (5.5, -60.0, -2.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_ruin_native_ritual:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+                                                                             ]
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 798 at (7.5, -60.0, 5.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_ruin_formations:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++                                                                            ]
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 800 at (0.5, -60.0, 5.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'sacrifice_reload:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++                                                                           ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++                                                                           ]
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 801 at (-2.5, -60.0, -5.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 803 at (-1.5, -60.0, -8.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_acid_spray_layers:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++                                                                          ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_acid_corrosion:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++                                                                         ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystal_carbon_to_diamond:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++                                                                        ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_biomass_neighbours:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++                                                                       ]
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 836 at (-5.5, -60.0, -2.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystallizer_single_xp:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++                                                                      ]
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 843 at (7.5, -60.0, -0.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_ecology_actual_remains:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Diamonds!]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++                                                                     ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'transmutator_atomic_rejections:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++                                                                    ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_ecology_vetos:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++                                                                   ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'sacrifice_complete:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++                                                                  ]
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1036 at (-5.5, -60.0, -1.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_biomass_cap:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++                                                                 ]
+[09:31:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1040 at (-2.5, -60.0, -0.5)
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++_                                                                ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'depths_ghoul_saved_variants:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++                                                                ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_ecology_slug:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++                                                               ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++_                                                              ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_ecology_plague:0' (1 tests)...
+[09:31:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++                                                              ]
+[09:31:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_book_ritual:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++                                                             ]
+[09:31:09] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1329 at (1.5, -60.0, 10.5)
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'transmutator_menu_automation:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++                                                            ]
+[09:31:09] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1331 at (3.5, -60.0, 2.5)
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_book_devices:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++                                                           ]
+[09:31:09] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1332 at (-1.5, -60.0, 10.5)
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'equipment_native_enchantments:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++                                                          ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'gateway_invalid_anchor:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++                                                         ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_acid_birth:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++                                                        ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++                                                        ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_ecology_native_ranged:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++                                                       ]
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++_                                                      ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'transmutator_saved_processing:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++                                                      ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_biomass_exhaustion:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++                                                     ]
+[09:31:09] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1371 at (-3.5, -60.0, -5.5)
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'depths_ghoul_trophy_loot:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++                                                    ]
+[09:31:09] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1402 at (-4.5, -60.0, -2.5)
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'sacrifice_cancelled_death:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++                                                   ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++                                                   ]
+[09:31:09] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1404 at (-0.5, -60.0, -1.5)
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_oak_native_crafting:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++                                                  ]
+[09:31:09] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1406 at (-8.5, -60.0, 10.5)
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'coralium_crafting:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++                                                 ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystal_bag_source_chain:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++                                                ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_flight:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++                                               ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'rending_safety:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++                                              ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++_                                             ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'ghoul_attributes:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++                                             ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'sacrifice_types:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++                                            ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_family_loaded:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++                                           ]
+[09:31:09] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1477 at (5.5, -60.0, 7.5)
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_remains_processing:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++                                          ]
+[09:31:09] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1478 at (-7.5, -60.0, 2.5)
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_ruin_templates:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++                                         ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'coralium_ore:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++                                        ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'coralium_abort:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++                                       ]
+[09:31:09] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1488 at (-8.5, -60.0, 2.5)
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'coralium_infusion:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++                                      ]
+[09:31:09] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1489 at (1.5, -60.0, -5.5)
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shadow_materials:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++                                     ]
+[09:31:09] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1491 at (-2.5, -60.0, -1.5)
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:09] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1492 at (-8.5, -60.0, -3.5)
+[09:31:09] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystallizer_recipe_reload:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++                                    ]
+[09:31:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_soil_lifecycle:0' (1 tests)...
+[09:31:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++                                   ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++_                                  ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_acid_protected_wall:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++                                  ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++_                                 ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_upgrade_recipe:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++                                 ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'ghoul_food_and_research:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++                                ]
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1506 at (9.5, -60.0, 6.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dimensional_ghoul_tombstones:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++                               ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++                               ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++_                              ]
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1511 at (-1.5, -60.0, 1.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darkstone_processing:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++                              ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'defaultBatch:0' (15 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++                             ]
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1512 at (-8.5, -60.0, 5.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1513 at (10.5, -60.0, 4.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1539 at (2.5, -60.0, 7.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1541 at (-6.5, -60.0, -2.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1542 at (-9.5, -60.0, -8.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1543 at (-4.5, -60.0, 2.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1544 at (-4.5, -60.0, -4.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1545 at (-1.5, -60.0, 10.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadling_damage:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++              ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++              ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_mining:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++             ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'powerstone_materials:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++            ]
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1555 at (-4.5, -60.0, -6.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1556 at (-6.5, -60.0, -8.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_rewards:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++           ]
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1603 at (-6.5, -60.0, -8.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_parts:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++          ]
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1641 at (8.5, -60.0, -6.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystal_bag_codec_and_validation:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++         ]
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1644 at (-3.5, -60.0, -6.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_contact:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++        ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_residue_clearance:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++       ]
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1659 at (1.5, -60.0, -7.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_book_capacity:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++      ]
+[09:31:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1672 at (4.5, -60.0, -7.5)
+[09:31:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystal_sulfur_to_gunpowder:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++     ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_mob_state:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_ai_even:0' (1 tests)...
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++_  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_acid_saved_lifetime:0' (1 tests)...
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  ]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystal_bag_native_clicks:0' (1 tests)...
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ]
+[09:31:11] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1729 at (2.5, -60.0, -1.5)
+[09:31:11] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++X++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++]
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: ========= 155 GAME TESTS COMPLETE IN 9.633 s ======================
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: 2 required tests failed :(
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]:    - fourshoggothsbuildautonomously
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]:    - realserverticksstartonespitforeachlargerformbutnotthelesser
+[09:31:11] [Server thread/INFO] [minecraft/GameTestServer]: ====================================================
+[09:31:11] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[09:31:11] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[09:31:11] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:11] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:11] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:11] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:overworld
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_end
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_nether
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:31:12] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:31:12] [Server thread/INFO] [minecraft/GameTestServer]: Game test server shutting down
+
+> Task :runGameTestServer FAILED
+7 actionable tasks: 1 executed, 6 up-to-date
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':runGameTestServer'.
+> Process 'command 'B:\Claude\Projekte\_RECOVERY\tools\jdk-21.0.12+8\bin\java.exe'' finished with non-zero exit value 2
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 25s

@@ -1,0 +1,1623 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :downloadAssets UP-TO-DATE
+> Task :writeGameTestServerLegacyClasspath UP-TO-DATE
+> Task :prepareGameTestServerRun UP-TO-DATE
+
+> Task :runGameTestServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[12:25:45] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.234, --fml.neoFormVersion, 20240808.144430]
+[12:25:45] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.12+8-LTS
+[12:25:45] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[12:25:45] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[12:25:45] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/NoahT/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[12:25:45] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[12:25:45] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		AbyssalCraft Port Study (Unreleased) 0.1.0-dev (abyssalport)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.234 (neoforge)
+		TerraBlender 4.1.0.8 (terrablender)
+[12:25:46] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[12:25:46] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[12:25:46] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:25:46] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:25:48] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[12:25:53] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:25:53] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:25:53] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:25:53] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:25:53] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:25:53] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.234, for MC 1.21.1
+[12:25:53] [modloading-sync-worker/ERROR] [ne.ne.fm.ja.FMLModContainer/]: Exception caught during firing event: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone]
+	Index: 53
+	Listeners:
+		0: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@44c692a2
+		1: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2de86e9c
+		2: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5632bcaf
+		3: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f4f4cfe
+		4: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4df03ffe
+		5: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4e437343
+		6: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6ae06697
+		7: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2c431db7
+		8: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6481890e
+		9: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5ce92359
+		10: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5d8aa774
+		11: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1db12945
+		12: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@79d51ede
+		13: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2c665b4b
+		14: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7997fd5a
+		15: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@16ead874
+		16: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@adaecb1
+		17: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@12113975
+		18: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@221096ff
+		19: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@604f1584
+		20: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@330831d
+		21: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3bc64380
+		22: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@76ac0942
+		23: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@20258bca
+		24: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6530122f
+		25: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1f61d67d
+		26: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@17dc65a8
+		27: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@41a79cbd
+		28: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@39b78c59
+		29: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@34b1f812
+		30: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@ae5505a
+		31: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f5558e7
+		32: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@97696cb
+		33: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7341e7e8
+		34: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6c8e2140
+		35: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@56415850
+		36: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@af08183
+		37: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@206105f
+		38: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@61d76776
+		39: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@b5db7ad
+		40: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@8244874
+		41: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4bc895ca
+		42: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@57022535
+		43: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@544511a7
+		44: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@12cff5a6
+		45: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5027a07f
+		46: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f6c3c25
+		47: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2b5f2f66
+		48: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3b564b8b
+		49: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7e605d57
+		50: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@614ba836
+		51: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4054b12f
+		52: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@229ef1d0
+		53: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@8e385c9
+		54: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@56c48ab1
+		55: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@767f6e20
+		56: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f3f1474
+		57: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@799ed6ec
+		58: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7c55cbeb
+		59: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4a94e02a
+		60: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3957d892
+		61: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@33e05623
+		62: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@33728b55
+		63: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@9797ea2
+		64: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1692de8f
+		65: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5f7002df
+		66: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@43abbb93
+		67: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2e14f212
+		68: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2ca9354e
+		69: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@13e322cf
+		70: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5ca777e0
+		71: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3b6d8f01
+		72: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1e80910c
+		73: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@54a15c49
+		74: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@68bf4254
+		75: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4799bb94
+		76: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@63c82850
+		77: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2088e28
+		78: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@732d344b
+		79: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2d3fdbd6
+		80: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@11ae4a7e
+		81: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1d2f6d96
+		82: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@52f4b57c
+		83: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1451bd6c
+		84: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@263039b8
+		85: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@601a5ba5
+		86: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@12428157
+		87: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2422d19c
+		88: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@376b282f
+		89: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f14f5c9
+		90: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@450756ea
+		91: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3ea0ee2b
+		92: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@49efe58
+		93: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@454e1c7e
+		94: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6cf938ab
+		95: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@41790a95
+		96: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@70572c3a
+		97: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@30fca5c
+		98: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6711b200
+		99: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4aeb7177
+		100: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7ddb6ac0
+		101: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3894222
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone]
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117)
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.EnergyDepositionerContent.lambda$static$6(EnergyDepositionerContent.java:43)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[12:25:53] [modloading-sync-worker/ERROR] [ne.ne.fm.ModContainer/LOADING]: Caught exception during event net.neoforged.neoforge.registries.RegisterEvent@5c7a82d dispatch for modid abyssalport
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone]
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.EnergyDepositionerContent.lambda$static$6(EnergyDepositionerContent.java:43) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+[12:25:54] [modloading-sync-worker/ERROR] [ne.ne.fm.ja.FMLModContainer/]: Exception caught during firing event: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone_stairs]
+	Index: 54
+	Listeners:
+		0: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@44c692a2
+		1: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2de86e9c
+		2: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5632bcaf
+		3: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f4f4cfe
+		4: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4df03ffe
+		5: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4e437343
+		6: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6ae06697
+		7: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2c431db7
+		8: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6481890e
+		9: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5ce92359
+		10: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5d8aa774
+		11: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1db12945
+		12: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@79d51ede
+		13: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2c665b4b
+		14: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7997fd5a
+		15: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@16ead874
+		16: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@adaecb1
+		17: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@12113975
+		18: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@221096ff
+		19: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@604f1584
+		20: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@330831d
+		21: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3bc64380
+		22: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@76ac0942
+		23: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@20258bca
+		24: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6530122f
+		25: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1f61d67d
+		26: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@17dc65a8
+		27: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@41a79cbd
+		28: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@39b78c59
+		29: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@34b1f812
+		30: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@ae5505a
+		31: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f5558e7
+		32: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@97696cb
+		33: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7341e7e8
+		34: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6c8e2140
+		35: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@56415850
+		36: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@af08183
+		37: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@206105f
+		38: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@61d76776
+		39: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@b5db7ad
+		40: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@8244874
+		41: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4bc895ca
+		42: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@57022535
+		43: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@544511a7
+		44: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@12cff5a6
+		45: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5027a07f
+		46: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f6c3c25
+		47: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2b5f2f66
+		48: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3b564b8b
+		49: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7e605d57
+		50: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@614ba836
+		51: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4054b12f
+		52: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@229ef1d0
+		53: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@8e385c9
+		54: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@56c48ab1
+		55: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@767f6e20
+		56: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f3f1474
+		57: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@799ed6ec
+		58: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7c55cbeb
+		59: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4a94e02a
+		60: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3957d892
+		61: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@33e05623
+		62: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@33728b55
+		63: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@9797ea2
+		64: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1692de8f
+		65: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5f7002df
+		66: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@43abbb93
+		67: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2e14f212
+		68: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2ca9354e
+		69: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@13e322cf
+		70: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5ca777e0
+		71: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3b6d8f01
+		72: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1e80910c
+		73: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@54a15c49
+		74: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@68bf4254
+		75: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4799bb94
+		76: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@63c82850
+		77: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2088e28
+		78: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@732d344b
+		79: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2d3fdbd6
+		80: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@11ae4a7e
+		81: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1d2f6d96
+		82: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@52f4b57c
+		83: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1451bd6c
+		84: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@263039b8
+		85: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@601a5ba5
+		86: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@12428157
+		87: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2422d19c
+		88: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@376b282f
+		89: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f14f5c9
+		90: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@450756ea
+		91: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3ea0ee2b
+		92: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@49efe58
+		93: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@454e1c7e
+		94: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6cf938ab
+		95: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@41790a95
+		96: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@70572c3a
+		97: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@30fca5c
+		98: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6711b200
+		99: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4aeb7177
+		100: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7ddb6ac0
+		101: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3894222
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone_stairs]
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117)
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.EnergyDepositionerContent.lambda$static$8(EnergyDepositionerContent.java:47)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[12:25:54] [modloading-sync-worker/ERROR] [ne.ne.fm.ModContainer/LOADING]: Caught exception during event net.neoforged.neoforge.registries.RegisterEvent@6023a74b dispatch for modid abyssalport
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone_stairs]
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.EnergyDepositionerContent.lambda$static$8(EnergyDepositionerContent.java:47) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+[12:25:54] [modloading-sync-worker/ERROR] [ne.ne.fm.ja.FMLModContainer/]: Exception caught during firing event: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:stone_tombstone]
+	Index: 67
+	Listeners:
+		0: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@44c692a2
+		1: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2de86e9c
+		2: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5632bcaf
+		3: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f4f4cfe
+		4: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4df03ffe
+		5: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4e437343
+		6: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6ae06697
+		7: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2c431db7
+		8: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6481890e
+		9: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5ce92359
+		10: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5d8aa774
+		11: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1db12945
+		12: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@79d51ede
+		13: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2c665b4b
+		14: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7997fd5a
+		15: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@16ead874
+		16: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@adaecb1
+		17: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@12113975
+		18: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@221096ff
+		19: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@604f1584
+		20: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@330831d
+		21: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3bc64380
+		22: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@76ac0942
+		23: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@20258bca
+		24: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6530122f
+		25: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1f61d67d
+		26: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@17dc65a8
+		27: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@41a79cbd
+		28: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@39b78c59
+		29: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@34b1f812
+		30: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@ae5505a
+		31: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f5558e7
+		32: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@97696cb
+		33: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7341e7e8
+		34: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6c8e2140
+		35: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@56415850
+		36: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@af08183
+		37: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@206105f
+		38: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@61d76776
+		39: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@b5db7ad
+		40: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@8244874
+		41: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4bc895ca
+		42: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@57022535
+		43: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@544511a7
+		44: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@12cff5a6
+		45: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5027a07f
+		46: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f6c3c25
+		47: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2b5f2f66
+		48: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3b564b8b
+		49: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7e605d57
+		50: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@614ba836
+		51: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4054b12f
+		52: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@229ef1d0
+		53: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@8e385c9
+		54: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@56c48ab1
+		55: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@767f6e20
+		56: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f3f1474
+		57: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@799ed6ec
+		58: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7c55cbeb
+		59: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4a94e02a
+		60: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3957d892
+		61: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@33e05623
+		62: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@33728b55
+		63: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@9797ea2
+		64: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1692de8f
+		65: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5f7002df
+		66: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@43abbb93
+		67: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2e14f212
+		68: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2ca9354e
+		69: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@13e322cf
+		70: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@5ca777e0
+		71: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3b6d8f01
+		72: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1e80910c
+		73: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@54a15c49
+		74: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@68bf4254
+		75: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4799bb94
+		76: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@63c82850
+		77: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2088e28
+		78: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@732d344b
+		79: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2d3fdbd6
+		80: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@11ae4a7e
+		81: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1d2f6d96
+		82: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@52f4b57c
+		83: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@1451bd6c
+		84: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@263039b8
+		85: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@601a5ba5
+		86: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@12428157
+		87: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2422d19c
+		88: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@376b282f
+		89: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@2f14f5c9
+		90: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@450756ea
+		91: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3ea0ee2b
+		92: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@49efe58
+		93: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@454e1c7e
+		94: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6cf938ab
+		95: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@41790a95
+		96: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@70572c3a
+		97: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@30fca5c
+		98: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@6711b200
+		99: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@4aeb7177
+		100: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@7ddb6ac0
+		101: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x00000290b3cc2138@3894222
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:stone_tombstone]
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117)
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.GraveyardContent.lambda$static$0(GraveyardContent.java:48)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[12:25:54] [modloading-sync-worker/ERROR] [ne.ne.fm.ModContainer/LOADING]: Caught exception during event net.neoforged.neoforge.registries.RegisterEvent@50132d4c dispatch for modid abyssalport
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:stone_tombstone]
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.GraveyardContent.lambda$static$0(GraveyardContent.java:48) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+[12:25:54] [modloading-sync-worker/ERROR] [ne.ne.ne.re.GameData/]: Failed to register some entries, see suppressed exceptions for details
+java.lang.RuntimeException: null
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:83) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+	Suppressed: net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+	  java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone]
+
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:181) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+		at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+		at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+		at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+	Suppressed: net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+	  java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone_stairs]
+
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:181) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+		at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+		at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+		at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+	Suppressed: net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+	  java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:stone_tombstone]
+
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:181) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+		at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+		at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+		at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+[12:25:54] [modloading-sync-worker/ERROR] [ne.ne.ne.re.GameData/]: Rolling back to VANILLA state
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:abyssal_zombie has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:asorah has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:spectral_dragon has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:dreadling has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:dreadguard has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:dread_spawn has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:greater_dread_spawn has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:lesser_dreadbeast has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:ghoul has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:shadow_ghoul has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:depths_ghoul has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:dreaded_ghoul has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:shoggoth has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:greater_shoggoth has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:lesser_abyssal_shoggoth has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:abyssal_shoggoth has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:greater_abyssal_shoggoth has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:lesser_dreaded_shoggoth has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:dreaded_shoggoth has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:greater_dreaded_shoggoth has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:shadow_monster has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:shadow_beast has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:shub_offspring has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:evil_cow has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:evil_chicken has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:evil_pig has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:evil_sheep has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:demon_cow has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:demon_chicken has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:demon_pig has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:demon_sheep has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:lesser_shoggoth has no attributes
+[12:25:54] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:shadow_creature has no attributes
+[12:25:54] [main/FATAL] [ne.ne.fm.ModLoader/LOADING]: Failed to wait for future Registry initialization, 3 errors found
+[12:25:54] [main/ERROR] [minecraft/CrashReport]: Negative index in crash report handler (0/21)
+[12:25:54] [main/FATAL] [ne.ne.ne.co.NeoForgeMod/]: Preparing crash report with UUID 618a4d8a-375a-48cd-bc05-557977ef72b5
+[12:25:54] [main/FATAL] [ne.ne.ne.se.lo.ServerModLoader/]: Crash report saved to .\crash-reports\crash-2026-10-08_12.25.54-fml.txt
+[12:25:54] [main/FATAL] [ne.ne.ne.co.NeoForgeMod/]: Preparing crash report with UUID 8910a674-64ce-4cf0-83de-fe65dc2d7ea0
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 2026-10-08 12:25:54
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Stacktrace:
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+-- Mod loading issue for: abyssalport --
+Details:
+	Mod file: /B:/Claude/Projekte/AbyssalCraftPort/modern/build/classes/java/main/
+	Failure message: AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+		java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone]
+	Mod version: 0.1.0-dev
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone]
+Stacktrace:
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.EnergyDepositionerContent.lambda$static$6(EnergyDepositionerContent.java:43) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?] {}
+
+
+-- Mod loading issue for: abyssalport --
+Details:
+	Mod file: /B:/Claude/Projekte/AbyssalCraftPort/modern/build/classes/java/main/
+	Failure message: AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+		java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone_stairs]
+	Mod version: 0.1.0-dev
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone_stairs]
+Stacktrace:
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.EnergyDepositionerContent.lambda$static$8(EnergyDepositionerContent.java:47) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?] {}
+
+
+-- Mod loading issue for: abyssalport --
+Details:
+	Mod file: /B:/Claude/Projekte/AbyssalCraftPort/modern/build/classes/java/main/
+	Failure message: AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+		java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:stone_tombstone]
+	Mod version: 0.1.0-dev
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:stone_tombstone]
+Stacktrace:
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.GraveyardContent.lambda$static$0(GraveyardContent.java:48) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.12, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 150588152 bytes (143 MiB) / 398458880 bytes (380 MiB) up to 8568963072 bytes (8172 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 3600 6-Core Processor              
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce RTX 4060 Ti
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 16380.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.16.1664
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.00
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.00
+	Memory slot #1 type: DDR4
+	Memory slot #2 capacity (MiB): 8192.00
+	Memory slot #2 clockSpeed (GHz): 3.00
+	Memory slot #2 type: DDR4
+	Memory slot #3 capacity (MiB): 8192.00
+	Memory slot #3 clockSpeed (GHz): 3.00
+	Memory slot #3 type: DDR4
+	Virtual memory max (MiB): 41388.58
+	Virtual memory used (MiB): 17560.83
+	Swap memory total (MiB): 8704.00
+	Swap memory used (MiB): 270.75
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 70746.40, total: 243119.00
+	Space in storage for workdir (MiB): available: 23095.07, total: 114472.00
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeserverdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		main                                              |AbyssalCraft Port Study (Unrel|abyssalport                   |0.1.0-dev           |Manifest: NOSIGNATURE
+		neoforge-21.1.234.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.234.jar                             |NeoForge                      |neoforge                      |21.1.234            |Manifest: NOSIGNATURE
+		TerraBlender-neoforge-1.21.1-4.1.0.8.jar          |TerraBlender                  |terrablender                  |4.1.0.8             |Manifest: NOSIGNATURE
+	Crash Report UUID: 8910a674-64ce-4cf0-83de-fe65dc2d7ea0
+	FML: 4.0.42
+	NeoForge: 21.1.234
+[12:25:54] [main/ERROR] [minecraft/Main]: Failed to start the minecraft server
+net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+	  java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone]
+	- AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+	  java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone_stairs]
+	- AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+	  java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:stone_tombstone]
+
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.waitForFuture(ModLoader.java:281) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.waitForTask(ModLoader.java:183) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.runInitTask(ModLoader.java:163) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.begin(CommonModLoader.java:51) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.server.loading.ServerModLoader.load(ServerModLoader.java:34) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:124) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.NeoForgeServerDevLaunchHandler.runService(NeoForgeServerDevLaunchHandler.java:23) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?] {}
+
+> Task :writeWorldAuditServerLegacyClasspath UP-TO-DATE
+> Task :prepareWorldAuditServerRun UP-TO-DATE
+
+> Task :runWorldAuditServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[12:25:56] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.234, --fml.neoFormVersion, 20240808.144430, --nogui, --world, gateway-audit-20261002]
+[12:25:56] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.12+8-LTS
+[12:25:56] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[12:25:56] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[12:25:56] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/NoahT/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[12:25:57] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[12:25:57] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		AbyssalCraft Port Study (Unreleased) 0.1.0-dev (abyssalport)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.234 (neoforge)
+		TerraBlender 4.1.0.8 (terrablender)
+[12:25:57] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[12:25:57] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, ., --nogui, --world, gateway-audit-20261002]
+[12:25:57] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:25:57] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:25:59] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[12:26:04] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:26:04] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:26:04] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:26:04] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:26:04] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:26:04] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.234, for MC 1.21.1
+[12:26:04] [modloading-sync-worker/ERROR] [ne.ne.fm.ja.FMLModContainer/]: Exception caught during firing event: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone]
+	Index: 53
+	Listeners:
+		0: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5f3e92f5
+		1: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2b3997d8
+		2: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@ef322f5
+		3: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5132564e
+		4: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@421644db
+		5: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7c9412aa
+		6: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@577f44d0
+		7: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@26ffba88
+		8: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7656d8f2
+		9: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@255fe986
+		10: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2c91b1d3
+		11: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@e2b8d47
+		12: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@51784ced
+		13: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@1815f1c
+		14: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@41e23935
+		15: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2ce9361b
+		16: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@4db1f966
+		17: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@1edd6c06
+		18: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@54466e63
+		19: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@551cdfae
+		20: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@20a1bf69
+		21: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@405ae9d4
+		22: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5f82b1e9
+		23: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2f6c4d1d
+		24: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@50608783
+		25: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@430f3fcf
+		26: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@ffbb44a
+		27: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6ddc1bd
+		28: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@3a2883e4
+		29: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@69add17e
+		30: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6e0d0b0
+		31: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7b678b42
+		32: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@23c8bfdb
+		33: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@dc459f2
+		34: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2404208c
+		35: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@36106efb
+		36: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@283e39cc
+		37: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@930781a
+		38: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@1ed0b056
+		39: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@74e369f9
+		40: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@698d7fec
+		41: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6a1cd50d
+		42: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@ee23204
+		43: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2eb093ca
+		44: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2fa27780
+		45: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@63b92927
+		46: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@70070b2e
+		47: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@67f79e31
+		48: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@52a3d07f
+		49: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@68fb28f1
+		50: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@216ffa6e
+		51: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@37b7368
+		52: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@21d284be
+		53: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@f0580e4
+		54: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@201e4e4c
+		55: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@23a8d347
+		56: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2749e97e
+		57: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@79f000ae
+		58: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@19077e80
+		59: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5624da35
+		60: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@75b12681
+		61: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@31150150
+		62: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@57d65347
+		63: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7b0be28f
+		64: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@78a961a1
+		65: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6cdfd93c
+		66: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7548a7bc
+		67: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2a825889
+		68: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7fa6b42e
+		69: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@41e03ce
+		70: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@59892b6a
+		71: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5b43b664
+		72: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7d13a3aa
+		73: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5bb5290e
+		74: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@531e3fdd
+		75: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@4eb992be
+		76: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@45d6a3cb
+		77: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@11f25886
+		78: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6a5cce8e
+		79: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@d836c6e
+		80: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@3f518ef1
+		81: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@51c03991
+		82: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7389225d
+		83: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@28243f90
+		84: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@13fdc98f
+		85: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@78dd5b19
+		86: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@4efd4ff1
+		87: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@22b9a139
+		88: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@207bbfe9
+		89: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@52957d8b
+		90: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@4b0613a4
+		91: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@562069c9
+		92: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@3af2d278
+		93: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@341c21cd
+		94: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2aea922f
+		95: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@57edded6
+		96: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2b28fd1c
+		97: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@56d87f2b
+		98: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@698cfb82
+		99: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@43c6cc7a
+		100: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@498d78a8
+		101: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7c6aaee0
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone]
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117)
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.EnergyDepositionerContent.lambda$static$6(EnergyDepositionerContent.java:43)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[12:26:04] [modloading-sync-worker/ERROR] [ne.ne.fm.ModContainer/LOADING]: Caught exception during event net.neoforged.neoforge.registries.RegisterEvent@3fdf9314 dispatch for modid abyssalport
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone]
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.EnergyDepositionerContent.lambda$static$6(EnergyDepositionerContent.java:43) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+[12:26:04] [modloading-sync-worker/ERROR] [ne.ne.fm.ja.FMLModContainer/]: Exception caught during firing event: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone_stairs]
+	Index: 54
+	Listeners:
+		0: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5f3e92f5
+		1: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2b3997d8
+		2: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@ef322f5
+		3: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5132564e
+		4: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@421644db
+		5: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7c9412aa
+		6: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@577f44d0
+		7: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@26ffba88
+		8: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7656d8f2
+		9: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@255fe986
+		10: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2c91b1d3
+		11: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@e2b8d47
+		12: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@51784ced
+		13: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@1815f1c
+		14: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@41e23935
+		15: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2ce9361b
+		16: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@4db1f966
+		17: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@1edd6c06
+		18: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@54466e63
+		19: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@551cdfae
+		20: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@20a1bf69
+		21: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@405ae9d4
+		22: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5f82b1e9
+		23: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2f6c4d1d
+		24: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@50608783
+		25: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@430f3fcf
+		26: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@ffbb44a
+		27: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6ddc1bd
+		28: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@3a2883e4
+		29: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@69add17e
+		30: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6e0d0b0
+		31: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7b678b42
+		32: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@23c8bfdb
+		33: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@dc459f2
+		34: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2404208c
+		35: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@36106efb
+		36: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@283e39cc
+		37: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@930781a
+		38: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@1ed0b056
+		39: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@74e369f9
+		40: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@698d7fec
+		41: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6a1cd50d
+		42: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@ee23204
+		43: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2eb093ca
+		44: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2fa27780
+		45: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@63b92927
+		46: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@70070b2e
+		47: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@67f79e31
+		48: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@52a3d07f
+		49: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@68fb28f1
+		50: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@216ffa6e
+		51: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@37b7368
+		52: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@21d284be
+		53: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@f0580e4
+		54: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@201e4e4c
+		55: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@23a8d347
+		56: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2749e97e
+		57: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@79f000ae
+		58: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@19077e80
+		59: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5624da35
+		60: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@75b12681
+		61: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@31150150
+		62: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@57d65347
+		63: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7b0be28f
+		64: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@78a961a1
+		65: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6cdfd93c
+		66: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7548a7bc
+		67: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2a825889
+		68: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7fa6b42e
+		69: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@41e03ce
+		70: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@59892b6a
+		71: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5b43b664
+		72: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7d13a3aa
+		73: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5bb5290e
+		74: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@531e3fdd
+		75: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@4eb992be
+		76: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@45d6a3cb
+		77: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@11f25886
+		78: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6a5cce8e
+		79: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@d836c6e
+		80: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@3f518ef1
+		81: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@51c03991
+		82: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7389225d
+		83: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@28243f90
+		84: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@13fdc98f
+		85: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@78dd5b19
+		86: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@4efd4ff1
+		87: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@22b9a139
+		88: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@207bbfe9
+		89: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@52957d8b
+		90: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@4b0613a4
+		91: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@562069c9
+		92: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@3af2d278
+		93: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@341c21cd
+		94: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2aea922f
+		95: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@57edded6
+		96: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2b28fd1c
+		97: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@56d87f2b
+		98: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@698cfb82
+		99: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@43c6cc7a
+		100: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@498d78a8
+		101: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7c6aaee0
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone_stairs]
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117)
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.EnergyDepositionerContent.lambda$static$8(EnergyDepositionerContent.java:47)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[12:26:04] [modloading-sync-worker/ERROR] [ne.ne.fm.ModContainer/LOADING]: Caught exception during event net.neoforged.neoforge.registries.RegisterEvent@72eec33d dispatch for modid abyssalport
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone_stairs]
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.EnergyDepositionerContent.lambda$static$8(EnergyDepositionerContent.java:47) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+[12:26:04] [modloading-sync-worker/ERROR] [ne.ne.fm.ja.FMLModContainer/]: Exception caught during firing event: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:stone_tombstone]
+	Index: 67
+	Listeners:
+		0: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5f3e92f5
+		1: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2b3997d8
+		2: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@ef322f5
+		3: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5132564e
+		4: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@421644db
+		5: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7c9412aa
+		6: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@577f44d0
+		7: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@26ffba88
+		8: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7656d8f2
+		9: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@255fe986
+		10: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2c91b1d3
+		11: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@e2b8d47
+		12: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@51784ced
+		13: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@1815f1c
+		14: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@41e23935
+		15: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2ce9361b
+		16: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@4db1f966
+		17: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@1edd6c06
+		18: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@54466e63
+		19: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@551cdfae
+		20: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@20a1bf69
+		21: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@405ae9d4
+		22: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5f82b1e9
+		23: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2f6c4d1d
+		24: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@50608783
+		25: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@430f3fcf
+		26: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@ffbb44a
+		27: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6ddc1bd
+		28: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@3a2883e4
+		29: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@69add17e
+		30: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6e0d0b0
+		31: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7b678b42
+		32: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@23c8bfdb
+		33: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@dc459f2
+		34: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2404208c
+		35: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@36106efb
+		36: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@283e39cc
+		37: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@930781a
+		38: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@1ed0b056
+		39: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@74e369f9
+		40: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@698d7fec
+		41: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6a1cd50d
+		42: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@ee23204
+		43: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2eb093ca
+		44: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2fa27780
+		45: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@63b92927
+		46: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@70070b2e
+		47: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@67f79e31
+		48: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@52a3d07f
+		49: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@68fb28f1
+		50: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@216ffa6e
+		51: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@37b7368
+		52: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@21d284be
+		53: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@f0580e4
+		54: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@201e4e4c
+		55: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@23a8d347
+		56: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2749e97e
+		57: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@79f000ae
+		58: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@19077e80
+		59: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5624da35
+		60: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@75b12681
+		61: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@31150150
+		62: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@57d65347
+		63: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7b0be28f
+		64: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@78a961a1
+		65: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6cdfd93c
+		66: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7548a7bc
+		67: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2a825889
+		68: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7fa6b42e
+		69: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@41e03ce
+		70: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@59892b6a
+		71: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5b43b664
+		72: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7d13a3aa
+		73: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@5bb5290e
+		74: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@531e3fdd
+		75: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@4eb992be
+		76: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@45d6a3cb
+		77: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@11f25886
+		78: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@6a5cce8e
+		79: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@d836c6e
+		80: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@3f518ef1
+		81: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@51c03991
+		82: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7389225d
+		83: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@28243f90
+		84: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@13fdc98f
+		85: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@78dd5b19
+		86: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@4efd4ff1
+		87: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@22b9a139
+		88: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@207bbfe9
+		89: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@52957d8b
+		90: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@4b0613a4
+		91: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@562069c9
+		92: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@3af2d278
+		93: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@341c21cd
+		94: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2aea922f
+		95: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@57edded6
+		96: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@2b28fd1c
+		97: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@56d87f2b
+		98: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@698cfb82
+		99: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@43c6cc7a
+		100: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@498d78a8
+		101: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000020e0ecc0000@7c6aaee0
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:stone_tombstone]
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117)
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.GraveyardContent.lambda$static$0(GraveyardContent.java:48)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377)
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92)
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[12:26:04] [modloading-sync-worker/ERROR] [ne.ne.fm.ModContainer/LOADING]: Caught exception during event net.neoforged.neoforge.registries.RegisterEvent@5bb16d7d dispatch for modid abyssalport
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:stone_tombstone]
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.GraveyardContent.lambda$static$0(GraveyardContent.java:48) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+[12:26:05] [modloading-sync-worker/ERROR] [ne.ne.ne.re.GameData/]: Failed to register some entries, see suppressed exceptions for details
+java.lang.RuntimeException: null
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:83) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+	Suppressed: net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+	  java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone]
+
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:181) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+		at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+		at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+		at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+	Suppressed: net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+	  java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone_stairs]
+
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:181) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+		at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+		at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+		at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+	Suppressed: net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+	  java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:stone_tombstone]
+
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:181) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+		at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+		at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+		at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+		at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+[12:26:05] [modloading-sync-worker/ERROR] [ne.ne.ne.re.GameData/]: Rolling back to VANILLA state
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:abyssal_zombie has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:asorah has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:spectral_dragon has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:dreadling has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:dreadguard has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:dread_spawn has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:greater_dread_spawn has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:lesser_dreadbeast has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:ghoul has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:shadow_ghoul has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:depths_ghoul has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:dreaded_ghoul has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:shoggoth has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:greater_shoggoth has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:lesser_abyssal_shoggoth has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:abyssal_shoggoth has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:greater_abyssal_shoggoth has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:lesser_dreaded_shoggoth has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:dreaded_shoggoth has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:greater_dreaded_shoggoth has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:shadow_monster has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:shadow_beast has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:shub_offspring has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:evil_cow has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:evil_chicken has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:evil_pig has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:evil_sheep has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:demon_cow has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:demon_chicken has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:demon_pig has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:demon_sheep has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:lesser_shoggoth has no attributes
+[12:26:05] [modloading-sync-worker/ERROR] [minecraft/Util]: Entity abyssalport:shadow_creature has no attributes
+[12:26:05] [main/FATAL] [ne.ne.fm.ModLoader/LOADING]: Failed to wait for future Registry initialization, 3 errors found
+[12:26:05] [main/ERROR] [minecraft/CrashReport]: Negative index in crash report handler (0/21)
+[12:26:05] [main/FATAL] [ne.ne.ne.co.NeoForgeMod/]: Preparing crash report with UUID 3d77a579-d85f-4347-9fcd-27be1e31e9af
+[12:26:05] [main/FATAL] [ne.ne.ne.se.lo.ServerModLoader/]: Crash report saved to .\crash-reports\crash-2026-10-08_12.26.05-fml.txt
+[12:26:05] [main/FATAL] [ne.ne.ne.co.NeoForgeMod/]: Preparing crash report with UUID 82657745-c848-4497-9b16-1ba084bc6554
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 2026-10-08 12:26:05
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Stacktrace:
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+-- Mod loading issue for: abyssalport --
+Details:
+	Mod file: /B:/Claude/Projekte/AbyssalCraftPort/modern/build/classes/java/main/
+	Failure message: AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+		java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone]
+	Mod version: 0.1.0-dev
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone]
+Stacktrace:
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.EnergyDepositionerContent.lambda$static$6(EnergyDepositionerContent.java:43) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?] {}
+
+
+-- Mod loading issue for: abyssalport --
+Details:
+	Mod file: /B:/Claude/Projekte/AbyssalCraftPort/modern/build/classes/java/main/
+	Failure message: AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+		java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone_stairs]
+	Mod version: 0.1.0-dev
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone_stairs]
+Stacktrace:
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.EnergyDepositionerContent.lambda$static$8(EnergyDepositionerContent.java:47) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?] {}
+
+
+-- Mod loading issue for: abyssalport --
+Details:
+	Mod file: /B:/Claude/Projekte/AbyssalCraftPort/modern/build/classes/java/main/
+	Failure message: AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+		java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:stone_tombstone]
+	Mod version: 0.1.0-dev
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:stone_tombstone]
+Stacktrace:
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.content.GraveyardContent.lambda$static$0(GraveyardContent.java:48) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:215) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:379) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:377) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:368) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:92) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.12, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 240120776 bytes (228 MiB) / 436207616 bytes (416 MiB) up to 8568963072 bytes (8172 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 3600 6-Core Processor              
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce RTX 4060 Ti
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 16380.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.16.1664
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.00
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.00
+	Memory slot #1 type: DDR4
+	Memory slot #2 capacity (MiB): 8192.00
+	Memory slot #2 clockSpeed (GHz): 3.00
+	Memory slot #2 type: DDR4
+	Memory slot #3 capacity (MiB): 8192.00
+	Memory slot #3 clockSpeed (GHz): 3.00
+	Memory slot #3 type: DDR4
+	Virtual memory max (MiB): 41388.58
+	Virtual memory used (MiB): 17577.96
+	Swap memory total (MiB): 8704.00
+	Swap memory used (MiB): 270.75
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 70746.20, total: 243119.00
+	Space in storage for workdir (MiB): available: 23094.91, total: 114472.00
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeserverdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		main                                              |AbyssalCraft Port Study (Unrel|abyssalport                   |0.1.0-dev           |Manifest: NOSIGNATURE
+		neoforge-21.1.234.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.234.jar                             |NeoForge                      |neoforge                      |21.1.234            |Manifest: NOSIGNATURE
+		TerraBlender-neoforge-1.21.1-4.1.0.8.jar          |TerraBlender                  |terrablender                  |4.1.0.8             |Manifest: NOSIGNATURE
+	Crash Report UUID: 82657745-c848-4497-9b16-1ba084bc6554
+	FML: 4.0.42
+	NeoForge: 21.1.234
+[12:26:05] [main/ERROR] [minecraft/Main]: Failed to start the minecraft server
+net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+	  java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone]
+	- AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+	  java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:darkstone_cobblestone_stairs]
+	- AbyssalCraft Port Study (Unreleased) (abyssalport) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+	  java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / abyssalport:stone_tombstone]
+
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.waitForFuture(ModLoader.java:281) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.waitForTask(ModLoader.java:183) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.runInitTask(ModLoader.java:163) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.begin(CommonModLoader.java:51) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.server.loading.ServerModLoader.load(ServerModLoader.java:34) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:124) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.NeoForgeServerDevLaunchHandler.runService(NeoForgeServerDevLaunchHandler.java:23) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?] {}
+
+BUILD SUCCESSFUL in 23s
+10 actionable tasks: 2 executed, 8 up-to-date

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#abyssalport:coralium_deep_oceans",
+  "features": "abyssalport:ore_coralium_deep_oceans",
+  "step": "underground_ores"
+}

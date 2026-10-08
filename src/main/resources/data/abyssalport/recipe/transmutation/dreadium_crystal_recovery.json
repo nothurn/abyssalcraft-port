@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:transmutation",
+  "ingredient": {
+    "item": "abyssalport:dreadium_crystal"
+  },
+  "result": {
+    "id": "abyssalport:dreadium_nugget",
+    "count": 1
+  },
+  "experience": 0.1
+}

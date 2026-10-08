@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalport:nitrogen_crystal_cluster"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:nitrogen_crystal",
+    "count": 9
+  }
+}

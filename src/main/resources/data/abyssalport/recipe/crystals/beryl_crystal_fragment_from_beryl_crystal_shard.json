@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalport:beryl_crystal_shard"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:beryl_crystal_fragment",
+    "count": 9
+  }
+}

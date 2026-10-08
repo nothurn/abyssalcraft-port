@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "abyssalport:block/darklands_oak_pressure_plate"
+    },
+    "powered=true": {
+      "model": "abyssalport:block/darklands_oak_pressure_plate_down"
+    }
+  }
+}

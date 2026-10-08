@@ -1,0 +1,17 @@
+{
+  "energy_cost": 10000,
+  "duration_ticks": 200,
+  "altar_input": "abyssalport:gateway_key",
+  "book_tier": 1,
+  "altar_tier": 1,
+  "dimension": "abyssalport:abyssal_wasteland",
+  "offerings": [
+    "abyssalport:transmutation_gem",
+    "abyssalport:dreadlands_infused_powerstone",
+    "abyssalport:eye_of_the_abyss"
+  ],
+  "result": {
+    "item": "abyssalport:dreadlands_infused_gateway_key",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:silica_crystal_fragment"
+    }
+  },
+  "result": {
+    "id": "abyssalport:silica_crystal_shard"
+  }
+}

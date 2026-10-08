@@ -1,0 +1,72 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+
+> Task :compileJava FAILED
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DimensionalGhoulGameTests.java:93: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player=helper.makeMockServerPlayerInLevel(); player.setGameMode(net.minecraft.world.level.GameType.SURVIVAL); player.setData(AbyssalPort.EARLY_RESEARCH.get(),0);
+                         ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DimensionalGhoulGameTests.java:118: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+                fixture.clearMobs(); var player=helper.makeMockServerPlayerInLevel(); player.setGameMode(net.minecraft.world.level.GameType.SURVIVAL);
+                                                      ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DimensionalGhoulGameTests.java:131: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var level=helper.getLevel(); var player=helper.makeMockServerPlayerInLevel(); var mob=GraveyardContent.DEPTHS_GHOUL.get().create(level);
+                                                      ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\GraveyardGameTests.java:92: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player=helper.makeMockServerPlayerInLevel(); player.setGameMode(GameType.SURVIVAL);
+                         ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\GraveyardGameTests.java:171: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var level=helper.getLevel(); var player=helper.makeMockServerPlayerInLevel(); var pos=helper.absolutePos(new BlockPos(3,1,3)); var prior=level.getBlockState(pos);
+                                                      ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\GraveyardGameTests.java:293: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player=helper.makeMockServerPlayerInLevel(); var playerPos=player.position(); var playerLevel=player.serverLevel();
+                         ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\GraveyardGameTests.java:322: Fehler: Symbol nicht gefunden
+                        var staff=new ItemStack(kind==GhoulEntity.Kind.DEPTHS?WastelandProgressionContent.RENDING_STAFF.get():DreadlandsProgressionContent.RENDING_STAFF.get());
+                                                                                                                                                          ^
+  Symbol: Variable RENDING_STAFF
+  Ort: Klasse DreadlandsProgressionContent
+Hinweis: Einige Eingabedateien verwenden oder überschreiben eine veraltete API.
+Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+1 Fehler
+6 Warnungen
+
+[Incubating] Problems report is available at: file:///B:/Claude/Projekte/AbyssalCraftPort/modern/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\GraveyardGameTests.java:322: Fehler: Symbol nicht gefunden
+                          var staff=new ItemStack(kind==GhoulEntity.Kind.DEPTHS?WastelandProgressionContent.RENDING_STAFF.get():DreadlandsProgressionContent.RENDING_STAFF.get());
+                                                                                                                                                            ^
+    Symbol: Variable RENDING_STAFF
+    Ort: Klasse DreadlandsProgressionContent
+  Hinweis: Einige Eingabedateien verwenden oder überschreiben eine veraltete API.
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DimensionalGhoulGameTests.java:93: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          var player=helper.makeMockServerPlayerInLevel(); player.setGameMode(net.minecraft.world.level.GameType.SURVIVAL); player.setData(AbyssalPort.EARLY_RESEARCH.get(),0);
+                           ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DimensionalGhoulGameTests.java:118: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+                  fixture.clearMobs(); var player=helper.makeMockServerPlayerInLevel(); player.setGameMode(net.minecraft.world.level.GameType.SURVIVAL);
+                                                        ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DimensionalGhoulGameTests.java:131: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          var level=helper.getLevel(); var player=helper.makeMockServerPlayerInLevel(); var mob=GraveyardContent.DEPTHS_GHOUL.get().create(level);
+                                                        ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\GraveyardGameTests.java:92: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          var player=helper.makeMockServerPlayerInLevel(); player.setGameMode(GameType.SURVIVAL);
+                           ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\GraveyardGameTests.java:171: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          var level=helper.getLevel(); var player=helper.makeMockServerPlayerInLevel(); var pos=helper.absolutePos(new BlockPos(3,1,3)); var prior=level.getBlockState(pos);
+                                                        ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\GraveyardGameTests.java:293: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          var player=helper.makeMockServerPlayerInLevel(); var playerPos=player.position(); var playerLevel=player.serverLevel();
+                           ^
+  1 Fehler
+  6 Warnungen
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1s
+2 actionable tasks: 1 executed, 1 up-to-date

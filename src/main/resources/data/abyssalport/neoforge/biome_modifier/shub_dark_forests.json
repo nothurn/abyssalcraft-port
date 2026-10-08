@@ -1,0 +1,9 @@
+{
+  "type": "abyssalport:animal_ecology_spawns",
+  "biomes": [
+    "minecraft:dark_forest",
+    "abyssalport:darklands_forest"
+  ],
+  "group": "offspring",
+  "dense": true
+}

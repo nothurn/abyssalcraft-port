@@ -1,0 +1,19 @@
+{
+  "energy_cost": 300,
+  "duration_ticks": 20,
+  "altar_input": "abyssalport:coralium_pearl",
+  "offerings": [
+    "minecraft:diamond",
+    "minecraft:blaze_powder",
+    "minecraft:ender_pearl",
+    "minecraft:blaze_powder",
+    "minecraft:diamond",
+    "minecraft:blaze_powder",
+    "minecraft:ender_pearl",
+    "minecraft:blaze_powder"
+  ],
+  "result": {
+    "item": "abyssalport:transmutation_gem",
+    "count": 1
+  }
+}

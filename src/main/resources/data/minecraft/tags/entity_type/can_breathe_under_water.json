@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:shadow_creature",
+    "abyssalport:abyssal_zombie",
+    "abyssalport:asorah",
+    "abyssalport:spectral_dragon",
+    "abyssalport:dreadguard",
+    "abyssalport:dread_spawn",
+    "abyssalport:greater_dread_spawn",
+    "abyssalport:lesser_dreadbeast",
+    "abyssalport:depths_ghoul",
+    "abyssalport:lesser_shoggoth",
+    "abyssalport:shoggoth",
+    "abyssalport:greater_shoggoth",
+    "abyssalport:lesser_abyssal_shoggoth",
+    "abyssalport:abyssal_shoggoth",
+    "abyssalport:greater_abyssal_shoggoth",
+    "abyssalport:lesser_dreaded_shoggoth",
+    "abyssalport:dreaded_shoggoth",
+    "abyssalport:greater_dreaded_shoggoth",
+    "abyssalport:shadow_monster",
+    "abyssalport:shadow_beast"
+  ]
+}

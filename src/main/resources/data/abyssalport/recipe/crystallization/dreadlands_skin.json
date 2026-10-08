@@ -1,0 +1,14 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "abyssalport:skin_of_the_dreadlands"
+  },
+  "result": {
+    "id": "abyssalport:phosphorus_crystal_shard",
+    "count": 8
+  },
+  "experience": 0.2,
+  "secondary": {
+    "id": "abyssalport:dreadlands_essence"
+  }
+}

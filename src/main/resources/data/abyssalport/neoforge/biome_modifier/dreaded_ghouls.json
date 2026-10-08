@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "abyssalport:dreadlands",
+  "spawners": {
+    "type": "abyssalport:dreaded_ghoul",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

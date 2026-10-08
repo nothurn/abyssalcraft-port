@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "abyssalport:block/gateway_anchor"
+    },
+    "active=true": {
+      "model": "abyssalport:block/gateway_anchor"
+    }
+  }
+}

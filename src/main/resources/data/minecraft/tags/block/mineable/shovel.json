@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:darklands_soil",
+    "abyssalport:abyssal_sand",
+    "abyssalport:fused_abyssal_sand",
+    "abyssalport:dreadlands_dirt",
+    "abyssalport:dreadlands_grass",
+    "abyssalport:shoggoth_biomass"
+  ]
+}

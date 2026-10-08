@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "axis=x,bark=false": {
+      "model": "abyssalport:block/darklands_oak_hollow_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,bark=true": {
+      "model": "abyssalport:block/darklands_oak_hollow_log_bark"
+    },
+    "axis=y,bark=false": {
+      "model": "abyssalport:block/darklands_oak_hollow_log"
+    },
+    "axis=y,bark=true": {
+      "model": "abyssalport:block/darklands_oak_hollow_log_bark"
+    },
+    "axis=z,bark=false": {
+      "model": "abyssalport:block/darklands_oak_hollow_log",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,bark=true": {
+      "model": "abyssalport:block/darklands_oak_hollow_log_bark"
+    }
+  }
+}

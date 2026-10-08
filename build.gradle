@@ -1,0 +1,173 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.141'
+}
+
+group = 'dev.abyssalport'
+version = '0.1.0-dev'
+
+base {
+    archivesName = 'abyssalcraft-port-study'
+}
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.minecraftforge.net/' }
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+java.withSourcesJar()
+
+neoForge {
+    version = '21.1.234'
+    parchment {
+        minecraftVersion = '1.21.1'
+        mappingsVersion = '2024.11.17'
+    }
+    runs {
+        client {
+            client()
+            gameDirectory = project.file('runs/client')
+        }
+        gameTestServer {
+            type = 'gameTestServer'
+            gameDirectory = project.file('runs/game-test')
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'abyssalport'
+        }
+        worldAuditServer {
+            server()
+            gameDirectory = project.file('runs/world-audit')
+            programArguments.add('--nogui')
+            // The vanilla GameTestServer bakes FLAT against an empty dimensions registry.
+            // Cross-dimension tests run explicitly on this isolated, normal-world server.
+            systemProperty 'neoforge.enableGameTest', 'true'
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'abyssalport,abyssalport_worldtest'
+            def restartPhase = providers.gradleProperty('restartAuditPhase').getOrElse('')
+            if (restartPhase) {
+                if (!(restartPhase in ['prepare', 'verify']))
+                    throw new GradleException('restartAuditPhase must be prepare or verify')
+                def restartWorld = providers.gradleProperty('restartAuditWorld').getOrElse('gateway-audit-restart-20261008')
+                if (!(restartWorld ==~ /gateway-audit-restart-[a-zA-Z0-9-]+/))
+                    throw new GradleException('restartAuditWorld must be an isolated gateway-audit-restart-* name')
+                systemProperty 'abyssalport.gatewayAudit', 'true'
+                systemProperty 'abyssalport.restartAuditPhase', restartPhase
+                programArguments.addAll('--world', restartWorld)
+            } else if (providers.gradleProperty('gatewayAudit').getOrElse('false').toBoolean()) {
+                systemProperty 'abyssalport.gatewayAudit', 'true'
+                if (providers.gradleProperty('auditExitProbe').getOrElse('false').toBoolean())
+                    systemProperty 'abyssalport.auditExitProbe', 'true'
+                programArguments.addAll('--world', 'gateway-audit-20261002')
+            }
+        }
+    }
+    mods {
+        abyssalport {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.github.glitchfiend:TerraBlender-neoforge:1.21.1-4.1.0.8'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+    testImplementation 'com.google.code.gson:gson:2.10.1'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('test', Test).configure {
+    useJUnitPlatform()
+}
+
+tasks.named('processResources').configure {
+    from('src/main/resources/data/abyssalport/structure/empty.nbt') {
+        into 'data/abyssalport_worldtest/structure'
+    }
+}
+
+// The launcher can return zero after an FML startup failure. Require actual
+// completion evidence from each dedicated run, not a bare Gradle/Java exit.
+tasks.matching { it.name == 'runGameTestServer' }.configureEach {
+    doLast {
+        def evidence = file('runs/game-test/logs/latest.log')
+        if (!evidence.isFile() || !(evidence.getText('UTF-8') =~ /All [1-9][0-9]* required tests passed/).find())
+            throw new GradleException('GameTest server returned without an actual all-tests-passed proof; inspect runs/game-test/logs/latest.log')
+    }
+}
+tasks.matching { it.name == 'runWorldAuditServer' }.configureEach {
+    doLast {
+        def phase = providers.gradleProperty('restartAuditPhase').getOrElse('')
+        if (phase || providers.gradleProperty('gatewayAudit').getOrElse('false').toBoolean()) {
+            def evidence = file('runs/world-audit/logs/latest.log')
+            def text = evidence.isFile() ? evidence.getText('UTF-8') : ''
+            def passed = phase ? text.contains("RESTART AUDIT PHASE COMPLETE: ${phase} passed;")
+                    : (text =~ /WORLD AUDIT COMPLETE: [1-9][0-9]* tests, 0 failures/).find()
+            if (!passed) throw new GradleException('World audit returned without its native completion proof; inspect runs/world-audit/logs/latest.log')
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.named('jar', Jar).configure {
+    from('LICENSE') {
+        into('META-INF')
+        rename { 'LICENSE-LGPL-3.0.txt' }
+    }
+    from('LICENSE-GPL-3.0.txt') { into('META-INF') }
+    from('SOURCE-NOTICE.md') { into('META-INF') }
+}
+
+tasks.named('sourcesJar', Jar).configure {
+    from('LICENSE') {
+        into('META-INF')
+        rename { 'LICENSE-LGPL-3.0.txt' }
+    }
+    from('LICENSE-GPL-3.0.txt') { into('META-INF') }
+    from('SOURCE-NOTICE.md') { into('META-INF') }
+}
+
+// Reproducible local source/build handoff; excludes private brains, worlds,
+// caches, logs, compiled output and the reserved upstream media tree.
+tasks.register('betaSourceBundle', Zip) {
+    archiveBaseName = 'abyssalcraft-port-study'
+    archiveClassifier = 'source-build'
+    destinationDirectory = layout.buildDirectory.dir('distributions')
+    from('.') {
+        include 'src/**', 'tools/*.py', 'gradle/wrapper/**'
+        include 'test-fixtures/world-audit/server.properties'
+        include 'build.gradle', 'settings.gradle', 'gradle.properties', 'gradlew', 'gradlew.bat'
+        include 'LICENSE', 'LICENSE-GPL-3.0.txt', 'SOURCE-NOTICE.md', 'BUILDING.md'
+        include 'BETA-GATE.md', 'BETA-PLAYTEST.md', 'BETA-RELEASE.md'
+    }
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+
+// Keep a verified local checkpoint while the full development goal continues.
+// Never merge a later candidate into an already existing checkpoint directory.
+tasks.register('stageBetaCandidate', Copy) {
+    dependsOn tasks.named('jar'), tasks.named('sourcesJar'), tasks.named('betaSourceBundle')
+    def candidateName = providers.gradleProperty('betaCandidateName').getOrElse('')
+    if (candidateName && !(candidateName ==~ /[a-zA-Z0-9][a-zA-Z0-9-]{0,79}/))
+        throw new GradleException('betaCandidateName must be a simple alphanumeric/hyphen checkpoint name')
+    into layout.projectDirectory.dir("test-artifacts/beta-candidates/${candidateName ?: 'unspecified'}")
+    from tasks.named('jar').flatMap { it.archiveFile }
+    from tasks.named('sourcesJar').flatMap { it.archiveFile }
+    from tasks.named('betaSourceBundle').flatMap { it.archiveFile }
+    from('README.md') { rename { 'CHECKPOINT.md' } }
+    from 'BUILDING.md', 'BETA-GATE.md', 'BETA-PLAYTEST.md', 'BETA-RELEASE.md'
+    from 'SOURCE-NOTICE.md', 'LICENSE', 'LICENSE-GPL-3.0.txt'
+    outputs.upToDateWhen { false }
+    onlyIf {
+        if (!candidateName) throw new GradleException('Supply -PbetaCandidateName=<new-checkpoint-name>')
+        if (destinationDir.exists())
+            throw new GradleException('Candidate checkpoint already exists; refusing to overwrite or mix artifacts')
+        true
+    }
+}
+
+tasks.named('runWorldAuditServer').configure {
+    standardInput = System.in
+}

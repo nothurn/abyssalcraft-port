@@ -1,0 +1,20 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": [
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:prismarine_crystals"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:silica_crystal_shard",
+    "count": 4
+  },
+  "experience": 0.1,
+  "secondary": {
+    "id": "abyssalport:beryl_crystal_shard",
+    "count": 4
+  }
+}

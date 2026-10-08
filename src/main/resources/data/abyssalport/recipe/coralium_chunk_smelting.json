@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "abyssalport:coralium_chunk"
+  },
+  "result": {
+    "id": "abyssalport:refined_coralium_ingot",
+    "count": 2
+  },
+  "experience": 3.0,
+  "cookingtime": 200
+}

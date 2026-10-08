@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#%#",
+    "&$&",
+    "&&&"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:shadow_fragment"
+    },
+    "%": {
+      "item": "abyssalport:coralium_pearl"
+    },
+    "$": {
+      "item": "abyssalport:shadow_gem"
+    },
+    "&": {
+      "item": "abyssalport:monolith_stone"
+    }
+  },
+  "result": {
+    "id": "abyssalport:sacrificial_altar"
+  }
+}

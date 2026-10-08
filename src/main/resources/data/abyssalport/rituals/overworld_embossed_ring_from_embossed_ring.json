@@ -1,0 +1,21 @@
+{
+  "energy_cost": 400,
+  "duration_ticks": 20,
+  "book_tier": 0,
+  "altar_tier": 0,
+  "altar_input": "abyssalport:embossed_ring",
+  "offerings": [
+    "abyssalport:shadow_shard",
+    "minecraft:cobblestone",
+    "abyssalport:coralium_gem",
+    "minecraft:cobblestone",
+    "abyssalport:shadow_shard",
+    "minecraft:cobblestone",
+    "abyssalport:coralium_gem",
+    "minecraft:cobblestone"
+  ],
+  "result": {
+    "item": "abyssalport:overworld_embossed_ring",
+    "count": 1
+  }
+}

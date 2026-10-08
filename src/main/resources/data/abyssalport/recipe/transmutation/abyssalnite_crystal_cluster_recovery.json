@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:transmutation",
+  "ingredient": {
+    "item": "abyssalport:abyssalnite_crystal_cluster"
+  },
+  "result": {
+    "id": "abyssalport:abyssalnite_ingot",
+    "count": 1
+  },
+  "experience": 0.2
+}

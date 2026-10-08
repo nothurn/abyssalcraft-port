@@ -1,0 +1,19 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": [
+    {
+      "item": "minecraft:iron_ore"
+    },
+    {
+      "item": "minecraft:deepslate_iron_ore"
+    },
+    {
+      "item": "abyssalport:abyssal_iron_ore"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:iron_crystal",
+    "count": 2
+  },
+  "experience": 0.1
+}

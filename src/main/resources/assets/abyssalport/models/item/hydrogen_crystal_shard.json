@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "abyssalport:item/hydrogen_crystal_shard"
+  }
+}

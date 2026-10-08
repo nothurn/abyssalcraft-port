@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:abyssal_zombie",
+    "abyssalport:dreadling",
+    "abyssalport:dreadguard",
+    "abyssalport:ghoul",
+    "abyssalport:depths_ghoul",
+    "abyssalport:dreaded_ghoul"
+  ]
+}

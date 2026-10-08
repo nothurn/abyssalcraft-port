@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "GTG",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "abyssalport:shadow_gem"
+    },
+    "T": {
+      "item": "abyssalport:transmutation_gem"
+    }
+  },
+  "result": {
+    "id": "abyssalport:oblivion_shard",
+    "count": 1
+  }
+}

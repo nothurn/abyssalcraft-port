@@ -1,0 +1,19 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": [
+    {
+      "item": "minecraft:gold_ore"
+    },
+    {
+      "item": "minecraft:deepslate_gold_ore"
+    },
+    {
+      "item": "abyssalport:abyssal_gold_ore"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:gold_crystal",
+    "count": 2
+  },
+  "experience": 0.1
+}

@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "abyssalport:refined_coralium_block"
+  },
+  "result": {
+    "id": "abyssalport:coralium_crystal_cluster",
+    "count": 1
+  },
+  "experience": 0.9
+}

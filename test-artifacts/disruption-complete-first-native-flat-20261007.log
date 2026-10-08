@@ -1,0 +1,41 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+
+> Task :compileJava
+Hinweis: Einige Eingabedateien verwenden oder überschreiben eine veraltete API.
+Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+
+> Task :processResources
+> Task :classes
+> Task :jarJar NO-SOURCE
+> Task :jar
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+DisruptionAssetsTest > exactRegisteredCatalogueUsesEighteenCommonAndNineBoundEntries() FAILED
+    java.lang.NoClassDefFoundError at DisruptionAssetsTest.java:12
+        Caused by: java.lang.ClassNotFoundException at DisruptionAssetsTest.java:12
+
+DisruptionAssetsTest > everyRealEffectAndBoundedHelpHasBothOwnedLanguageLabels() FAILED
+    java.lang.NoClassDefFoundError at DisruptionAssetsTest.java:21
+        Caused by: java.lang.ExceptionInInitializerError at DisruptionAssetsTest.java:12
+
+92 tests completed, 2 failed
+
+> Task :test FAILED
+
+[Incubating] Problems report is available at: file:///B:/Claude/Projekte/AbyssalCraftPort/modern/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///B:/Claude/Projekte/AbyssalCraftPort/modern/build/reports/tests/test/index.html
+
+* Try:
+> Run with --scan to get full insights.
+
+BUILD FAILED in 21s
+6 actionable tasks: 5 executed, 1 up-to-date

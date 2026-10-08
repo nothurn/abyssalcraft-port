@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "darklands_oak_button",
+  "pattern": [
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "abyssalport:darklands_oak_planks"
+    }
+  },
+  "result": {
+    "id": "abyssalport:darklands_oak_button",
+    "count": 1
+  }
+}

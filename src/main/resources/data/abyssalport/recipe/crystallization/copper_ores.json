@@ -1,0 +1,16 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": [
+    {
+      "item": "minecraft:copper_ore"
+    },
+    {
+      "item": "minecraft:deepslate_copper_ore"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:copper_crystal",
+    "count": 2
+  },
+  "experience": 0.1
+}

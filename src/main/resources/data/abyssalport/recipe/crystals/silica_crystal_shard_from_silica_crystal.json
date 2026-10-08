@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalport:silica_crystal"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:silica_crystal_shard",
+    "count": 9
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "coralium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalport:coralium_gem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "abyssalport:powerstone_tracker"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BDB",
+    "OGO",
+    "BOB"
+  ],
+  "key": {
+    "B": {
+      "item": "abyssalport:darkstone_bricks"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "id": "abyssalport:glowing_darkstone_bricks",
+    "count": 4
+  }
+}

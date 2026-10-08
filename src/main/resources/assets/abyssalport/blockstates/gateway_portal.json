@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "abyssalport:block/gateway_portal"
+    },
+    "axis=z": {
+      "model": "abyssalport:block/gateway_portal",
+      "y": 90
+    }
+  }
+}

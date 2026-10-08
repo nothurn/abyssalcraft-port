@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north,tablet=false": {
+      "model": "abyssalport:block/state_transformer",
+      "y": 0
+    },
+    "facing=north,tablet=true": {
+      "model": "abyssalport:block/state_transformer_tablet",
+      "y": 0
+    },
+    "facing=east,tablet=false": {
+      "model": "abyssalport:block/state_transformer",
+      "y": 90
+    },
+    "facing=east,tablet=true": {
+      "model": "abyssalport:block/state_transformer_tablet",
+      "y": 90
+    },
+    "facing=south,tablet=false": {
+      "model": "abyssalport:block/state_transformer",
+      "y": 180
+    },
+    "facing=south,tablet=true": {
+      "model": "abyssalport:block/state_transformer_tablet",
+      "y": 180
+    },
+    "facing=west,tablet=false": {
+      "model": "abyssalport:block/state_transformer",
+      "y": 270
+    },
+    "facing=west,tablet=true": {
+      "model": "abyssalport:block/state_transformer_tablet",
+      "y": 270
+    }
+  }
+}

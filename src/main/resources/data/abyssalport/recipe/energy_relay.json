@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##%",
+    "#&#",
+    "##%"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:monolith_stone"
+    },
+    "&": {
+      "item": "abyssalport:shadow_gem"
+    },
+    "%": {
+      "item": "abyssalport:shadow_shard"
+    }
+  },
+  "result": {
+    "id": "abyssalport:energy_relay"
+  }
+}

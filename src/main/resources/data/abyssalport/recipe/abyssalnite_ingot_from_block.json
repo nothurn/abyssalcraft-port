@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "abyssalport:abyssalnite_block"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:abyssalnite_ingot",
+    "count": 9
+  }
+}

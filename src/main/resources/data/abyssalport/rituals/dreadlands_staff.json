@@ -1,0 +1,23 @@
+{
+  "energy_cost": 2000,
+  "duration_ticks": 20,
+  "book_tier": 2,
+  "altar_tier": 2,
+  "dimension": "abyssalport:dreadlands",
+  "preserve_components": true,
+  "altar_input": "abyssalport:abyssal_wasteland_staff_of_rending",
+  "offerings": [
+    "abyssalport:shadow_gem",
+    "abyssalport:dreadstone",
+    "abyssalport:dreadstone",
+    "abyssalport:dreadstone",
+    "abyssalport:dreadstone",
+    "abyssalport:dread_fragment",
+    "abyssalport:dread_fragment",
+    "abyssalport:dread_fragment"
+  ],
+  "result": {
+    "item": "abyssalport:dreadlands_staff_of_rending",
+    "count": 1
+  }
+}

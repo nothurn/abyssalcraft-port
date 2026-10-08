@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "abyssalport:abyssal_stone_bricks"
+    }
+  },
+  "result": {
+    "id": "abyssalport:abyssal_stone_brick_fence",
+    "count": 6
+  }
+}

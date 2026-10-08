@@ -1,0 +1,14 @@
+{
+  "type": "abyssalport:ranged_ore",
+  "config": {
+    "target": {
+      "predicate_type": "minecraft:block_match",
+      "block": "abyssalport:dreadstone"
+    },
+    "state": {
+      "Name": "abyssalport:dreadlands_abyssalnite_ore"
+    },
+    "min_size": 8,
+    "max_size": 19
+  }
+}

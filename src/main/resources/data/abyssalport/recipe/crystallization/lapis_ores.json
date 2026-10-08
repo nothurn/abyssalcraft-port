@@ -1,0 +1,20 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": [
+    {
+      "item": "minecraft:lapis_ore"
+    },
+    {
+      "item": "minecraft:deepslate_lapis_ore"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:silica_crystal",
+    "count": 21
+  },
+  "experience": 0.15,
+  "secondary": {
+    "id": "abyssalport:potassium_crystal",
+    "count": 8
+  }
+}

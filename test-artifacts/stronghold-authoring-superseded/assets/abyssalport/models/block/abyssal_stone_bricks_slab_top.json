@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "abyssalport:block/abyssal_stone_bricks",
+    "top": "abyssalport:block/abyssal_stone_bricks",
+    "side": "abyssalport:block/abyssal_stone_bricks"
+  }
+}

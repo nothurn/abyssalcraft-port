@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "abyssalport:block/darkstone_cobblestone",
+    "side": "abyssalport:block/darkstone_cobblestone",
+    "top": "abyssalport:block/darkstone_cobblestone"
+  }
+}

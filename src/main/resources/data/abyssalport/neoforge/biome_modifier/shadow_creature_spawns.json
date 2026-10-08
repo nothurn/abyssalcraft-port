@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "minecraft:dark_forest",
+    "minecraft:swamp"
+  ],
+  "spawners": {
+    "type": "abyssalport:shadow_creature",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

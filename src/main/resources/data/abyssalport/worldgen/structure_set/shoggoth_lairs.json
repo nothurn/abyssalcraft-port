@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "abyssalport:shoggoth_lair",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 824300,
+    "spacing": 16,
+    "separation": 7
+  }
+}

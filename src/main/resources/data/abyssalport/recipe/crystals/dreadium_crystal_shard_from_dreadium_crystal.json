@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalport:dreadium_crystal"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:dreadium_crystal_shard",
+    "count": 9
+  }
+}

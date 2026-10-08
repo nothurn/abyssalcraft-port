@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:dreadium_crystal_shard"
+    }
+  },
+  "result": {
+    "id": "abyssalport:dreadium_crystal"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:transmutation",
+  "ingredient": {
+    "item": "abyssalport:coralium_brick"
+  },
+  "result": {
+    "id": "abyssalport:coralium_stone",
+    "count": 1
+  },
+  "experience": 0.0
+}

@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north,lit=false": {
+      "model": "abyssalport:block/crystallizer",
+      "y": 0
+    },
+    "facing=east,lit=false": {
+      "model": "abyssalport:block/crystallizer",
+      "y": 90
+    },
+    "facing=south,lit=false": {
+      "model": "abyssalport:block/crystallizer",
+      "y": 180
+    },
+    "facing=west,lit=false": {
+      "model": "abyssalport:block/crystallizer",
+      "y": 270
+    },
+    "facing=north,lit=true": {
+      "model": "abyssalport:block/crystallizer_on",
+      "y": 0
+    },
+    "facing=east,lit=true": {
+      "model": "abyssalport:block/crystallizer_on",
+      "y": 90
+    },
+    "facing=south,lit=true": {
+      "model": "abyssalport:block/crystallizer_on",
+      "y": 180
+    },
+    "facing=west,lit=true": {
+      "model": "abyssalport:block/crystallizer_on",
+      "y": 270
+    }
+  }
+}

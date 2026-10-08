@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalport:silicon_crystal_cluster"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:silicon_crystal",
+    "count": 9
+  }
+}

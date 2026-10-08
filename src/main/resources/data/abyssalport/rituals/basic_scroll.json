@@ -1,0 +1,14 @@
+{
+  "energy_cost": 100,
+  "duration_ticks": 20,
+  "offerings": [
+    "minecraft:book",
+    "minecraft:book",
+    "minecraft:book",
+    "minecraft:book"
+  ],
+  "result": {
+    "item": "abyssalport:basic_scroll",
+    "count": 1
+  }
+}

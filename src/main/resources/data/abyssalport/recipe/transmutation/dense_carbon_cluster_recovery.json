@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:transmutation",
+  "ingredient": {
+    "item": "abyssalport:dense_carbon_cluster"
+  },
+  "result": {
+    "id": "minecraft:diamond",
+    "count": 1
+  },
+  "experience": 0.5
+}

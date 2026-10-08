@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " PC",
+    " BP",
+    "B  "
+  ],
+  "key": {
+    "P": {
+      "item": "abyssalport:coralium_pearl"
+    },
+    "C": {
+      "item": "abyssalport:oblivion_catalyst"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "id": "abyssalport:gateway_key",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "abyssalport:pearlescent_coralium_ore"
+  },
+  "result": {
+    "id": "abyssalport:coralium_pearl"
+  },
+  "experience": 3,
+  "cookingtime": 100
+}

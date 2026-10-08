@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:potassium_crystal_fragment"
+    }
+  },
+  "result": {
+    "id": "abyssalport:potassium_crystal_shard"
+  }
+}

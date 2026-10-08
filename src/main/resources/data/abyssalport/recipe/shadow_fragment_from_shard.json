@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [{"item": "abyssalport:shadow_shard"}],
+  "result": {"id": "abyssalport:shadow_fragment", "count": 4}
+}

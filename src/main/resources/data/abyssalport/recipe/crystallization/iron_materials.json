@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "abyssalport:iron_crystal",
+    "count": 1
+  },
+  "experience": 0.1
+}

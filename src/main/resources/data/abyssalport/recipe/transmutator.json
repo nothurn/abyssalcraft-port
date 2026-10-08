@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "BGB",
+    "RCR"
+  ],
+  "key": {
+    "B": {
+      "item": "abyssalport:coralium_brick"
+    },
+    "G": {
+      "item": "abyssalport:transmutation_gem"
+    },
+    "R": {
+      "item": "abyssalport:refined_coralium_block"
+    },
+    "C": {
+      "item": "abyssalport:coralium_bucket"
+    }
+  },
+  "result": {
+    "id": "abyssalport:transmutator"
+  }
+}

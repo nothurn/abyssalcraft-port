@@ -1,0 +1,14 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "abyssalport:shadow_ghoul_flesh"
+  },
+  "result": {
+    "id": "abyssalport:phosphorus_crystal_shard",
+    "count": 12
+  },
+  "experience": 0.2,
+  "secondary": {
+    "id": "abyssalport:shadow_shard"
+  }
+}

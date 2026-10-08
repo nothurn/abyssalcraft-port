@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "tilted=false": {
+      "model": "abyssalport:block/dreadlands_energy_pedestal"
+    },
+    "tilted=true": {
+      "model": "abyssalport:block/dreadlands_energy_pedestal_tilted"
+    }
+  }
+}

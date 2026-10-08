@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["SS", "SS"],
+  "key": {"S": {"item": "abyssalport:shadow_shard"}},
+  "result": {"id": "abyssalport:shadow_gem", "count": 1}
+}

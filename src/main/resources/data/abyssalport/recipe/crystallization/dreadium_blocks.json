@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "abyssalport:dreadium_block"
+  },
+  "result": {
+    "id": "abyssalport:dreadium_crystal_cluster",
+    "count": 1
+  },
+  "experience": 0.9
+}

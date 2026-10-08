@@ -1,0 +1,50 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+
+> Task :compileJava FAILED
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\CrystalBagGameTests.java:78: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player=helper.makeMockServerPlayerInLevel(); player.getInventory().selected=3;
+                         ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\CrystalBagGameTests.java:132: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player=helper.makeMockServerPlayerInLevel(); player.setItemInHand(InteractionHand.MAIN_HAND,malformed); var saved=malformed.copy();
+                         ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\CrystalBagGameTests.java:135: Fehler: Inkompatible Typen: CraftingInput kann nicht in CAP#1 konvertiert werden
+                && !recipe.matches(CraftingInput.of(3,3,upgrade(malformed,WastelandProgressionContent.SKIN.get())),level),"Oversized bag data was discarded or laundered through an upgrade");
+                                                   ^
+  Dabei ist CAP#1 eine neue Typvariable:
+    CAP#1 erweitert RecipeInput aus Erfassung von ?
+Hinweis: B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\CrystalBagGameTests.java verwendet oder überschreibt eine veraltete API.
+Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+Hinweis: Einige Meldungen wurden vereinfacht. Wiederholen Sie die Kompilierung mit -Xdiags:verbose, um die vollständige Ausgabe abzurufen
+1 Fehler
+2 Warnungen
+
+[Incubating] Problems report is available at: file:///B:/Claude/Projekte/AbyssalCraftPort/modern/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  Hinweis: B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\CrystalBagGameTests.java verwendet oder überschreibt eine veraltete API.
+  Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\CrystalBagGameTests.java:135: Fehler: Inkompatible Typen: CraftingInput kann nicht in CAP#1 konvertiert werden
+                  && !recipe.matches(CraftingInput.of(3,3,upgrade(malformed,WastelandProgressionContent.SKIN.get())),level),"Oversized bag data was discarded or laundered through an upgrade");
+                                                     ^
+    Dabei ist CAP#1 eine neue Typvariable:
+      CAP#1 erweitert RecipeInput aus Erfassung von ?
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\CrystalBagGameTests.java:78: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          var player=helper.makeMockServerPlayerInLevel(); player.getInventory().selected=3;
+                           ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\CrystalBagGameTests.java:132: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          var player=helper.makeMockServerPlayerInLevel(); player.setItemInHand(InteractionHand.MAIN_HAND,malformed); var saved=malformed.copy();
+                           ^
+  Hinweis: Einige Meldungen wurden vereinfacht. Wiederholen Sie die Kompilierung mit -Xdiags:verbose, um die vollständige Ausgabe abzurufen
+  1 Fehler
+  2 Warnungen
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1s
+2 actionable tasks: 1 executed, 1 up-to-date

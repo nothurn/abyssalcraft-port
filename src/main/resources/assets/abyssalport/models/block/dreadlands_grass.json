@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "abyssalport:block/dreadlands_dirt",
+    "top": "abyssalport:block/dreadlands_grass_top",
+    "side": "abyssalport:block/dreadlands_grass_side"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:coralium_crystal"
+    }
+  },
+  "result": {
+    "id": "abyssalport:coralium_crystal_cluster"
+  }
+}

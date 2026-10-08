@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#%#",
+    "%&%",
+    "#%#"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:shadow_shard"
+    },
+    "%": {
+      "item": "abyssalport:monolith_stone"
+    },
+    "&": {
+      "item": "abyssalport:shadow_gem"
+    }
+  },
+  "result": {
+    "id": "abyssalport:stone_tablet"
+  }
+}

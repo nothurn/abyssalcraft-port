@@ -1,0 +1,75 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.8,
+  "downfall": 0,
+  "effects": {
+    "fog_color": 4133667,
+    "sky_color": 3543336,
+    "water_color": 5338935,
+    "water_fog_color": 2692897,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "abyssalport:dreaded_abyssalnite_ore",
+      "abyssalport:dreadlands_abyssalnite_ore",
+      "abyssalport:elysian_stone"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {
+    "monster": [
+      {
+        "type": "abyssalport:dreadling",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "abyssalport:dreadguard",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "abyssalport:dread_spawn",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "abyssalport:greater_dread_spawn",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "abyssalport:lesser_dreadbeast",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  }
+}

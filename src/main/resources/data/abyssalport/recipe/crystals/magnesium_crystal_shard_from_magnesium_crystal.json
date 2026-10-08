@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalport:magnesium_crystal"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:magnesium_crystal_shard",
+    "count": 9
+  }
+}

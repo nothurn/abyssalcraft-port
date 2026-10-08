@@ -1,0 +1,73 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.8,
+  "downfall": 0,
+  "effects": {
+    "fog_color": 1718833,
+    "sky_color": 2247482,
+    "water_color": 2725263,
+    "water_fog_color": 993847,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "abyssalport:ore_abyssal_nitre_ore",
+      "abyssalport:ore_abyssal_coralium_ore",
+      "abyssalport:ore_abyssal_iron_ore",
+      "abyssalport:ore_abyssal_gold_ore",
+      "abyssalport:ore_abyssal_diamond_ore",
+      "abyssalport:ore_liquified_coralium_ore",
+      "abyssalport:ore_pearlescent_coralium_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:zombie",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 5
+      },
+      {
+        "type": "abyssalport:abyssal_zombie",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 5
+      },
+      {
+        "type": "abyssalport:spectral_dragon",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  }
+}

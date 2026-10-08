@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "has_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalport:carbon_crystal"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "abyssalport:carbon_cluster",
+      "abyssalport:dense_carbon_cluster"
+    ]
+  }
+}

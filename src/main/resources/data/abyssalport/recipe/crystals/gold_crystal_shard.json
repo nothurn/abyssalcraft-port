@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:gold_crystal_fragment"
+    }
+  },
+  "result": {
+    "id": "abyssalport:gold_crystal_shard"
+  }
+}

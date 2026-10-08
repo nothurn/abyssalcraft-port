@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "abyssalport:block/coralium_still"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "abyssalport:block/coralium_flow"
+    }
+  ]
+}

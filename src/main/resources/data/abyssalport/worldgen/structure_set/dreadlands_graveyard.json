@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "abyssalport:dreadlands_graveyard",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 824299,
+    "spacing": 16,
+    "separation": 10
+  }
+}

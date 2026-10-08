@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "metal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalport:refined_coralium_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "abyssalport:refined_coralium_pickaxe",
+      "abyssalport:refined_coralium_axe",
+      "abyssalport:refined_coralium_shovel",
+      "abyssalport:refined_coralium_sword",
+      "abyssalport:refined_coralium_hoe",
+      "abyssalport:refined_coralium_helmet",
+      "abyssalport:refined_coralium_chestplate",
+      "abyssalport:refined_coralium_leggings",
+      "abyssalport:refined_coralium_boots",
+      "abyssalport:refined_coralium_block",
+      "abyssalport:refined_coralium_nugget",
+      "abyssalport:refined_coralium_ingot_from_nuggets",
+      "abyssalport:refined_coralium_ingot_from_block"
+    ]
+  }
+}

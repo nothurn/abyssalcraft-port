@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:sulfur_crystal_fragment"
+    }
+  },
+  "result": {
+    "id": "abyssalport:sulfur_crystal_shard"
+  }
+}

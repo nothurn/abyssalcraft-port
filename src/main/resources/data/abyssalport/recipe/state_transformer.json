@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#&#",
+    "#@#"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:monolith_stone"
+    },
+    "&": {
+      "item": "abyssalport:transmutation_gem"
+    },
+    "@": {
+      "tag": "c:chests/wooden"
+    }
+  },
+  "result": {
+    "id": "abyssalport:state_transformer"
+  }
+}

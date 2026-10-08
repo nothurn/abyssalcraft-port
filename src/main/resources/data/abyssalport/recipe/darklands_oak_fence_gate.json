@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "darklands_oak_fence_gate",
+  "pattern": [
+    "SPS",
+    "SPS"
+  ],
+  "key": {
+    "P": {
+      "item": "abyssalport:darklands_oak_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "abyssalport:darklands_oak_fence_gate",
+    "count": 1
+  }
+}

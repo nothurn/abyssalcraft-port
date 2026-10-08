@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:transmutation",
+  "ingredient": {
+    "item": "abyssalport:coralium_crystal"
+  },
+  "result": {
+    "id": "abyssalport:refined_coralium_nugget",
+    "count": 1
+  },
+  "experience": 0.1
+}

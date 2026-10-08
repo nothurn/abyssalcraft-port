@@ -1,0 +1,172 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+
+> Task :compileJava
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DreadlandsGameTests.java:52: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var level=helper.getLevel(); var player=helper.makeMockServerPlayerInLevel();
+                                                      ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DreadlandsGameTests.java:71: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var discovery=helper.makeMockServerPlayerInLevel();
+                            ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DreadlandsGameTests.java:121: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var prior=prepare(level,pos); var player=helper.makeMockServerPlayerInLevel(); var returnPos=player.position();
+                                                       ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DreadlandsGameTests.java:202: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var pos=new BlockPos(6280,160,6280); var prior=prepare(aw,pos); var player=helper.makeMockServerPlayerInLevel(); var returnPos=player.position();
+                                                                                         ^
+4 Warnungen
+
+> Task :processResources UP-TO-DATE
+> Task :classes
+> Task :downloadAssets UP-TO-DATE
+> Task :writeWorldAuditServerLegacyClasspath UP-TO-DATE
+> Task :prepareWorldAuditServerRun UP-TO-DATE
+
+> Task :runWorldAuditServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[21:17:05] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.234, --fml.neoFormVersion, 20240808.144430, --nogui, --world, gateway-audit-20261002]
+[21:17:05] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.12+8-LTS
+[21:17:05] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[21:17:05] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[21:17:05] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/NoahT/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[21:17:06] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[21:17:06] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		AbyssalCraft Port Study (Unreleased) 0.1.0-dev (abyssalport)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.234 (neoforge)
+		TerraBlender 4.1.0.8 (terrablender)
+[21:17:07] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21:17:07] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, ., --nogui, --world, gateway-audit-20261002]
+[21:17:07] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:17:07] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:17:08] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[21:17:13] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:17:13] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:17:13] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:17:13] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:17:13] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:17:14] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.234, for MC 1.21.1
+[21:17:14] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[21:17:14] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[21:17:14] [modloading-sync-worker/INFO] [terrablender/]: Registered region abyssalport:darklands_region to index 1 for type OVERWORLD
+[21:17:14] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:17:14] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/B:/Claude/Projekte/AbyssalCraftPort/modern/build/moddev/artifacts/neoforge-21.1.234.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[21:17:14] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/B:/Claude/Projekte/AbyssalCraftPort/modern/build/moddev/artifacts/neoforge-21.1.234.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[21:17:15] [main/INFO] [minecraft/RecipeManager]: Loaded 1397 recipes
+[21:17:15] [main/INFO] [minecraft/AdvancementTree]: Loaded 1408 advancements
+[21:17:15] [main/INFO] [de.ab.ri.RitualCatalog/]: Loaded 8 AbyssalPort ritual definitions
+[21:17:16] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.21.1
+[21:17:16] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[21:17:16] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[21:17:16] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[21:17:16] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on 127.0.0.1:25567
+[21:17:16] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using default channel type
+[21:17:16] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[21:17:16] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[21:17:16] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "gateway-audit-20261002"
+[21:17:18] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[21:17:18] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[21:17:18] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 531 ms
+[21:17:18] [Server thread/INFO] [minecraft/DedicatedServer]: Done (2.267s)! For help, type "help"
+[21:17:18] [Server thread/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: [abyssalport, abyssalport_worldtest]
+[21:17:18] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[21:17:18] [Server thread/INFO] [de.ab.te.WorldAuditTestRunner/]: World audit running 20 required integration tests on a normal dedicated world
+[21:17:19] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_tier_ritual:0' (1 tests)...
+[21:17:20] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 104 at (6.5, 76.0, -8.5)
+[21:17:20] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:17:20] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'gateway_player_travel:0' (1 tests)...
+[21:17:21] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 154 at (4.5, 139.0, 0.5)
+[21:17:21] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:17:21] [Server thread/INFO] [de.ab.GatewayGameTests/]: Gateway world test PASS: native player roundtrip, inventory, book PE, discoveries and respawn preserved
+[21:17:21] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'gateway_abort:0' (1 tests)...
+[21:17:21] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Diamonds!]
+[21:17:21] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[21:17:22] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 225 at (-5.5, 69.0, -2.5)
+[21:17:22] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:17:22] [Server thread/INFO] [de.ab.GatewayGameTests/]: Gateway world test PASS: incorrect layout, unsupported destination, obstruction preserve resources
+[21:17:22] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'gateway_cancelled_travel:0' (1 tests)...
+[21:17:23] [Server thread/INFO] [de.ab.GatewayGameTests/]: Gateway world test PASS: native dimension-travel hook can cancel transfer
+[21:17:23] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_tracker_world:0' (1 tests)...
+[21:17:24] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_stronghold_world:0' (1 tests)...
+[21:17:25] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[21:17:25] [Server thread/INFO] [de.ab.WastelandStrongholdGameTests/]: STRONGHOLD AUDIT: target=BlockPos{x=10950, y=31, z=17146}, native pieces=33, dry walkable cells=327, powerstone=BlockPos{x=10946, y=32, z=17146}, chest loot=true, next=BlockPos{x=13418, y=31, z=14678}
+[21:17:25] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_native_ticks:0' (1 tests)...
+[21:17:29] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_summon_space:0' (1 tests)...
+[21:17:30] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 357 at (8.5, 139.0, 7.5)
+[21:17:30] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:17:30] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_native_gateway:0' (1 tests)...
+[21:17:31] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 372 at (-6.5, 69.0, -1.5)
+[21:17:31] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:17:31] [Server thread/INFO] [de.ab.DreadlandsGameTests/]: DREADLANDS GATEWAY AUDIT: paid real infused-key ritual, returned selected key, native collision/cooldown, saved pair, exact return
+[21:17:31] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_summon:0' (1 tests)...
+[21:17:32] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 456 at (7.5, 139.0, 3.5)
+[21:17:32] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:17:32] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_world_generation:0' (1 tests)...
+[21:17:33] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[21:17:33] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[21:17:34] [Server thread/INFO] [de.ab.DreadlandsGameTests/]: DREADLANDS TERRAIN SAMPLE: Y 36..132, deposits={Block{abyssalport:dreaded_abyssalnite_ore}=1078, Block{abyssalport:dreadlands_abyssalnite_ore}=1335, Block{abyssalport:elysian_stone}=5063}
+[21:17:34] [Server thread/INFO] [de.ab.DreadlandsGameTests/]: DREADLANDS WORLD AUDIT: 16 native chunks, surface Y 36..132, deposits={Block{abyssalport:dreaded_abyssalnite_ore}=1078, Block{abyssalport:dreadlands_abyssalnite_ore}=1335, Block{abyssalport:elysian_stone}=5063}, real fragment loot
+[21:17:34] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'gateway_ritual:0' (1 tests)...
+[21:17:34] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 495 at (0.5, 139.0, 9.5)
+[21:17:34] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:17:34] [Server thread/INFO] [de.ab.GatewayGameTests/]: Gateway world test PASS: charged cardinal ritual, returned key, pillars, exact energy
+[21:17:34] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_rending:0' (1 tests)...
+[21:17:35] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 499 at (10.5, 139.0, 4.5)
+[21:17:35] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:17:35] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'gateway_native_travel:0' (1 tests)...
+[21:17:37] [Server thread/INFO] [de.ab.GatewayGameTests/]: Gateway world test PASS: native collision, entity state, cooldown, saved reciprocal anchors and exact return
+[21:17:37] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_tier_abort:0' (1 tests)...
+[21:17:37] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[21:17:38] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 509 at (8.5, 75.0, -3.5)
+[21:17:38] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:17:38] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_natural_ores:0' (1 tests)...
+[21:17:39] [Server thread/INFO] [de.ab.WastelandMineralsGameTests/]: Wasteland natural ore sample: abyssalport:abyssal_iron_ore = 265 blocks, Y 3..62, 16 chunks
+[21:17:39] [Server thread/INFO] [de.ab.WastelandMineralsGameTests/]: Wasteland natural ore sample: abyssalport:abyssal_diamond_ore = 39 blocks, Y 4..23, 16 chunks
+[21:17:39] [Server thread/INFO] [de.ab.WastelandMineralsGameTests/]: Wasteland natural ore sample: abyssalport:abyssal_nitre_ore = 291 blocks, Y 3..63, 16 chunks
+[21:17:39] [Server thread/INFO] [de.ab.WastelandMineralsGameTests/]: Wasteland natural ore sample: abyssalport:liquified_coralium_ore = 58 blocks, Y 2..34, 16 chunks
+[21:17:39] [Server thread/INFO] [de.ab.WastelandMineralsGameTests/]: Wasteland natural ore sample: abyssalport:abyssal_coralium_ore = 411 blocks, Y 2..71, 16 chunks
+[21:17:39] [Server thread/INFO] [de.ab.WastelandMineralsGameTests/]: Wasteland natural ore sample: abyssalport:abyssal_gold_ore = 56 blocks, Y 5..38, 16 chunks
+[21:17:39] [Server thread/INFO] [de.ab.WastelandMineralsGameTests/]: Wasteland natural ore sample: abyssalport:pearlescent_coralium_ore = 52 blocks, Y 4..17, 16 chunks
+[21:17:39] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_spawn_veto:0' (1 tests)...
+[21:17:40] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 515 at (-8.5, 78.0, 8.5)
+[21:17:40] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:17:40] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_infection:0' (1 tests)...
+[21:17:41] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_key_infusion:0' (1 tests)...
+[21:17:42] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 562 at (7.5, 142.0, 1.5)
+[21:17:42] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:17:42] [Server thread/INFO] [de.ab.DreadlandsGameTests/]: DREADLANDS INFUSION AUDIT: native tier-one ground, 10,000 PE, three actual offerings, saved 80/120 ticks, aborted inputs preserved
+[21:17:42] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'gateway_wide_entity:0' (1 tests)...
+[21:17:43] [Server thread/INFO] [de.ab.te.WorldAuditTestRunner/]: WORLD AUDIT COMPLETE: 20 tests, 0 failures
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[21:17:43] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[21:17:43] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[21:17:43] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[21:17:43] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[21:17:43] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[21:17:43] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[gateway-audit-20261002]'/minecraft:overworld
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[gateway-audit-20261002]'/minecraft:the_nether
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[gateway-audit-20261002]'/minecraft:the_end
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[gateway-audit-20261002]'/abyssalport:dreadlands
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[gateway-audit-20261002]'/abyssalport:abyssal_wasteland
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (gateway-audit-20261002): All chunks are saved
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (dreadlands): All chunks are saved
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (abyssal_wasteland): All chunks are saved
+[21:17:43] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+
+[Incubating] Problems report is available at: file:///B:/Claude/Projekte/AbyssalCraftPort/modern/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 42s
+7 actionable tasks: 2 executed, 5 up-to-date

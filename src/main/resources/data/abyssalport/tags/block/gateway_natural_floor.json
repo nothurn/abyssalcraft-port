@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:podzol",
+    "minecraft:deepslate",
+    "minecraft:granite",
+    "minecraft:andesite",
+    "minecraft:diorite",
+    "abyssalport:abyssal_stone",
+    "abyssalport:abyssal_sand",
+    "abyssalport:fused_abyssal_sand",
+    "abyssalport:dreadstone",
+    "abyssalport:elysian_stone"
+  ]
+}

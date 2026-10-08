@@ -1,0 +1,19 @@
+{
+  "type": "abyssalport:book_upgrade",
+  "category": "misc",
+  "pattern": [
+    "SS",
+    "SB"
+  ],
+  "key": {
+    "S": {
+      "item": "abyssalport:skin_of_the_abyssal_wasteland"
+    },
+    "B": {
+      "item": "abyssalport:necronomicon"
+    }
+  },
+  "result": {
+    "id": "abyssalport:abyssal_wasteland_necronomicon"
+  }
+}

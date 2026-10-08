@@ -1,0 +1,1 @@
+{ "parent": "minecraft:block/snow_height10", "textures": { "texture": "abyssalport:block/shoggoth_ooze", "particle": "abyssalport:block/shoggoth_ooze" } }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalport:redstone_crystal_cluster"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:redstone_crystal",
+    "count": 9
+  }
+}

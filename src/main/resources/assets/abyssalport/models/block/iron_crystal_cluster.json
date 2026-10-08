@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "abyssalport:block/iron_crystal_cluster"
+  }
+}

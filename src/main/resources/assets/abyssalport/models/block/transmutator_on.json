@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "abyssalport:block/transmutator_front_on",
+    "side": "abyssalport:block/transmutator_side",
+    "top": "abyssalport:block/transmutator_top"
+  }
+}

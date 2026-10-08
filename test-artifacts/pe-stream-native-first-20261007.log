@@ -1,0 +1,346 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+
+> Task :compileJava
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\EnergyPedestalGameTests.java:189: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+            var pos=fixture.node; var player=helper.makeMockServerPlayerInLevel(); player.setGameMode(GameType.SURVIVAL); player.moveTo(pos.getCenter().add(0,1,0));
+                                                   ^
+Hinweis: B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PEStreamGameTests.java verwendet oder überschreibt eine veraltete API.
+Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+1 Warnung
+
+> Task :processResources
+> Task :classes
+> Task :jarJar NO-SOURCE
+> Task :jar
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+> Task :test
+> Task :assemble
+> Task :check
+> Task :build
+> Task :downloadAssets UP-TO-DATE
+> Task :writeGameTestServerLegacyClasspath UP-TO-DATE
+> Task :prepareGameTestServerRun UP-TO-DATE
+
+> Task :runGameTestServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[21:01:22] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.234, --fml.neoFormVersion, 20240808.144430]
+[21:01:22] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.12+8-LTS
+[21:01:22] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[21:01:22] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[21:01:22] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/NoahT/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[21:01:23] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[21:01:23] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		AbyssalCraft Port Study (Unreleased) 0.1.0-dev (abyssalport)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.234 (neoforge)
+		TerraBlender 4.1.0.8 (terrablender)
+[21:01:25] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21:01:25] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[21:01:26] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:01:26] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:01:29] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[21:01:43] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:01:43] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:01:43] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:01:43] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:01:43] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:01:43] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.234, for MC 1.21.1
+[21:01:45] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[21:01:45] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[21:01:45] [modloading-sync-worker/INFO] [terrablender/]: Registered region abyssalport:darklands_region to index 1 for type OVERWORLD
+[21:01:45] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:01:45] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/B:/Claude/Projekte/AbyssalCraftPort/modern/build/moddev/artifacts/neoforge-21.1.234.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[21:01:45] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/B:/Claude/Projekte/AbyssalCraftPort/modern/build/moddev/artifacts/neoforge-21.1.234.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[21:01:45] [main/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: [abyssalport]
+[21:01:49] [main/INFO] [minecraft/RecipeManager]: Loaded 1654 recipes
+[21:01:49] [main/INFO] [minecraft/AdvancementTree]: Loaded 1431 advancements
+[21:01:49] [main/INFO] [de.ab.ri.RitualCatalog/]: Loaded 17 AbyssalPort ritual definitions
+[21:01:51] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[21:01:51] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[21:01:51] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[21:01:52] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 378 ms
+[21:01:52] [Server thread/INFO] [minecraft/GameTestServer]: Started game test server
+[21:01:52] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[21:01:52] [Server thread/INFO] [minecraft/GameTestServer]: 229 tests are now running at position 13429946, -59, -983732!
+[21:01:53] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_stone:0' (1 tests)...
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                                                                                                                                                     ]
+[21:01:53] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'pe_canonical_reservoir_chain:0' (1 tests)...
+[21:01:54] [Server thread/INFO] [minecraft/GameTestServer]: [+                                                                                                                                                                                                                                    ]
+[21:01:54] [Server thread/INFO] [minecraft/GameTestServer]: [+                                                                                                                                                                                                                                    ]
+[21:01:54] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 85 at (1.5, -60.0, -8.5)
+[21:01:54] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:01:54] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'ghoul_templates:0' (1 tests)...
+[21:01:54] [Server thread/INFO] [minecraft/GameTestServer]: [++                                                                                                                                                                                                                                   ]
+[21:01:54] [Server thread/INFO] [minecraft/GameTestServer]: [++                                                                                                                                                                                                                                   ]
+[21:01:54] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystallizer_menu_hoppers:0' (1 tests)...
+[21:01:54] [Server thread/INFO] [minecraft/GameTestServer]: [+++                                                                                                                                                                                                                                  ]
+[21:01:54] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 86 at (9.5, -60.0, 7.5)
+[21:01:54] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:01:54] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'pe_stream_statue_and_codec:0' (1 tests)...
+[21:01:54] [Server thread/INFO] [minecraft/GameTestServer]: [++++                                                                                                                                                                                                                                 ]
+[21:01:55] [Server thread/INFO] [minecraft/GameTestServer]: [++++                                                                                                                                                                                                                                 ]
+[21:01:55] [Server thread/INFO] [minecraft/PlayerList]: pe-stream-observer[embedded] logged in with entity id 87 at (2.5, -60.0, 2.5)
+[21:01:55] [Server thread/INFO] [minecraft/MinecraftServer]: pe-stream-observer joined the game
+[21:01:55] [Server thread/ERROR] [minecraft/LogTestReporter]: realstatueacceptedcollectoranddroppedbookstreamsroundtripwithoutloadingunknownchunks failed at 13429970, -60, -983732! Payload abyssalport:pe_stream may not be sent to the client!
+[21:01:55] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_ecology_attributes:0' (1 tests)...
+[21:01:55] [Server thread/INFO] [minecraft/GameTestServer]: [++++X                                                                                                                                                                                                                                ]
+[21:01:55] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_lair_templates:0' (1 tests)...
+[21:01:55] [Server thread/INFO] [minecraft/GameTestServer]: [++++X+                                                                                                                                                                                                                               ]
+[21:01:55] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_features:0' (1 tests)...
+[21:01:55] [Server thread/INFO] [minecraft/GameTestServer]: [++++X++                                                                                                                                                                                                                              ]
+[21:01:55] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[21:01:55] [Server thread/INFO] [minecraft/GameTestServer]: [++++X++                                                                                                                                                                                                                              ]
+[21:01:55] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_acid_damage:0' (1 tests)...
+[21:01:55] [Server thread/INFO] [minecraft/GameTestServer]: [++++X+++                                                                                                                                                                                                                             ]
+[21:01:55] [Server thread/INFO] [minecraft/GameTestServer]: [++++X+++                                                                                                                                                                                                                             ]
+[21:01:55] [Server thread/INFO] [minecraft/GameTestServer]: [++++X+++                                                                                                                                                                                                                             ]
+[21:01:55] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_ecology_limits:0' (1 tests)...
+[21:01:55] [Server thread/INFO] [minecraft/GameTestServer]: [++++X++++                                                                                                                                                                                                                            ]
+[21:01:55] [Server thread/INFO] [minecraft/GameTestServer]: [++++X++++                                                                                                                                                                                                                            ]
+[21:01:55] [Server thread/INFO] [minecraft/GameTestServer]: [++++X++++_                                                                                                                                                                                                                           ]
+[21:01:56] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_ritual_gates:0' (1 tests)...
+[21:01:56] [Server thread/INFO] [minecraft/GameTestServer]: [++++X+++++                                                                                                                                                                                                                           ]
+[21:01:56] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 139 at (-5.5, -60.0, 3.5)
+[21:01:56] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:01:56] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadguard_native_spray:0' (1 tests)...
+[21:01:56] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[21:01:56] [Server thread/INFO] [minecraft/GameTestServer]: [++++X++++++                                                                                                                                                                                                                          ]
+[21:01:56] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'pe_tier_survival_ring_chain:0' (1 tests)...
+[21:01:56] [Server thread/INFO] [minecraft/GameTestServer]: [++++X+++++++                                                                                                                                                                                                                         ]
+[21:01:56] [Server thread/INFO] [minecraft/GameTestServer]: [++++X+++++++                                                                                                                                                                                                                         ]
+[21:01:56] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 144 at (0.5, -60.0, -7.5)
+[21:01:56] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[21:01:56] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'relay_live:0' (1 tests)...
+[21:01:56] [Server thread/INFO] [minecraft/GameTestServer]: [++++X++++++++                                                                                                                                                                                                                        ]
+[21:01:56] [Server thread/INFO] [minecraft/GameTestServer]: [++++X++++++++_                                                                                                                                                                                                                       ]
+[21:01:56] [Server thread/INFO] [minecraft/GameTestServer]: [++++X++++++++_                                                                                                                                                                                                                       ]
+[21:01:56] [Server thread/ERROR] [minecraft/MinecraftServer]: Encountered an unexpected exception
+net.minecraft.ReportedException: Ticking block entity
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1056) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:932) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestServer.tickServer(GameTestServer.java:171) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+Caused by: java.lang.UnsupportedOperationException: Payload abyssalport:pe_stream may not be sent to the client!
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.network.registration.NetworkRegistry.checkPacket(NetworkRegistry.java:446) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerCommonPacketListenerImpl.send(ServerCommonPacketListenerImpl.java:178) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerCommonPacketListenerImpl.send(ServerCommonPacketListenerImpl.java:173) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.players.PlayerList.broadcast(PlayerList.java:679) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.network.PacketDistributor.sendToPlayersNear(PacketDistributor.java:75) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.energy.PEStreams.show(PEStreams.java:24) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.block.entity.EnergyRelayBlockEntity.pushToContainer(EnergyRelayBlockEntity.java:64) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.block.entity.EnergyRelayBlockEntity.serverTick(EnergyRelayBlockEntity.java:42) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.tick(LevelChunk.java:711) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.tick(LevelChunk.java:788) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.Level.tickBlockEntities(Level.java:599) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:431) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1052) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	... 5 more
+[21:01:56] [Server thread/FATAL] [ne.ne.ne.co.NeoForgeMod/]: Preparing crash report with UUID 7fa42984-07a9-4d31-a7bb-b3601257c79f
+[21:01:56] [Server thread/ERROR] [minecraft/MinecraftServer]: This crash report has been saved to: B:\Claude\Projekte\AbyssalCraftPort\modern\runs\game-test\crash-reports\crash-2026-10-07_21.01.56-server.txt
+[21:01:56] [Server thread/FATAL] [ne.ne.ne.co.NeoForgeMod/]: Preparing crash report with UUID b2b7b2da-2758-457f-a6ce-f84627aba84f
+[21:01:56] [Server thread/ERROR] [minecraft/GameTestServer]: Game test server crashed
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 2026-10-07 21:01:56
+Description: Ticking block entity
+
+java.lang.UnsupportedOperationException: Payload abyssalport:pe_stream may not be sent to the client!
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.network.registration.NetworkRegistry.checkPacket(NetworkRegistry.java:446) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerCommonPacketListenerImpl.send(ServerCommonPacketListenerImpl.java:178) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerCommonPacketListenerImpl.send(ServerCommonPacketListenerImpl.java:173) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.players.PlayerList.broadcast(PlayerList.java:679) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.network.PacketDistributor.sendToPlayersNear(PacketDistributor.java:75) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.energy.PEStreams.show(PEStreams.java:24) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.block.entity.EnergyRelayBlockEntity.pushToContainer(EnergyRelayBlockEntity.java:64) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.block.entity.EnergyRelayBlockEntity.serverTick(EnergyRelayBlockEntity.java:42) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.tick(LevelChunk.java:711) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.tick(LevelChunk.java:788) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.Level.tickBlockEntities(Level.java:599) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:431) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1052) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:932) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestServer.tickServer(GameTestServer.java:171) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.network.registration.NetworkRegistry.checkPacket(NetworkRegistry.java:446) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerCommonPacketListenerImpl.send(ServerCommonPacketListenerImpl.java:178) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerCommonPacketListenerImpl.send(ServerCommonPacketListenerImpl.java:173) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.players.PlayerList.broadcast(PlayerList.java:679) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.network.PacketDistributor.sendToPlayersNear(PacketDistributor.java:75) ~[neoforge-21.1.234.jar%23126!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.energy.PEStreams.show(PEStreams.java:24) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.block.entity.EnergyRelayBlockEntity.pushToContainer(EnergyRelayBlockEntity.java:64) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.block.entity.EnergyRelayBlockEntity.serverTick(EnergyRelayBlockEntity.java:42) ~[%23127!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.tick(LevelChunk.java:711) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.tick(LevelChunk.java:788) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.Level.tickBlockEntities(Level.java:599) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+-- Block entity being ticked --
+Details:
+	Name: abyssalport:energy_relay // dev.abyssalport.block.entity.EnergyRelayBlockEntity
+	Block: Block{abyssalport:energy_relay}[facing=east]
+	Block location: World: (13429980,-59,-983721), Section: (at 12,5,7 in 839373,-4,-61483; chunk contains blocks 13429968,-64,-983728 to 13429983,319,-983713), Region: (26230,-1922; contains chunks 839360,-61504 to 839391,-61473, blocks 13429760,-64,-984064 to 13430271,319,-983553)
+	Block: Block{abyssalport:energy_relay}[facing=east]
+	Block location: World: (13429980,-59,-983721), Section: (at 12,5,7 in 839373,-4,-61483; chunk contains blocks 13429968,-64,-983728 to 13429983,319,-983713), Region: (26230,-1922; contains chunks 839360,-61504 to 839391,-61473, blocks 13429760,-64,-984064 to 13430271,319,-983553)
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.tick(LevelChunk.java:711) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.tick(LevelChunk.java:788) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.Level.tickBlockEntities(Level.java:599) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:431) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1052) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:932) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestServer.tickServer(GameTestServer.java:171) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 4 total; [['test-mock-player'/85, l='ServerLevel[Test Level]', x=13429955.50, y=-44.50, z=-983728.50], ['test-mock-player'/86, l='ServerLevel[Test Level]', x=13429986.50, y=-58.50, z=-983729.50], ['test-mock-player'/139, l='ServerLevel[Test Level]', x=13429962.50, y=-58.00, z=-983720.50], ['test-mock-player'/144, l='ServerLevel[Test Level]', x=13429973.50, y=-44.50, z=-983721.50]]
+	Chunk stats: 1752
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,60,0), Section: (at 0,12,0 in 0,3,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 823 game time, 823 day time
+	Level name: Test Level
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Commands: true
+	Level weather: Rain time: 20000000 (now: false), thunder time: 20000000 (now: false)
+	Known server brands: neoforge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Loaded entity count: 26
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.fillReportDetails(ServerLevel.java:1745) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1055) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:932) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestServer.tickServer(GameTestServer.java:171) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.12, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 76724552 bytes (73 MiB) / 436207616 bytes (416 MiB) up to 8568963072 bytes (8172 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 3600 6-Core Processor              
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce RTX 4060 Ti
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 16380.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.16.1664
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.00
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.00
+	Memory slot #1 type: DDR4
+	Memory slot #2 capacity (MiB): 8192.00
+	Memory slot #2 clockSpeed (GHz): 3.00
+	Memory slot #2 type: DDR4
+	Memory slot #3 capacity (MiB): 8192.00
+	Memory slot #3 clockSpeed (GHz): 3.00
+	Memory slot #3 type: DDR4
+	Virtual memory max (MiB): 41388.58
+	Virtual memory used (MiB): 31780.06
+	Swap memory total (MiB): 8704.00
+	Swap memory used (MiB): 312.69
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 73449.70, total: 243119.00
+	Space in storage for workdir (MiB): available: 24058.41, total: 114472.00
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 4 / 1; [['test-mock-player'/85, l='ServerLevel[Test Level]', x=13429955.50, y=-44.50, z=-983728.50], ['test-mock-player'/86, l='ServerLevel[Test Level]', x=13429986.50, y=-58.50, z=-983729.50], ['test-mock-player'/139, l='ServerLevel[Test Level]', x=13429962.50, y=-58.00, z=-983720.50], ['test-mock-player'/144, l='ServerLevel[Test Level]', x=13429973.50, y=-44.50, z=-983721.50]]
+	Active Data Packs: bundle, trade_rebalance, vanilla, mod_data, mod/terrablender (incompatible), mod/abyssalport (incompatible), mod/neoforge
+	Available Data Packs: bundle, trade_rebalance, vanilla, mod/abyssalport (incompatible), mod/neoforge, mod/terrablender (incompatible), mod_data
+	Enabled Feature Flags: minecraft:bundle, minecraft:vanilla, minecraft:trade_rebalance
+	World Generation: Stable
+	World Seed: 0
+	Type: Game test server
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeserverdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		main                                              |AbyssalCraft Port Study (Unrel|abyssalport                   |0.1.0-dev           |Manifest: NOSIGNATURE
+		neoforge-21.1.234.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.234.jar                             |NeoForge                      |neoforge                      |21.1.234            |Manifest: NOSIGNATURE
+		TerraBlender-neoforge-1.21.1-4.1.0.8.jar          |TerraBlender                  |terrablender                  |4.1.0.8             |Manifest: NOSIGNATURE
+	Crash Report UUID: b2b7b2da-2758-457f-a6ce-f84627aba84f
+	FML: 4.0.42
+	NeoForge: 21.1.234
+
+> Task :runGameTestServer FAILED
+
+[Incubating] Problems report is available at: file:///B:/Claude/Projekte/AbyssalCraftPort/modern/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':runGameTestServer'.
+> Process 'command 'B:\Claude\Projekte\_RECOVERY\tools\jdk-21.0.12+8\bin\java.exe'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 13s
+10 actionable tasks: 6 executed, 4 up-to-date

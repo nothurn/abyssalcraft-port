@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "abyssalport:block/darklands_oak_log",
+    "end": "abyssalport:block/darklands_oak_log_top"
+  }
+}

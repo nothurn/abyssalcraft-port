@@ -1,0 +1,32 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/stone_small",
+        "processors": "abyssalport:graveyard",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/stone_medium",
+        "processors": "abyssalport:graveyard",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/stone_large",
+        "processors": "abyssalport:graveyard",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

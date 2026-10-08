@@ -1,0 +1,15 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "minecraft:lapis_block"
+  },
+  "result": {
+    "id": "abyssalport:silica_crystal_cluster",
+    "count": 6
+  },
+  "experience": 1.0,
+  "secondary": {
+    "id": "abyssalport:sulfur_crystal_cluster",
+    "count": 4
+  }
+}

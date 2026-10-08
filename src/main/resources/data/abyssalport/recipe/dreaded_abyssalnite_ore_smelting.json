@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "abyssalport:dreaded_abyssalnite_ore"
+  },
+  "result": {
+    "id": "abyssalport:abyssalnite_ingot"
+  },
+  "experience": 3.0,
+  "cookingtime": 200
+}

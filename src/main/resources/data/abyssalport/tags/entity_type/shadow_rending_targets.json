@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:shadow_creature",
+    "abyssalport:shadow_ghoul",
+    "abyssalport:shadow_monster",
+    "abyssalport:shadow_beast"
+  ]
+}

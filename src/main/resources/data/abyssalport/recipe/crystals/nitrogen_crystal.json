@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:nitrogen_crystal_shard"
+    }
+  },
+  "result": {
+    "id": "abyssalport:nitrogen_crystal"
+  }
+}

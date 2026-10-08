@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:darklands_oak_log",
+    "abyssalport:darklands_oak_hollow_log",
+    "abyssalport:darklands_oak_planks",
+    "abyssalport:darklands_oak_stairs",
+    "abyssalport:darklands_oak_slab",
+    "abyssalport:darklands_oak_fence",
+    "abyssalport:darklands_oak_fence_gate",
+    "abyssalport:darklands_oak_door",
+    "abyssalport:darklands_oak_button",
+    "abyssalport:darklands_oak_pressure_plate"
+  ]
+}

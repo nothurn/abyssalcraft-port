@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "abyssalport:coralium_infused_stone"
+  },
+  "result": {
+    "id": "abyssalport:coralium_pearl"
+  },
+  "experience": 3.0,
+  "cookingtime": 100
+}

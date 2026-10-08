@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "abyssalport:block/abyssal_stone_tombstone"
+    },
+    "facing=east": {
+      "model": "abyssalport:block/abyssal_stone_tombstone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "abyssalport:block/abyssal_stone_tombstone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "abyssalport:block/abyssal_stone_tombstone",
+      "y": 270
+    }
+  }
+}

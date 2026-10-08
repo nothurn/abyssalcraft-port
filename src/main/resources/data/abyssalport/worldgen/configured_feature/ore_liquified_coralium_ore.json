@@ -1,0 +1,14 @@
+{
+  "type": "abyssalport:ranged_ore",
+  "config": {
+    "target": {
+      "predicate_type": "minecraft:tag_match",
+      "tag": "abyssalport:abyssal_ore_replaceables"
+    },
+    "state": {
+      "Name": "abyssalport:liquified_coralium_ore"
+    },
+    "min_size": 1,
+    "max_size": 4
+  }
+}

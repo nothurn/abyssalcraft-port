@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:abyssal_zombie",
+    "abyssalport:depths_ghoul",
+    "abyssalport:lesser_abyssal_shoggoth",
+    "abyssalport:abyssal_shoggoth",
+    "abyssalport:greater_abyssal_shoggoth"
+  ]
+}

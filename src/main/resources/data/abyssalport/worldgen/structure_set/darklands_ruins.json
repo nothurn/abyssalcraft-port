@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "abyssalport:darklands_ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 734092,
+    "spacing": 12,
+    "separation": 6
+  }
+}

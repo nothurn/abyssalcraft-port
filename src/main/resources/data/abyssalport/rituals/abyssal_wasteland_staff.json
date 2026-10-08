@@ -1,0 +1,23 @@
+{
+  "energy_cost": 1000,
+  "duration_ticks": 20,
+  "book_tier": 1,
+  "altar_tier": 1,
+  "dimension": "abyssalport:abyssal_wasteland",
+  "altar_input": "abyssalport:staff_of_rending",
+  "preserve_components": true,
+  "offerings": [
+    "abyssalport:shadow_gem",
+    "abyssalport:abyssal_stone",
+    "abyssalport:abyssal_stone",
+    "abyssalport:abyssal_stone",
+    "abyssalport:abyssal_stone",
+    "abyssalport:coralium_plagued_flesh",
+    "abyssalport:coralium_plagued_flesh",
+    "abyssalport:coralium_plagued_flesh"
+  ],
+  "result": {
+    "item": "abyssalport:abyssal_wasteland_staff_of_rending",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": [
+    {
+      "item": "abyssalport:abyssalnite_ore"
+    },
+    {
+      "item": "abyssalport:dreadlands_abyssalnite_ore"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:abyssalnite_crystal",
+    "count": 2
+  },
+  "experience": 0.1
+}

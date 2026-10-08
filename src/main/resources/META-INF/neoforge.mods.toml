@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="LGPL-3.0-only"
+
+[[mods]]
+modId="abyssalport"
+version="0.1.0-dev"
+displayName="AbyssalCraft Port Study (Unreleased)"
+authors="Original AbyssalCraft: Shinoow; port study: Noah and contributors"
+description='''Experimental, incomplete NeoForge 1.21.1 study of AbyssalCraft systems. Not an official release or a playable replacement for the original mod.'''
+
+[[dependencies.abyssalport]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.abyssalport]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.abyssalport]]
+modId="terrablender"
+type="required"
+versionRange="[4.1.0.8,5)"
+ordering="AFTER"
+side="BOTH"

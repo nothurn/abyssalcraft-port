@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "abyssalport:monolith_stone"
+    }
+  },
+  "result": {
+    "id": "abyssalport:monolith_pillar",
+    "count": 1
+  }
+}

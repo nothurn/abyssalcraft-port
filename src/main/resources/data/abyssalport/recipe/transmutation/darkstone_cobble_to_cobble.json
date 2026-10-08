@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:transmutation",
+  "ingredient": {
+    "item": "abyssalport:darkstone_cobblestone"
+  },
+  "result": {
+    "id": "minecraft:cobblestone",
+    "count": 1
+  },
+  "experience": 0.0
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "abyssalport:block/elysian_stone_tombstone"
+    },
+    "facing=east": {
+      "model": "abyssalport:block/elysian_stone_tombstone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "abyssalport:block/elysian_stone_tombstone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "abyssalport:block/elysian_stone_tombstone",
+      "y": 270
+    }
+  }
+}

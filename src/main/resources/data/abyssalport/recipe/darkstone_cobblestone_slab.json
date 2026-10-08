@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:darkstone_cobblestone"
+    }
+  },
+  "result": {
+    "id": "abyssalport:darkstone_cobblestone_slab",
+    "count": 6
+  }
+}

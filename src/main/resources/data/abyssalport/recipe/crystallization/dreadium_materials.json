@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "abyssalport:dreadium_ingot"
+  },
+  "result": {
+    "id": "abyssalport:dreadium_crystal",
+    "count": 1
+  },
+  "experience": 0.1
+}

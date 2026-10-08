@@ -1,0 +1,13 @@
+{
+  "type": "abyssalport:animal_ecology_spawns",
+  "biomes": [
+    "minecraft:forest",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:flower_forest",
+    "minecraft:birch_forest"
+  ],
+  "group": "offspring",
+  "dense": false
+}

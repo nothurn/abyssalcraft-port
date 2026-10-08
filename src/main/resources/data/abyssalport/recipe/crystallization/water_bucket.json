@@ -1,0 +1,15 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "minecraft:water_bucket"
+  },
+  "result": {
+    "id": "abyssalport:hydrogen_crystal",
+    "count": 12
+  },
+  "experience": 0.1,
+  "secondary": {
+    "id": "abyssalport:oxygen_crystal_shard",
+    "count": 6
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "abyssalport:animal_ecology_spawns",
+  "biomes": "#minecraft:is_nether",
+  "group": "demon",
+  "dense": false
+}

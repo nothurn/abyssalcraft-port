@@ -1,0 +1,21 @@
+{
+  "energy_cost": 400,
+  "duration_ticks": 20,
+  "book_tier": 2,
+  "altar_tier": 0,
+  "altar_input": "abyssalport:embossed_ring",
+  "offerings": [
+    "abyssalport:shadow_shard",
+    "abyssalport:dreadstone_cobblestone",
+    "abyssalport:coralium_gem",
+    "abyssalport:elysian_cobblestone",
+    "abyssalport:shadow_shard",
+    "abyssalport:dreadstone_cobblestone",
+    "abyssalport:coralium_gem",
+    "abyssalport:elysian_cobblestone"
+  ],
+  "result": {
+    "item": "abyssalport:dreadlands_embossed_ring",
+    "count": 1
+  }
+}

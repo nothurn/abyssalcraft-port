@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "abyssalport:item/refined_coralium_axe"
+  }
+}

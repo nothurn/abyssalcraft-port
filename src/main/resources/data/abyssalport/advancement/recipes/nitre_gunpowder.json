@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "has_nitre": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalport:nitre"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "abyssalport:gunpowder_from_nitre"
+    ]
+  }
+}

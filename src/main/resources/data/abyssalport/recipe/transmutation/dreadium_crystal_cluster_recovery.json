@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:transmutation",
+  "ingredient": {
+    "item": "abyssalport:dreadium_crystal_cluster"
+  },
+  "result": {
+    "id": "abyssalport:dreadium_ingot",
+    "count": 1
+  },
+  "experience": 0.2
+}

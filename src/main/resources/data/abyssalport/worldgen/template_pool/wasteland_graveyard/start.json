@@ -1,0 +1,59 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/abyssal_small",
+        "processors": "abyssalport:wasteland_graveyard",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/abyssal_medium",
+        "processors": "abyssalport:wasteland_graveyard",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/abyssal_large",
+        "processors": "abyssalport:wasteland_graveyard",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/coralium_small",
+        "processors": "abyssalport:wasteland_graveyard",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/coralium_medium",
+        "processors": "abyssalport:wasteland_graveyard",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/coralium_large",
+        "processors": "abyssalport:wasteland_graveyard",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

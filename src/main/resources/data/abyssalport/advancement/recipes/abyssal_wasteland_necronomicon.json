@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalport:skin_of_the_abyssal_wasteland"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "abyssalport:abyssal_wasteland_necronomicon"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "energy_cost": 400,
+  "duration_ticks": 20,
+  "book_tier": 1,
+  "altar_tier": 0,
+  "altar_input": "abyssalport:embossed_ring",
+  "offerings": [
+    "abyssalport:shadow_shard",
+    "abyssalport:abyssal_cobblestone",
+    "abyssalport:coralium_gem",
+    "abyssalport:coralium_cobblestone",
+    "abyssalport:shadow_shard",
+    "abyssalport:abyssal_cobblestone",
+    "abyssalport:coralium_gem",
+    "abyssalport:coralium_cobblestone"
+  ],
+  "result": {
+    "item": "abyssalport:abyssal_wasteland_embossed_ring",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": [
+    {
+      "item": "abyssalport:refined_coralium_ingot"
+    },
+    {
+      "item": "abyssalport:coralium_chunk"
+    },
+    {
+      "item": "abyssalport:liquified_coralium_ore"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:coralium_crystal",
+    "count": 1
+  },
+  "experience": 0.1
+}

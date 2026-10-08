@@ -1,0 +1,1624 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+
+> Task :compileJava
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsStructuresGameTests.java:62: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var level=helper.getLevel(); var player=helper.makeMockServerPlayerInLevel(); player.setGameMode(GameType.SURVIVAL);
+                                                      ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsStructuresGameTests.java:106: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player=helper.makeMockServerPlayerInLevel(); var book=new ItemStack(AbyssalPort.NECRONOMICON.get()); var altar=base.above();
+                         ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsStructuresGameTests.java:126: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player=helper.makeMockServerPlayerInLevel(); var book=new ItemStack(AbyssalPort.NECRONOMICON.get());
+                         ^
+Hinweis: B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsStructuresGameTests.java verwendet oder überschreibt eine veraltete API.
+Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+3 Warnungen
+
+> Task :processResources
+> Task :classes
+> Task :jarJar NO-SOURCE
+> Task :jar
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+> Task :test
+> Task :assemble
+> Task :check
+> Task :build
+> Task :downloadAssets UP-TO-DATE
+> Task :writeGameTestServerLegacyClasspath UP-TO-DATE
+> Task :prepareGameTestServerRun UP-TO-DATE
+
+> Task :runGameTestServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[07:37:50] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.234, --fml.neoFormVersion, 20240808.144430]
+[07:37:50] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.12+8-LTS
+[07:37:50] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[07:37:50] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[07:37:50] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/NoahT/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[07:37:51] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[07:37:51] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		AbyssalCraft Port Study (Unreleased) 0.1.0-dev (abyssalport)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.234 (neoforge)
+		TerraBlender 4.1.0.8 (terrablender)
+[07:37:52] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07:37:52] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[07:37:52] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:37:52] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:37:54] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[07:38:00] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:38:00] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:38:00] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07:38:00] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07:38:00] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:38:00] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.234, for MC 1.21.1
+[07:38:01] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[07:38:01] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[07:38:01] [modloading-sync-worker/INFO] [terrablender/]: Registered region abyssalport:darklands_region to index 1 for type OVERWORLD
+[07:38:01] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:38:01] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/B:/Claude/Projekte/AbyssalCraftPort/modern/build/moddev/artifacts/neoforge-21.1.234.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[07:38:01] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/B:/Claude/Projekte/AbyssalCraftPort/modern/build/moddev/artifacts/neoforge-21.1.234.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[07:38:01] [main/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: [abyssalport]
+[07:38:03] [main/INFO] [minecraft/RecipeManager]: Loaded 1644 recipes
+[07:38:03] [main/INFO] [minecraft/AdvancementTree]: Loaded 1429 advancements
+[07:38:03] [main/INFO] [de.ab.ri.RitualCatalog/]: Loaded 10 AbyssalPort ritual definitions
+[07:38:04] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[07:38:04] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[07:38:04] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[07:38:04] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 179 ms
+[07:38:04] [Server thread/INFO] [minecraft/GameTestServer]: Started game test server
+[07:38:04] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[07:38:04] [Server thread/INFO] [minecraft/GameTestServer]: 111 tests are now running at position -3641224, -59, -8106514!
+[07:38:05] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_stone:0' (1 tests)...
+[07:38:05] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                               ]
+[07:38:05] [Server thread/INFO] [minecraft/GameTestServer]: [                                                                                                               ]
+[07:38:05] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'abyssalnite_ore:0' (1 tests)...
+[07:38:05] [Server thread/INFO] [minecraft/GameTestServer]: [+                                                                                                              ]
+[07:38:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_oak_native_growth:0' (1 tests)...
+[07:38:06] [Server thread/INFO] [minecraft/GameTestServer]: [++                                                                                                             ]
+[07:38:06] [Server thread/INFO] [minecraft/GameTestServer]: [++                                                                                                             ]
+[07:38:06] [Server thread/INFO] [minecraft/GameTestServer]: [++                                                                                                             ]
+[07:38:06] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 1 at (2.5, -60.0, -3.5)
+[07:38:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystallizer_menu_hoppers:0' (1 tests)...
+[07:38:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++                                                                                                            ]
+[07:38:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++                                                                                                            ]
+[07:38:06] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 2 at (-4.5, -60.0, -5.5)
+[07:38:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'research_devices:0' (1 tests)...
+[07:38:06] [Server thread/INFO] [minecraft/GameTestServer]: [++++                                                                                                           ]
+[07:38:06] [Server thread/INFO] [minecraft/GameTestServer]: [++++                                                                                                           ]
+[07:38:06] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 3 at (-6.5, -60.0, 3.5)
+[07:38:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:06] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 4 at (-7.5, -60.0, 0.5)
+[07:38:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_ecology_attributes:0' (1 tests)...
+[07:38:06] [Server thread/INFO] [minecraft/GameTestServer]: [+++++                                                                                                          ]
+[07:38:06] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_ruin_native_ritual:0' (1 tests)...
+[07:38:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:06] [Server thread/INFO] [minecraft/GameTestServer]: [++++++                                                                                                         ]
+[07:38:06] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 11 at (-4.5, -60.0, -7.5)
+[07:38:06] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_features:0' (1 tests)...
+[07:38:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++                                                                                                        ]
+[07:38:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++                                                                                                        ]
+[07:38:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_ecology_death:0' (1 tests)...
+[07:38:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++                                                                                                       ]
+[07:38:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++                                                                                                       ]
+[07:38:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++_                                                                                                      ]
+[07:38:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_ritual_gates:0' (1 tests)...
+[07:38:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++                                                                                                      ]
+[07:38:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 78 at (6.5, -60.0, -7.5)
+[07:38:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_ruin_formations:0' (1 tests)...
+[07:38:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++                                                                                                     ]
+[07:38:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 79 at (-5.5, -60.0, -6.5)
+[07:38:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_ecology_limits:0' (1 tests)...
+[07:38:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++                                                                                                    ]
+[07:38:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++_                                                                                                   ]
+[07:38:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadguard_native_spray:0' (1 tests)...
+[07:38:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++                                                                                                   ]
+[07:38:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++                                                                                                   ]
+[07:38:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'sacrifice_reload:0' (1 tests)...
+[07:38:07] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++                                                                                                  ]
+[07:38:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 121 at (-6.5, -60.0, 9.5)
+[07:38:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:07] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 123 at (-6.5, -60.0, 5.5)
+[07:38:07] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:07] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_oak_native_parts:0' (1 tests)...
+[07:38:07] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++                                                                                                 ]
+[07:38:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 125 at (3.5, -60.0, 1.5)
+[07:38:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'relay_live:0' (1 tests)...
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++                                                                                                ]
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++_                                                                                               ]
+[07:38:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++_                                                                                               ]
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++_                                                                                               ]
+[07:38:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystallizer_dual_atomicity:0' (1 tests)...
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++                                                                                               ]
+[07:38:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystal_carbon_to_diamond:0' (1 tests)...
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++                                                                                              ]
+[07:38:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystallizer_single_xp:0' (1 tests)...
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++                                                                                             ]
+[07:38:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 130 at (-3.5, -60.0, 2.5)
+[07:38:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'container_live:0' (1 tests)...
+[07:38:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Diamonds!]
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++                                                                                            ]
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++_                                                                                           ]
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++_                                                                                           ]
+[07:38:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadium_native_tools:0' (1 tests)...
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++                                                                                           ]
+[07:38:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 134 at (-1.5, -60.0, 1.5)
+[07:38:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_key_tiers:0' (1 tests)...
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++                                                                                          ]
+[07:38:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 135 at (1.5, -60.0, -8.5)
+[07:38:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 136 at (-5.5, -60.0, -9.5)
+[07:38:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadium_armor_crafting:0' (1 tests)...
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++                                                                                         ]
+[07:38:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 137 at (10.5, -60.0, -6.5)
+[07:38:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'stronghold_templates:0' (1 tests)...
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++                                                                                        ]
+[07:38:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'transmutator_atomic_rejections:0' (1 tests)...
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++                                                                                       ]
+[07:38:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystallizer_native_recipes:0' (1 tests)...
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++                                                                                      ]
+[07:38:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 140 at (5.5, -60.0, -7.5)
+[07:38:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 141 at (-5.5, -60.0, -0.5)
+[07:38:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadguard_melee:0' (1 tests)...
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++                                                                                     ]
+[07:38:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'sacrifice_complete:0' (1 tests)...
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++                                                                                    ]
+[07:38:08] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 144 at (-8.5, -60.0, -8.5)
+[07:38:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:08] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'coralium_catalyst:0' (1 tests)...
+[07:38:08] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:08] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++                                                                                   ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shoggoth_ai:0' (1 tests)...
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++                                                                                  ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:09] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++_                                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_ecology_slug:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++                                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++                                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++_                                                                                ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'transmutator_xp_break_reload:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++                                                                                ]
+[07:38:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 159 at (8.5, -60.0, -3.5)
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'transmutator_native_recipes:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Diamonds!]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++                                                                               ]
+[07:38:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 165 at (-1.5, -60.0, 9.5)
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 166 at (8.5, -60.0, 0.5)
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'transmutator_menu_automation:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++                                                                              ]
+[07:38:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 167 at (9.5, -60.0, 1.5)
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_book_ritual:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++                                                                             ]
+[07:38:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 168 at (-8.5, -60.0, -2.5)
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_book_devices:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++                                                                            ]
+[07:38:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 170 at (3.5, -60.0, -1.5)
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_fluid:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++                                                                           ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'equipment_native_enchantments:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++                                                                          ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_tier_gates:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++                                                                         ]
+[07:38:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 173 at (6.5, -60.0, 0.5)
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_upgrade_materials:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++                                                                        ]
+[07:38:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 174 at (-8.5, -60.0, -3.5)
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 175 at (-6.5, -60.0, -3.5)
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'gateway_invalid_anchor:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++                                                                       ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++                                                                       ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'gateway_recipe:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++                                                                      ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++                                                                      ]
+[07:38:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 180 at (-5.5, -60.0, 4.5)
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystallizer_save_containers:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++                                                                     ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_rending_rejection:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++                                                                    ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darkstone_shapes:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++                                                                   ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_ecology_native_ranged:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++                                                                  ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++_                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'transmutator_saved_processing:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++                                                                 ]
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'sacrifice_cancelled_death:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++                                                                ]
+[07:38:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 192 at (-3.5, -60.0, -5.5)
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_oak_native_crafting:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++                                                               ]
+[07:38:10] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 196 at (2.5, -60.0, -1.5)
+[07:38:10] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:10] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dread_ecology_merge:0' (1 tests)...
+[07:38:10] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++                                                              ]
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++_                                                             ]
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'coralium_crafting:0' (1 tests)...
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++                                                             ]
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystal_bag_source_chain:0' (1 tests)...
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++                                                            ]
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_flight:0' (1 tests)...
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++                                                           ]
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'rending_safety:0' (1 tests)...
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++                                                          ]
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++_                                                         ]
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'sacrifice_types:0' (1 tests)...
+[07:38:11] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                         ]
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_family_loaded:0' (1 tests)...
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                        ]
+[07:38:11] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 278 at (4.5, -60.0, 2.5)
+[07:38:11] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_ruin_templates:0' (1 tests)...
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                       ]
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'coralium_ore:0' (1 tests)...
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                      ]
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_ruin_materials:0' (1 tests)...
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                     ]
+[07:38:11] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 281 at (8.5, -60.0, -4.5)
+[07:38:11] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_book_recipe:0' (1 tests)...
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                    ]
+[07:38:11] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 282 at (-1.5, -60.0, 2.5)
+[07:38:11] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:11] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 283 at (1.5, -60.0, -7.5)
+[07:38:11] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'coralium_abort:0' (1 tests)...
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                   ]
+[07:38:11] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 284 at (-6.5, -60.0, -1.5)
+[07:38:11] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'coralium_infusion:0' (1 tests)...
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                  ]
+[07:38:11] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                  ]
+[07:38:11] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 285 at (7.5, -60.0, -4.5)
+[07:38:11] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_conversion:0' (1 tests)...
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                 ]
+[07:38:11] [Server thread/INFO] [minecraft/Villager]: Villager Villager['Villager'/288, l='ServerLevel[Test Level]', x=-3641182.50, y=-59.00, z=-8106462.50] died, message: 'Villager was slain by Abyssal Zombie'
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shadow_materials:0' (1 tests)...
+[07:38:11] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                ]
+[07:38:11] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 292 at (-4.5, -60.0, 5.5)
+[07:38:11] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:11] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 293 at (4.5, -60.0, 9.5)
+[07:38:11] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:11] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystallizer_recipe_reload:0' (1 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                               ]
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'shadow_grove:0' (1 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                              ]
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'sacrifice_missing:0' (1 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                             ]
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 297 at (-9.5, -60.0, 0.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 299 at (-6.5, -60.0, -7.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 301 at (10.5, -60.0, -5.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 303 at (2.5, -60.0, -1.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 305 at (-2.5, -60.0, 5.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_upgrade_recipe:0' (1 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                            ]
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_armor:0' (1 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                           ]
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 307 at (6.5, -60.0, -0.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 308 at (2.5, -60.0, 4.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darkstone_processing:0' (1 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                          ]
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'defaultBatch:0' (15 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                         ]
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 309 at (7.5, -60.0, 2.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 311 at (-1.5, -60.0, 5.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 312 at (7.5, -60.0, 6.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 313 at (-7.5, -60.0, 4.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 315 at (-9.5, -60.0, -6.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ +++++++                                ]
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 316 at (2.5, -60.0, 8.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 322 at (9.5, -60.0, -1.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 323 at (0.5, -60.0, 9.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_equipment:0' (1 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                          ]
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 324 at (-5.5, -60.0, 7.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_mining:0' (1 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                         ]
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadling_damage:0' (1 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                        ]
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                        ]
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                        ]
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_mob_loot:0' (1 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                       ]
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 330 at (-5.5, -60.0, -8.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'powerstone_materials:0' (1 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                      ]
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 332 at (7.5, -60.0, -0.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 333 at (-5.5, -60.0, 3.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'transmutator_fuel_remainders:0' (1 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                     ]
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_rewards:0' (1 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                    ]
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 382 at (5.5, -60.0, -7.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'abyssalnite_effects:0' (1 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                   ]
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 395 at (-6.5, -60.0, -7.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 396 at (8.5, -60.0, 0.5)
+[07:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:12] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_biome:0' (2 tests)...
+[07:38:12] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                  ]
+[07:38:13] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 397 at (-2.5, -60.0, 10.5)
+[07:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:13] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 398 at (5.5, -60.0, 1.5)
+[07:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_oak_native_leaf_loot:0' (1 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                ]
+[07:38:13] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 399 at (-0.5, -60.0, -9.5)
+[07:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_native_materials:0' (1 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++               ]
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++               ]
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_parts:0' (1 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++              ]
+[07:38:13] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 426 at (-8.5, -60.0, 9.5)
+[07:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystal_bag_codec_and_validation:0' (1 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++             ]
+[07:38:13] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 428 at (8.5, -60.0, -7.5)
+[07:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'abyssalnite_equipment:0' (1 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++            ]
+[07:38:13] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 429 at (-9.5, -60.0, 5.5)
+[07:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darkstone_masonry:0' (1 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++           ]
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++           ]
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystal_bag_offhand_ownership:0' (1 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++          ]
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadium_equipped_effects:0' (1 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++         ]
+[07:38:13] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 431 at (-0.5, -60.0, -8.5)
+[07:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:13] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 432 at (7.5, -60.0, 4.5)
+[07:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_contact:0' (1 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++        ]
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'sacrifice_timeout:0' (1 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++       ]
+[07:38:13] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 448 at (-6.5, -60.0, 0.5)
+[07:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_book_capacity:0' (1 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++      ]
+[07:38:13] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 450 at (9.5, -60.0, 4.5)
+[07:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystal_sulfur_to_gunpowder:0' (1 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++     ]
+[07:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_mob_state:0' (1 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    ]
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    ]
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'container_inventory:0' (2 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   ]
+[07:38:13] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crystal_bag_native_clicks:0' (1 tests)...
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ]
+[07:38:13] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 456 at (8.5, -60.0, 3.5)
+[07:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++]
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: ========= 111 GAME TESTS COMPLETE IN 8.752 s ======================
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: All 111 required tests passed :)
+[07:38:13] [Server thread/INFO] [minecraft/GameTestServer]: ====================================================
+[07:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[07:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[07:38:14] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:14] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:14] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:14] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:14] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:14] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:14] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:14] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:14] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:14] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:14] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:14] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:14] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:14] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:14] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:14] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:14] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:14] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:14] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:14] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:14] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:14] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:14] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:14] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: test-mock-player lost connection: Server closed
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player left the game
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:overworld
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_nether
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_end
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:38:15] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:38:15] [Server thread/INFO] [minecraft/GameTestServer]: Game test server shutting down
+
+> Task :writeWorldAuditServerLegacyClasspath UP-TO-DATE
+> Task :prepareWorldAuditServerRun UP-TO-DATE
+
+> Task :runWorldAuditServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[07:38:18] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.234, --fml.neoFormVersion, 20240808.144430, --nogui, --world, gateway-audit-20261002]
+[07:38:18] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.12+8-LTS
+[07:38:18] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[07:38:18] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[07:38:18] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/NoahT/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[07:38:18] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[07:38:18] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		AbyssalCraft Port Study (Unreleased) 0.1.0-dev (abyssalport)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.234 (neoforge)
+		TerraBlender 4.1.0.8 (terrablender)
+[07:38:20] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07:38:20] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, ., --nogui, --world, gateway-audit-20261002]
+[07:38:20] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:38:20] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:38:22] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[07:38:29] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:38:29] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:38:29] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07:38:29] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07:38:29] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:38:29] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.234, for MC 1.21.1
+[07:38:30] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[07:38:30] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[07:38:30] [modloading-sync-worker/INFO] [terrablender/]: Registered region abyssalport:darklands_region to index 1 for type OVERWORLD
+[07:38:30] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:38:30] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/B:/Claude/Projekte/AbyssalCraftPort/modern/build/moddev/artifacts/neoforge-21.1.234.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[07:38:30] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/B:/Claude/Projekte/AbyssalCraftPort/modern/build/moddev/artifacts/neoforge-21.1.234.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[07:38:32] [main/INFO] [minecraft/RecipeManager]: Loaded 1643 recipes
+[07:38:32] [main/INFO] [minecraft/AdvancementTree]: Loaded 1428 advancements
+[07:38:32] [main/INFO] [de.ab.ri.RitualCatalog/]: Loaded 10 AbyssalPort ritual definitions
+[07:38:33] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.21.1
+[07:38:33] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[07:38:33] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[07:38:33] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[07:38:33] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on 127.0.0.1:25567
+[07:38:33] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using default channel type
+[07:38:33] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[07:38:33] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[07:38:33] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "gateway-audit-20261002"
+[07:38:35] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[07:38:36] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[07:38:36] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 36%
+[07:38:36] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 666 ms
+[07:38:36] [Server thread/INFO] [minecraft/DedicatedServer]: Done (2.924s)! For help, type "help"
+[07:38:36] [Server thread/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: [abyssalport_worldtest, abyssalport]
+[07:38:36] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[07:38:36] [Server thread/INFO] [de.ab.te.WorldAuditTestRunner/]: World audit running 30 required integration tests on a normal dedicated world
+[07:38:37] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_tier_ritual:0' (1 tests)...
+[07:38:38] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 92 at (6.5, 139.0, 2.5)
+[07:38:38] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:38] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'gateway_abort:0' (1 tests)...
+[07:38:39] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 108 at (6.5, 76.0, -4.5)
+[07:38:39] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:39] [Server thread/INFO] [de.ab.GatewayGameTests/]: Gateway world test PASS: incorrect layout, unsupported destination, obstruction preserve resources
+[07:38:39] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_full_book_chain:0' (1 tests)...
+[07:38:39] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:39] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:40] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 199 at (-6.5, 74.0, -9.5)
+[07:38:40] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:40] [Server thread/INFO] [de.ab.DreadlandsProgressionGameTests/]: DREADLANDS PROGRESSION AUDIT: 300 successful carrier drains, native skin/book, 20,000-capacity tier, saved charged staff upgrade, overflow, gated 5,000-PE Powerstone
+[07:38:40] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_native_ticks:0' (1 tests)...
+[07:38:44] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_summon_space:0' (1 tests)...
+[07:38:45] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 358 at (-2.5, 75.0, -1.5)
+[07:38:45] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:45] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'dreadlands_native_gateway:0' (1 tests)...
+[07:38:46] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 371 at (7.5, 139.0, 10.5)
+[07:38:46] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:46] [Server thread/INFO] [de.ab.DreadlandsGameTests/]: DREADLANDS GATEWAY AUDIT: paid real infused-key ritual, returned selected key, native collision/cooldown, saved pair, exact return
+[07:38:46] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'asorah_summon:0' (1 tests)...
+[07:38:47] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Bring Home the Beacon]
+[07:38:47] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 454 at (-8.5, 78.0, 3.5)
+[07:38:47] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:47] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_rending:0' (1 tests)...
+[07:38:48] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 496 at (-0.5, 75.0, -8.5)
+[07:38:48] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:48] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wasteland_tier_abort:0' (1 tests)...
+[07:38:49] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 502 at (-3.5, 78.0, 8.5)
+[07:38:49] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:49] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'gateway_wide_entity:0' (1 tests)...
+[07:38:50] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'gateway_player_travel:0' (1 tests)...
+[07:38:51] [Server thread/INFO] [minecraft/PlayerList]: test-mock-player[embedded] logged in with entity id 505 at (0.5, 142.0, 7.5)
+[07:38:51] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player joined the game
+[07:38:51] [Server thread/INFO] [de.ab.GatewayGameTests/]: Gateway world test PASS: native player roundtrip, inventory including filled crystal bag/native serialized contents, book PE, discoveries and respawn preserved
+[07:38:51] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_family_natural:0' (1 tests)...
+[07:38:51] [Server thread/INFO] [minecraft/MinecraftServer]: test-mock-player has made the advancement [Diamonds!]
+[07:38:52] [Server thread/INFO] [de.ab.DarklandsBiomeGameTests/]: DARKLANDS VARIANT WORLD AUDIT: abyssalport:darklands_plains sample=BlockPos{x=120488, y=64, z=120200}, columns=1620, darkstone=0, soil=1482, logs=0
+[07:38:53] [Server thread/INFO] [de.ab.DarklandsBiomeGameTests/]: DARKLANDS VARIANT WORLD AUDIT: abyssalport:darklands_forest sample=BlockPos{x=120520, y=64, z=118120}, columns=1437, darkstone=0, soil=795, logs=744
+[07:38:53] [Server thread/INFO] [de.ab.DarklandsBiomeGameTests/]: DARKLANDS VARIANT WORLD AUDIT: abyssalport:darklands_highlands sample=BlockPos{x=118728, y=64, z=121096}, columns=850, darkstone=0, soil=789, logs=0
+[07:38:53] [Server thread/INFO] [de.ab.DarklandsBiomeGameTests/]: DARKLANDS VARIANT WORLD AUDIT: abyssalport:darklands_mountains sample=BlockPos{x=118056, y=64, z=120808}, columns=2100, darkstone=2099, soil=0, logs=0
+[07:38:53] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'gateway_cancelled_travel:0' (1 tests)...
+[07:38:54] [Server thread/INFO] [de.ab.GatewayGameTests/]: Gateway world test PASS: native dimension-travel hook can cancel transfer
+[07:38:54] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'darklands_ruins_natural:0' (1 tests)...
+[07:39:54] [Server Watchdog/ERROR] [minecraft/ServerWatchdog]: A single server tick took 60.00 seconds (should be max 0.05)
+[07:39:54] [Server Watchdog/ERROR] [minecraft/ServerWatchdog]: Considering it to be crashed, server will forcibly shutdown.
+[07:39:55] [Server Watchdog/FATAL] [ne.ne.ne.co.NeoForgeMod/]: Preparing crash report with UUID f9a5030e-5e5c-4ca2-a3f4-8b459e55fecf
+Crash report:
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 2026-10-05 07:39:55
+Description: Watching Server
+
+java.lang.Error: ServerHangWatchdog detected that a single server tick took 60000016.00 seconds (should be max 0.05)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$ShiftedNoise.mapAll(DensityFunctions.java:1022) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:630) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:599) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:630) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:599) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Spline$Coordinate.mapAll(DensityFunctions.java:1130) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Spline.lambda$mapAll$0(DensityFunctions.java:1078) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Spline$$Lambda/0x000002685a03bba0.visit(Unknown Source) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:315) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:317) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint$$Lambda/0x000002685a044000.apply(Unknown Source) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?] {}
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:317) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:317) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint$$Lambda/0x000002685a044000.apply(Unknown Source) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?] {}
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:317) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Spline.mapAll(DensityFunctions.java:1078) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:630) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:599) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:881) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:397) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:630) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:599) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.NoiseRouter.mapAll(NoiseRouter.java:63) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:139) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:198) ~[neoforge-21.1.234.jar%23125!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:terrablender.mixins.json:MixinNoiseBasedChunkGenerator from mod terrablender,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:116) ~[neoforge-21.1.234.jar%23125!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:terrablender.mixins.json:MixinNoiseBasedChunkGenerator from mod terrablender,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.ChunkGenerator.getFirstFreeHeight(ChunkGenerator.java:617) ~[neoforge-21.1.234.jar%23125!/:?] {re:mixin,re:classloading,pl:mixin:APP:terrablender.mixins.json:MixinChunkGenerator from mod terrablender,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement.addPieces(JigsawPlacement.java:114) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.structures.JigsawStructure.findGenerationPoint(JigsawStructure.java:144) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:197) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,xf:fml:default}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:98) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:91) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda/0x000002685a2487b8.get(Unknown Source) ~[?:?] {}
+	at MC-BOOTSTRAP/it.unimi.dsi.fastutil@8.5.12/it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:455) ~[fastutil-8.5.12.jar%2393!/:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:91) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:163) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:295) ~[neoforge-21.1.234.jar%23125!/:?] {re:mixin,re:classloading,pl:mixin:APP:terrablender.mixins.json:MixinChunkGenerator from mod terrablender,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:274) ~[neoforge-21.1.234.jar%23125!/:?] {re:mixin,re:classloading,pl:mixin:APP:terrablender.mixins.json:MixinChunkGenerator from mod terrablender,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:186) ~[neoforge-21.1.234.jar%23125!/:?] {re:mixin,re:classloading,pl:mixin:APP:terrablender.mixins.json:MixinChunkGenerator from mod terrablender,pl:mixin:A}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.DarklandsStructuresGameTests.NativeNormalWorldHasSavedSurfaceRuinsWithAccessibleUsableContent(DarklandsStructuresGameTests.java:158) ~[%23127!/:?] {re:classloading}
+	at java.base/java.lang.invoke.LambdaForm$DMH/0x0000026859003000.invokeStatic(LambdaForm$DMH) ~[?:?] {}
+	at java.base/java.lang.invoke.LambdaForm$MH/0x0000026859004000.invoke(LambdaForm$MH) ~[?:?] {}
+	at java.base/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder) ~[?:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:154) ~[?:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestRegistry.lambda$turnMethodIntoConsumer$5(GameTestRegistry.java:169) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestRegistry$$Lambda/0x000002685a0dafb8.accept(Unknown Source) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.TestFunction.run(TestFunction.java:40) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestInfo.startTest(GameTestInfo.java:162) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestInfo.tickInternal(GameTestInfo.java:124) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestInfo.tick(GameTestInfo.java:107) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestTicker.lambda$tick$0(GameTestTicker.java:39) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestTicker$$Lambda/0x000002685a128358.accept(Unknown Source) ~[?:?] {}
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestTicker.tick(GameTestTicker.java:39) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1070) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:317) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:932) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer$$Lambda/0x0000026859fc12f0.run(Unknown Source) ~[?:?] {}
+	at java.base/java.lang.Thread.runWith(Thread.java:1596) [?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$ShiftedNoise.mapAll(DensityFunctions.java:1022) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:630) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:599) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:630) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:599) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Spline$Coordinate.mapAll(DensityFunctions.java:1130) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Spline.lambda$mapAll$0(DensityFunctions.java:1078) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Spline$$Lambda/0x000002685a03bba0.visit(Unknown Source) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:315) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:317) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint$$Lambda/0x000002685a044000.apply(Unknown Source) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?] {}
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:317) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:317) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint$$Lambda/0x000002685a044000.apply(Unknown Source) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?] {}
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:317) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Spline.mapAll(DensityFunctions.java:1078) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:630) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:599) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:881) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:397) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:630) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:599) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.NoiseRouter.mapAll(NoiseRouter.java:63) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:139) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:198) ~[neoforge-21.1.234.jar%23125!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:terrablender.mixins.json:MixinNoiseBasedChunkGenerator from mod terrablender,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:116) ~[neoforge-21.1.234.jar%23125!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:terrablender.mixins.json:MixinNoiseBasedChunkGenerator from mod terrablender,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.ChunkGenerator.getFirstFreeHeight(ChunkGenerator.java:617) ~[neoforge-21.1.234.jar%23125!/:?] {re:mixin,re:classloading,pl:mixin:APP:terrablender.mixins.json:MixinChunkGenerator from mod terrablender,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement.addPieces(JigsawPlacement.java:114) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.structures.JigsawStructure.findGenerationPoint(JigsawStructure.java:144) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:197) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,xf:fml:default}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:98) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:91) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda/0x000002685a2487b8.get(Unknown Source) ~[?:?] {}
+	at MC-BOOTSTRAP/it.unimi.dsi.fastutil@8.5.12/it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:455) ~[fastutil-8.5.12.jar%2393!/:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:91) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:163) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:295) ~[neoforge-21.1.234.jar%23125!/:?] {re:mixin,re:classloading,pl:mixin:APP:terrablender.mixins.json:MixinChunkGenerator from mod terrablender,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:274) ~[neoforge-21.1.234.jar%23125!/:?] {re:mixin,re:classloading,pl:mixin:APP:terrablender.mixins.json:MixinChunkGenerator from mod terrablender,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:186) ~[neoforge-21.1.234.jar%23125!/:?] {re:mixin,re:classloading,pl:mixin:APP:terrablender.mixins.json:MixinChunkGenerator from mod terrablender,pl:mixin:A}
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.DarklandsStructuresGameTests.NativeNormalWorldHasSavedSurfaceRuinsWithAccessibleUsableContent(DarklandsStructuresGameTests.java:158) ~[%23127!/:?] {re:classloading}
+	at java.base/java.lang.invoke.LambdaForm$DMH/0x0000026859003000.invokeStatic(LambdaForm$DMH) ~[?:?] {}
+	at java.base/java.lang.invoke.LambdaForm$MH/0x0000026859004000.invoke(LambdaForm$MH) ~[?:?] {}
+	at java.base/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder) ~[?:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:154) ~[?:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestRegistry.lambda$turnMethodIntoConsumer$5(GameTestRegistry.java:169) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestRegistry$$Lambda/0x000002685a0dafb8.accept(Unknown Source) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.TestFunction.run(TestFunction.java:40) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestInfo.startTest(GameTestInfo.java:162) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestInfo.tickInternal(GameTestInfo.java:124) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestInfo.tick(GameTestInfo.java:107) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestTicker.lambda$tick$0(GameTestTicker.java:39) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestTicker$$Lambda/0x000002685a128358.accept(Unknown Source) ~[?:?] {}
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestTicker.tick(GameTestTicker.java:39) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1070) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:317) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:932) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer$$Lambda/0x0000026859fc12f0.run(Unknown Source) ~[?:?] {}
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=9 RUNNABLE
+	at java.base@21.0.12/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@21.0.12/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
+	at java.base@21.0.12/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
+
+
+"Finalizer" daemon prio=8 Id=10 WAITING on java.lang.ref.NativeReferenceQueue$Lock@5ef4ddcf
+	at java.base@21.0.12/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.ref.NativeReferenceQueue$Lock@5ef4ddcf
+	at java.base@21.0.12/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.12/java.lang.Object.wait(Object.java:339)
+	at java.base@21.0.12/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+	at java.base@21.0.12/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	at java.base@21.0.12/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+	at java.base@21.0.12/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+
+
+"Signal Dispatcher" daemon prio=9 Id=11 RUNNABLE
+
+
+"Attach Listener" daemon prio=5 Id=12 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=19 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@50332861
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@50332861
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1886)
+	at java.base@21.0.12/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.12/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at java.base@21.0.12/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@21.0.12/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.12/java.lang.Thread.run(Thread.java:1583)
+	at java.base@21.0.12/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
+
+
+"Notification Thread" daemon prio=9 Id=20 RUNNABLE
+
+
+"ForkJoinPool.commonPool-worker-1" daemon prio=5 Id=30 WAITING on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"ForkJoinPool.commonPool-worker-2" daemon prio=5 Id=31 WAITING on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"ForkJoinPool.commonPool-worker-3" daemon prio=5 Id=32 WAITING on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"ForkJoinPool.commonPool-worker-5" daemon prio=5 Id=34 TIMED_WAITING on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:449)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1891)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"ForkJoinPool.commonPool-worker-6" daemon prio=5 Id=35 WAITING on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"ForkJoinPool.commonPool-worker-7" daemon prio=5 Id=36 WAITING on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"ForkJoinPool.commonPool-worker-8" daemon prio=5 Id=37 WAITING on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"ForkJoinPool.commonPool-worker-9" daemon prio=5 Id=38 WAITING on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"ForkJoinPool.commonPool-worker-10" daemon prio=5 Id=39 WAITING on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"ForkJoinPool.commonPool-worker-11" daemon prio=5 Id=40 WAITING on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@540cb6bf
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"JNA Cleaner" daemon prio=5 Id=52 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@110e225a
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@110e225a
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1886)
+	at java.base@21.0.12/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.12/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)
+
+
+"Timer hack thread" daemon prio=5 Id=53 TIMED_WAITING
+	at java.base@21.0.12/java.lang.Thread.sleep0(Native Method)
+	at java.base@21.0.12/java.lang.Thread.sleep(Thread.java:509)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util$7.run(Util.java:762)
+
+
+"modloading-worker-0" daemon prio=5 Id=54 WAITING on java.util.concurrent.ForkJoinPool@69ec8f11
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@69ec8f11
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"modloading-worker-0" daemon prio=5 Id=55 TIMED_WAITING on java.util.concurrent.ForkJoinPool@69ec8f11
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@69ec8f11
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:449)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1891)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"modloading-sync-worker" daemon prio=5 Id=57 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@20d5d26d
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@20d5d26d
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+	at java.base@21.0.12/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base@21.0.12/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.12/java.lang.Thread.run(Thread.java:1583)
+
+
+"FileSystemWatchService" daemon prio=5 Id=58 RUNNABLE (in native)
+	at java.base@21.0.12/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+	at java.base@21.0.12/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1075)
+	at java.base@21.0.12/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
+	at java.base@21.0.12/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.12/java.lang.Thread.run(Thread.java:1583)
+
+
+"config-file-watcher-0-0" daemon prio=5 Id=59 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@11dd2186
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@11dd2186
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1797)
+	at java.base@21.0.12/java.util.concurrent.LinkedBlockingDeque.pollFirst(LinkedBlockingDeque.java:515)
+	at java.base@21.0.12/java.util.concurrent.LinkedBlockingDeque.poll(LinkedBlockingDeque.java:677)
+	at java.base@21.0.12/sun.nio.fs.AbstractWatchService.poll(AbstractWatchService.java:108)
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.8.3/com.electronwill.nightconfig.core.file.FileWatcher$FsWatcher.run(FileWatcher.java:531)
+	at java.base@21.0.12/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.12/java.lang.Thread.run(Thread.java:1583)
+
+
+"Yggdrasil Key Fetcher" daemon prio=5 Id=61 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7121dd15
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7121dd15
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1797)
+	at java.base@21.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@21.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@21.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base@21.0.12/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.12/java.lang.Thread.run(Thread.java:1583)
+
+
+"Worker-Main-1" daemon prio=5 Id=65 WAITING on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"Worker-Main-2" daemon prio=5 Id=66 WAITING on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"Worker-Main-3" daemon prio=5 Id=67 WAITING on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"Worker-Main-4" daemon prio=5 Id=68 WAITING on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"Worker-Main-5" daemon prio=5 Id=69 WAITING on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"Worker-Main-6" daemon prio=5 Id=70 WAITING on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"Worker-Main-7" daemon prio=5 Id=71 WAITING on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"Worker-Main-8" daemon prio=5 Id=72 WAITING on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"Worker-Main-9" daemon prio=5 Id=73 WAITING on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"Worker-Main-10" daemon prio=5 Id=74 WAITING on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"Worker-Main-11" daemon prio=5 Id=75 TIMED_WAITING on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7cb84027
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:449)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1891)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"Server thread" prio=8 Id=76 RUNNABLE
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$ShiftedNoise.mapAll(DensityFunctions.java:1022)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:630)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:599)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:630)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:599)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Spline$Coordinate.mapAll(DensityFunctions.java:1130)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Spline.lambda$mapAll$0(DensityFunctions.java:1078)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Spline$$Lambda/0x000002685a03bba0.visit(Unknown Source)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:315)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:317)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint$$Lambda/0x000002685a044000.apply(Unknown Source)
+	at java.base@21.0.12/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@21.0.12/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722)
+	at java.base@21.0.12/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base@21.0.12/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base@21.0.12/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base@21.0.12/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base@21.0.12/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base@21.0.12/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base@21.0.12/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:317)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:317)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint$$Lambda/0x000002685a044000.apply(Unknown Source)
+	at java.base@21.0.12/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@21.0.12/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722)
+	at java.base@21.0.12/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base@21.0.12/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base@21.0.12/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base@21.0.12/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base@21.0.12/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base@21.0.12/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base@21.0.12/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:317)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Spline.mapAll(DensityFunctions.java:1078)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:630)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:599)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:881)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:397)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:718)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:630)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:599)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:316)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.NoiseRouter.mapAll(NoiseRouter.java:63)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:139)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:198)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:116)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.ChunkGenerator.getFirstFreeHeight(ChunkGenerator.java:617)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement.addPieces(JigsawPlacement.java:114)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.structures.JigsawStructure.findGenerationPoint(JigsawStructure.java:144)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:197)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:98)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:91)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda/0x000002685a2487b8.get(Unknown Source)
+	at MC-BOOTSTRAP/it.unimi.dsi.fastutil@8.5.12/it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:455)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:91)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:163)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:295)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:274)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:186)
+	at TRANSFORMER/abyssalport@0.1.0-dev/dev.abyssalport.DarklandsStructuresGameTests.NativeNormalWorldHasSavedSurfaceRuinsWithAccessibleUsableContent(DarklandsStructuresGameTests.java:158)
+	at java.base@21.0.12/java.lang.invoke.LambdaForm$DMH/0x0000026859003000.invokeStatic(LambdaForm$DMH)
+	at java.base@21.0.12/java.lang.invoke.LambdaForm$MH/0x0000026859004000.invoke(LambdaForm$MH)
+	at java.base@21.0.12/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+	at java.base@21.0.12/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:154)
+	at java.base@21.0.12/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.12/java.lang.reflect.Method.invoke(Method.java:580)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestRegistry.lambda$turnMethodIntoConsumer$5(GameTestRegistry.java:169)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestRegistry$$Lambda/0x000002685a0dafb8.accept(Unknown Source)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.TestFunction.run(TestFunction.java:40)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestInfo.startTest(GameTestInfo.java:162)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestInfo.tickInternal(GameTestInfo.java:124)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestInfo.tick(GameTestInfo.java:107)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestTicker.lambda$tick$0(GameTestTicker.java:39)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestTicker$$Lambda/0x000002685a128358.accept(Unknown Source)
+	at java.base@21.0.12/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestTicker.tick(GameTestTicker.java:39)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1070)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:317)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:932)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer$$Lambda/0x0000026859fc12f0.run(Unknown Source)
+	at java.base@21.0.12/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.12/java.lang.Thread.run(Thread.java:1583)
+
+
+"DestroyJavaVM" prio=5 Id=78 RUNNABLE
+
+
+"Netty Server IO #0" daemon prio=8 Id=80 RUNNABLE (in native)
+	at java.base@21.0.12/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.12/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+	at java.base@21.0.12/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@7270b367
+	-  locked sun.nio.ch.WEPollSelectorImpl@ad96dbe
+	at java.base@21.0.12/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.12/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.12/java.lang.Thread.run(Thread.java:1583)
+
+
+"IO-Worker-1" prio=8 Id=81 TIMED_WAITING on java.util.concurrent.SynchronousQueue$Transferer@756fc085
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$Transferer@756fc085
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+	at java.base@21.0.12/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452)
+	at java.base@21.0.12/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
+	at java.base@21.0.12/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:235)
+	at java.base@21.0.12/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:338)
+	at java.base@21.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+	at java.base@21.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base@21.0.12/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.12/java.lang.Thread.run(Thread.java:1583)
+
+
+"IO-Worker-4" prio=8 Id=84 TIMED_WAITING on java.util.concurrent.SynchronousQueue$Transferer@756fc085
+	at java.base@21.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$Transferer@756fc085
+	at java.base@21.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+	at java.base@21.0.12/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452)
+	at java.base@21.0.12/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
+	at java.base@21.0.12/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:235)
+	at java.base@21.0.12/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:338)
+	at java.base@21.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+	at java.base@21.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base@21.0.12/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.12/java.lang.Thread.run(Thread.java:1583)
+
+
+"Server Watchdog" daemon prio=8 Id=85 RUNNABLE
+	at java.management@21.0.12/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.12/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:518)
+	at java.management@21.0.12/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:506)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.ServerWatchdog.run(ServerWatchdog.java:50)
+	at java.base@21.0.12/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.12/java.lang.Thread.run(Thread.java:1583)
+
+
+"LanServerPinger #1" daemon prio=8 Id=86 TIMED_WAITING
+	at java.base@21.0.12/java.lang.Thread.sleep0(Native Method)
+	at java.base@21.0.12/java.lang.Thread.sleep(Thread.java:509)
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.server.LanServerPinger.run(LanServerPinger.java:52)
+
+
+
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.ServerWatchdog.run(ServerWatchdog.java:65) ~[neoforge-21.1.234.jar%23125!/:?] {re:classloading}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: ResourceKey[minecraft:dimension / minecraft:overworld]: players: 9, entities: 310,310,177,725,725,0,0 [minecraft:item:65,minecraft:sheep:36,minecraft:chicken:31,minecraft:creeper:24,minecraft:zombie:22], block_entities: 99 [minecraft:beacon:32,minecraft:vault:20,minecraft:mob_spawner:19,minecraft:trial_spawner:16,abyssalport:prototype_effigy:9], block_ticks: 33155, fluid_ticks: 64, chunk_source: Chunks[S] W: 3325 E: 310,310,177,725,725,0,0,
+ResourceKey[minecraft:dimension / abyssalport:dreadlands]: players: 0, entities: 1,1,1,49,49,0,0 [abyssalport:abyssal_zombie:1], block_entities: 1 [abyssalport:gateway_anchor:1], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 841 E: 1,1,1,49,49,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_nether]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / abyssalport:abyssal_wasteland]: players: 0, entities: 69,69,33,98,98,0,0 [minecraft:skeleton:30,abyssalport:abyssal_zombie:22,minecraft:zombie:7,minecraft:item:6,minecraft:cow:3], block_entities: 4 [abyssalport:gateway_anchor:4], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 1682 E: 69,69,33,98,98,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_end]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.12, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 275007336 bytes (262 MiB) / 692060160 bytes (660 MiB) up to 8568963072 bytes (8172 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 3600 6-Core Processor              
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce RTX 4060 Ti
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 16380.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.16.1664
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.00
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.00
+	Memory slot #1 type: DDR4
+	Memory slot #2 capacity (MiB): 8192.00
+	Memory slot #2 clockSpeed (GHz): 3.00
+	Memory slot #2 type: DDR4
+	Memory slot #3 capacity (MiB): 8192.00
+	Memory slot #3 clockSpeed (GHz): 3.00
+	Memory slot #3 type: DDR4
+	Virtual memory max (MiB): 41900.58
+	Virtual memory used (MiB): 22194.65
+	Swap memory total (MiB): 9216.00
+	Swap memory used (MiB): 240.54
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 71801.02, total: 243119.00
+	Space in storage for workdir (MiB): available: 36261.36, total: 114472.00
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 9 / 20; [['test-mock-player'/92, l='ServerLevel[gateway-audit-20261002]', x=6.50, y=139.00, z=2.50], ['test-mock-player'/108, l='ServerLevel[gateway-audit-20261002]', x=10.50, y=141.00, z=4.50], ['test-mock-player'/199, l='ServerLevel[gateway-audit-20261002]', x=-6.50, y=74.00, z=-9.50], ['test-mock-player'/358, l='ServerLevel[gateway-audit-20261002]', x=-2.50, y=75.00, z=-1.50], ['test-mock-player'/371, l='ServerLevel[gateway-audit-20261002]', x=7.50, y=139.00, z=10.50], ['test-mock-player'/454, l='ServerLevel[gateway-audit-20261002]', x=-8.50, y=78.00, z=3.50], ['test-mock-player'/496, l='ServerLevel[gateway-audit-20261002]', x=0.00, y=0.00, z=0.00], ['test-mock-player'/502, l='ServerLevel[gateway-audit-20261002]', x=-3.50, y=78.00, z=8.50], ['test-mock-player'/505, l='ServerLevel[gateway-audit-20261002]', x=17.50, y=141.00, z=18.50]]
+	Active Data Packs: vanilla, mod_data, mod/terrablender (incompatible), mod/abyssalport (incompatible), mod/neoforge
+	Available Data Packs: bundle, trade_rebalance, vanilla, mod/abyssalport (incompatible), mod/neoforge, mod/terrablender (incompatible), mod_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 6910881343714234347
+	Is Modded: Definitely; Server brand changed to 'neoforge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeserverdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		main                                              |AbyssalCraft Port Study (Unrel|abyssalport                   |0.1.0-dev           |Manifest: NOSIGNATURE
+		neoforge-21.1.234.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.234.jar                             |NeoForge                      |neoforge                      |21.1.234            |Manifest: NOSIGNATURE
+		TerraBlender-neoforge-1.21.1-4.1.0.8.jar          |TerraBlender                  |terrablender                  |4.1.0.8             |Manifest: NOSIGNATURE
+	Crash Report UUID: f9a5030e-5e5c-4ca2-a3f4-8b459e55fecf
+	FML: 4.0.42
+	NeoForge: 21.1.234
+[07:39:55] [Server Watchdog/FATAL] [ne.ne.ne.co.NeoForgeMod/]: Preparing crash report with UUID 374fccda-1dcd-4ede-8476-c897a26002c8
+[07:39:55] [Server Watchdog/ERROR] [minecraft/ServerWatchdog]: This crash report has been saved to: B:\Claude\Projekte\AbyssalCraftPort\modern\runs\world-audit\crash-reports\crash-2026-10-05_07.39.55-server.txt
+
+> Task :runWorldAuditServer FAILED
+
+[Incubating] Problems report is available at: file:///B:/Claude/Projekte/AbyssalCraftPort/modern/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':runWorldAuditServer'.
+> Process 'command 'B:\Claude\Projekte\_RECOVERY\tools\jdk-21.0.12+8\bin\java.exe'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 2m 38s
+13 actionable tasks: 7 executed, 6 up-to-date

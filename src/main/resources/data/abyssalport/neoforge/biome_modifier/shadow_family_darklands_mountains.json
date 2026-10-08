@@ -1,0 +1,26 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "abyssalport:darklands_mountains"
+  ],
+  "spawners": [
+    {
+      "type": "abyssalport:shadow_creature",
+      "weight": 100,
+      "minCount": 3,
+      "maxCount": 3
+    },
+    {
+      "type": "abyssalport:shadow_monster",
+      "weight": 80,
+      "minCount": 2,
+      "maxCount": 2
+    },
+    {
+      "type": "abyssalport:shadow_beast",
+      "weight": 40,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": {
+    "id": "abyssalport:calcium_crystal_shard",
+    "count": 4
+  },
+  "experience": 0.1,
+  "secondary": {
+    "id": "abyssalport:phosphorus_crystal_shard",
+    "count": 4
+  }
+}

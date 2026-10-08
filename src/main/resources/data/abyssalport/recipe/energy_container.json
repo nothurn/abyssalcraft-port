@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DDD",
+    "DCD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "abyssalport:darkstone"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "id": "abyssalport:energy_container",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ]
+}

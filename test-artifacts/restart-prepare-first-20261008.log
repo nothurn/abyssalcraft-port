@@ -1,0 +1,92 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :compileJava
+> Task :processResources UP-TO-DATE
+> Task :classes
+> Task :downloadAssets UP-TO-DATE
+> Task :writeWorldAuditServerLegacyClasspath UP-TO-DATE
+> Task :prepareWorldAuditServerRun
+
+> Task :runWorldAuditServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[11:27:08] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.234, --fml.neoFormVersion, 20240808.144430, --nogui, --world, gateway-audit-restart-20261008]
+[11:27:08] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.12+8-LTS
+[11:27:08] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[11:27:08] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[11:27:08] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/NoahT/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[11:27:09] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[11:27:09] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		AbyssalCraft Port Study (Unreleased) 0.1.0-dev (abyssalport)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.234 (neoforge)
+		TerraBlender 4.1.0.8 (terrablender)
+[11:27:09] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[11:27:09] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, ., --nogui, --world, gateway-audit-restart-20261008]
+[11:27:10] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[11:27:10] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[11:27:11] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[11:27:16] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:27:16] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:27:16] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:27:16] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:27:16] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:27:17] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.234, for MC 1.21.1
+[11:27:17] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[11:27:17] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[11:27:17] [modloading-sync-worker/INFO] [terrablender/]: Registered region abyssalport:darklands_region to index 1 for type OVERWORLD
+[11:27:17] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:27:17] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/B:/Claude/Projekte/AbyssalCraftPort/modern/build/moddev/artifacts/neoforge-21.1.234.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[11:27:17] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/B:/Claude/Projekte/AbyssalCraftPort/modern/build/moddev/artifacts/neoforge-21.1.234.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[11:27:18] [main/INFO] [minecraft/Main]: No existing world data, creating new world
+[11:27:18] [main/INFO] [minecraft/RecipeManager]: Loaded 1656 recipes
+[11:27:19] [main/INFO] [minecraft/AdvancementTree]: Loaded 1435 advancements
+[11:27:19] [main/INFO] [de.ab.ri.RitualCatalog/]: Loaded 17 AbyssalPort ritual definitions
+[11:27:19] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.21.1
+[11:27:19] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[11:27:19] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[11:27:19] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[11:27:19] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on 127.0.0.1:25567
+[11:27:19] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using default channel type
+[11:27:19] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[11:27:19] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[11:27:19] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "gateway-audit-restart-20261008"
+[11:27:24] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[11:27:24] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[11:27:24] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[11:27:25] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[11:27:25] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 18%
+[11:27:26] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 18%
+[11:27:26] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 18%
+[11:27:27] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[11:27:27] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[11:27:28] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 3875 ms
+[11:27:28] [Server thread/INFO] [minecraft/DedicatedServer]: Done (8.395s)! For help, type "help"
+[11:27:28] [Server thread/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: [abyssalport_worldtest, abyssalport]
+[11:27:28] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[11:27:28] [Server thread/INFO] [de.ab.te.RestartAuditProbe/]: RESTART AUDIT START: phase=prepare, JVM=20532, world=.\gateway-audit-restart-20261008\.
+[11:27:31] [Server thread/INFO] [minecraft/PlayerList]: restart-audit[embedded] logged in with entity id 29 at (0.5, 78.0, -0.5)
+[11:27:31] [Server thread/INFO] [minecraft/MinecraftServer]: restart-audit joined the game
+[11:27:31] [Server thread/INFO] [minecraft/MinecraftServer]: restart-audit has made the advancement [Diamonds!]
+[11:27:37] [Server thread/INFO] [de.ab.te.RestartAuditProbe/]: RESTART AUDIT PREPARED: native player save + paired gateways + live machine at 73 ticks; normal shutdown will save chunks
+[11:27:37] [Server thread/INFO] [de.ab.te.WorldAuditTestRunner/]: RESTART AUDIT PHASE COMPLETE: prepare passed; halting normally for full native save
+[11:27:37] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[11:27:37] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[11:27:37] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: restart-audit lost connection: Server closed
+[11:27:37] [Server thread/INFO] [minecraft/MinecraftServer]: restart-audit left the game
+[11:27:37] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[11:27:38] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world-height-audit]'/minecraft:overworld
+[11:27:39] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world-height-audit]'/abyssalport:abyssal_wasteland
+[11:27:39] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world-height-audit]'/minecraft:the_nether
+[11:27:39] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world-height-audit]'/abyssalport:dreadlands
+[11:27:39] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world-height-audit]'/minecraft:the_end
+[11:27:39] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (gateway-audit-restart-20261008): All chunks are saved
+[11:27:39] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (abyssal_wasteland): All chunks are saved
+[11:27:39] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:27:39] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (dreadlands): All chunks are saved
+[11:27:39] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:27:39] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+
+BUILD SUCCESSFUL in 34s
+7 actionable tasks: 3 executed, 4 up-to-date

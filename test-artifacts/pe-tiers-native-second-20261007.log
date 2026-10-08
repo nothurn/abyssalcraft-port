@@ -1,0 +1,52 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+
+> Task :compileJava FAILED
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PotentialEnergyGameTests.java:358: Fehler: Symbol nicht gefunden
+            var id = WastelandProgressionContent.id(EnergyDeviceContent.ringId(tier)+"_from_"+EnergyDeviceContent.ringId(old));
+                                                ^
+  Symbol: Methode id(String)
+  Ort: Klasse WastelandProgressionContent
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PotentialEnergyGameTests.java:384: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player = helper.makeMockServerPlayerInLevel(); player.setGameMode(GameType.SURVIVAL); player.moveTo(pos.getCenter().add(0, 1, 0));
+                           ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PotentialEnergyGameTests.java:392: Fehler: Symbol nicht gefunden
+                var id = WastelandProgressionContent.id(EnergyDeviceContent.ringId(tier)+"_from_"+EnergyDeviceContent.ringId(old));
+                                                    ^
+  Symbol: Methode id(String)
+  Ort: Klasse WastelandProgressionContent
+Hinweis: Einige Eingabedateien verwenden oder überschreiben eine veraltete API.
+Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+2 Fehler
+1 Warnung
+
+[Incubating] Problems report is available at: file:///B:/Claude/Projekte/AbyssalCraftPort/modern/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+  Hinweis: Einige Eingabedateien verwenden oder überschreiben eine veraltete API.
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PotentialEnergyGameTests.java:384: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          var player = helper.makeMockServerPlayerInLevel(); player.setGameMode(GameType.SURVIVAL); player.moveTo(pos.getCenter().add(0, 1, 0));
+                             ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PotentialEnergyGameTests.java:358: Fehler: Symbol nicht gefunden
+              var id = WastelandProgressionContent.id(EnergyDeviceContent.ringId(tier)+"_from_"+EnergyDeviceContent.ringId(old));
+                                                  ^
+    Symbol: Methode id(String)
+    Ort: Klasse WastelandProgressionContent
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\PotentialEnergyGameTests.java:392: Fehler: Symbol nicht gefunden
+                  var id = WastelandProgressionContent.id(EnergyDeviceContent.ringId(tier)+"_from_"+EnergyDeviceContent.ringId(old));
+                                                      ^
+    Symbol: Methode id(String)
+    Ort: Klasse WastelandProgressionContent
+  2 Fehler
+  1 Warnung
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 2s
+2 actionable tasks: 1 executed, 1 up-to-date

@@ -1,0 +1,68 @@
+> Task :betaSourceBundle UP-TO-DATE
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :jarJar NO-SOURCE
+> Task :jar UP-TO-DATE
+> Task :sourcesJar UP-TO-DATE
+> Task :stageBetaCandidate FAILED
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file 'B:\Claude\Projekte\AbyssalCraftPort\modern\build.gradle' line: 144
+
+* What went wrong:
+Could not evaluate onlyIf predicate for task ':stageBetaCandidate'.
+> Could not evaluate spec for 'Task satisfies onlyIf closure'.
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.GradleException: Could not evaluate onlyIf predicate for task ':stageBetaCandidate'.
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+Caused by: org.gradle.api.GradleException: Could not evaluate spec for 'Task satisfies onlyIf closure'.
+	at org.gradle.api.internal.tasks.execution.SelfDescribingSpec.isSatisfiedBy(SelfDescribingSpec.java:42)
+	at org.gradle.api.specs.AndSpec.findUnsatisfiedSpec(AndSpec.java:67)
+	at org.gradle.api.internal.tasks.execution.DescribingAndSpec.findUnsatisfiedSpec(DescribingAndSpec.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:50)
+	... 23 more
+Caused by: org.gradle.api.GradleException: Candidate checkpoint already exists; refusing to overwrite or mix artifacts
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at build_e22wejgrr9mq0eiww8coq5plp$_run_closure11$_closure36.doCall$original(B:\Claude\Projekte\AbyssalCraftPort\modern\build.gradle:144)
+	at build_e22wejgrr9mq0eiww8coq5plp$_run_closure11$_closure36.doCall(B:\Claude\Projekte\AbyssalCraftPort\modern\build.gradle)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.gradle.api.specs.internal.ClosureSpec.isSatisfiedBy(ClosureSpec.java:33)
+	at org.gradle.api.internal.tasks.execution.SelfDescribingSpec.isSatisfiedBy(SelfDescribingSpec.java:40)
+	... 26 more
+
+
+BUILD FAILED in 1s
+7 actionable tasks: 1 executed, 6 up-to-date

@@ -1,0 +1,22 @@
+{
+  "energy_cost": 5000,
+  "duration_ticks": 60,
+  "book_tier": 2,
+  "altar_tier": 2,
+  "dimension": "abyssalport:dreadlands",
+  "altar_input": "abyssalport:coralium_infused_stone",
+  "offerings": [
+    "abyssalport:dreadlands_essence",
+    "abyssalport:dreadlands_essence",
+    "abyssalport:dreadlands_essence",
+    "abyssalport:dreadlands_essence",
+    "abyssalport:dreadlands_essence",
+    "abyssalport:dreadlands_essence",
+    "abyssalport:dreadlands_essence",
+    "abyssalport:dreadlands_essence"
+  ],
+  "result": {
+    "item": "abyssalport:dreadlands_infused_powerstone",
+    "count": 1
+  }
+}

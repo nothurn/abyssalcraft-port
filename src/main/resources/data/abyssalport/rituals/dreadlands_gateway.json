@@ -1,0 +1,26 @@
+{
+  "energy_cost": 1000,
+  "duration_ticks": 40,
+  "altar_input": "abyssalport:dreadlands_infused_gateway_key",
+  "outcome": "gateway",
+  "offerings": [
+    "abyssalport:shadow_gem",
+    "abyssalport:shadow_gem",
+    "abyssalport:shadow_gem",
+    "abyssalport:shadow_gem"
+  ],
+  "offering_layout": [
+    "abyssalport:shadow_gem",
+    "abyssalport:shadow_gem",
+    "abyssalport:shadow_gem",
+    "abyssalport:shadow_gem",
+    null,
+    null,
+    null,
+    null
+  ],
+  "result": {
+    "item": "abyssalport:dreadlands_infused_gateway_key",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:dreadium_block"
+    }
+  },
+  "result": {
+    "id": "abyssalport:dreadium_ingot",
+    "count": 9
+  }
+}

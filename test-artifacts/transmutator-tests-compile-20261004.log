@@ -1,0 +1,100 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+
+> Task :compileJava FAILED
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\TransmutatorGameTests.java:48: Fehler: Symbol nicht gefunden
+        var block=new ItemStack(WastelandMineralsContent.REFINED_BLOCK.get()); var bucket=new ItemStack(WastelandContent.CORALIUM_BUCKET.get());
+                                                        ^
+  Symbol: Variable REFINED_BLOCK
+  Ort: Klasse WastelandMineralsContent
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\TransmutatorGameTests.java:61: Fehler: Methode für is(Block) nicht geeignet
+                    && decoded.assemble(new SingleRecipeInput(new ItemStack(Items.STONE)),level.registryAccess()).is(AbyssalPort.DARKSTONE.get())
+                                                                                                                 ^
+    Methode ItemStack.is(TagKey<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in TagKey<Item> konvertiert werden)
+    Methode ItemStack.is(Item) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in Item konvertiert werden)
+    Methode ItemStack.is(Predicate<Holder<Item>>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in Predicate<Holder<Item>> konvertiert werden)
+    Methode ItemStack.is(Holder<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in Holder<Item> konvertiert werden)
+    Methode ItemStack.is(HolderSet<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in HolderSet<Item> konvertiert werden)
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\TransmutatorGameTests.java:81: Fehler: Methode für is(Block) nicht geeignet
+            helper.assertTrue(restored.progress()==0 && restored.getItem(0).getCount()==1 && restored.getItem(2).is(AbyssalPort.DARKSTONE.get())
+                                                                                                                ^
+    Methode ItemStack.is(TagKey<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in TagKey<Item> konvertiert werden)
+    Methode ItemStack.is(Item) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in Item konvertiert werden)
+    Methode ItemStack.is(Predicate<Holder<Item>>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in Predicate<Holder<Item>> konvertiert werden)
+    Methode ItemStack.is(Holder<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in Holder<Item> konvertiert werden)
+    Methode ItemStack.is(HolderSet<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in HolderSet<Item> konvertiert werden)
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\TransmutatorGameTests.java:132: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player=helper.makeMockServerPlayerInLevel(); player.moveTo(pos.getCenter());
+                         ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\TransmutatorGameTests.java:175: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+            var player=helper.makeMockServerPlayerInLevel(); new TransmutatorMenu(1,player.getInventory(),restored).quickMoveStack(player,2);
+                             ^
+Hinweis: B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\TransmutatorGameTests.java verwendet oder überschreibt eine veraltete API.
+Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+3 Fehler
+2 Warnungen
+
+[Incubating] Problems report is available at: file:///B:/Claude/Projekte/AbyssalCraftPort/modern/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  Hinweis: B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\TransmutatorGameTests.java verwendet oder überschreibt eine veraltete API.
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\TransmutatorGameTests.java:61: Fehler: Methode für is(Block) nicht geeignet
+                      && decoded.assemble(new SingleRecipeInput(new ItemStack(Items.STONE)),level.registryAccess()).is(AbyssalPort.DARKSTONE.get())
+                                                                                                                   ^
+      Methode ItemStack.is(TagKey<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in TagKey<Item> konvertiert werden)
+      Methode ItemStack.is(Item) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in Item konvertiert werden)
+      Methode ItemStack.is(Predicate<Holder<Item>>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in Predicate<Holder<Item>> konvertiert werden)
+      Methode ItemStack.is(Holder<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in Holder<Item> konvertiert werden)
+      Methode ItemStack.is(HolderSet<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in HolderSet<Item> konvertiert werden)
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\TransmutatorGameTests.java:81: Fehler: Methode für is(Block) nicht geeignet
+              helper.assertTrue(restored.progress()==0 && restored.getItem(0).getCount()==1 && restored.getItem(2).is(AbyssalPort.DARKSTONE.get())
+                                                                                                                  ^
+      Methode ItemStack.is(TagKey<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in TagKey<Item> konvertiert werden)
+      Methode ItemStack.is(Item) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in Item konvertiert werden)
+      Methode ItemStack.is(Predicate<Holder<Item>>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in Predicate<Holder<Item>> konvertiert werden)
+      Methode ItemStack.is(Holder<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in Holder<Item> konvertiert werden)
+      Methode ItemStack.is(HolderSet<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in HolderSet<Item> konvertiert werden)
+  Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\TransmutatorGameTests.java:48: Fehler: Symbol nicht gefunden
+          var block=new ItemStack(WastelandMineralsContent.REFINED_BLOCK.get()); var bucket=new ItemStack(WastelandContent.CORALIUM_BUCKET.get());
+                                                          ^
+    Symbol: Variable REFINED_BLOCK
+    Ort: Klasse WastelandMineralsContent
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\TransmutatorGameTests.java:132: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          var player=helper.makeMockServerPlayerInLevel(); player.moveTo(pos.getCenter());
+                           ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\TransmutatorGameTests.java:175: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+              var player=helper.makeMockServerPlayerInLevel(); new TransmutatorMenu(1,player.getInventory(),restored).quickMoveStack(player,2);
+                               ^
+  3 Fehler
+  2 Warnungen
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 2s
+2 actionable tasks: 1 executed, 1 up-to-date

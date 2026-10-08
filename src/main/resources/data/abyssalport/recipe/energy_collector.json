@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#&#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:monolith_stone"
+    },
+    "&": {
+      "item": "abyssalport:shadow_gem"
+    }
+  },
+  "result": {
+    "id": "abyssalport:energy_collector"
+  }
+}

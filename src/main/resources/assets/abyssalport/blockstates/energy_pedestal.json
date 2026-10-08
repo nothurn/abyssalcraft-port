@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "tilted=false": {
+      "model": "abyssalport:block/energy_pedestal"
+    },
+    "tilted=true": {
+      "model": "abyssalport:block/energy_pedestal_tilted"
+    }
+  }
+}

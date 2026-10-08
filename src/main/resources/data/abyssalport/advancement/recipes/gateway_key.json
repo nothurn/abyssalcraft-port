@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "catalyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "abyssalport:oblivion_catalyst"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "catalyst"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "abyssalport:gateway_key"
+    ]
+  }
+}

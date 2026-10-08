@@ -1,0 +1,15 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "abyssalport:dreaded_shoggoth_flesh"
+  },
+  "result": {
+    "id": "abyssalport:phosphorus_crystal_shard",
+    "count": 8
+  },
+  "experience": 0.2,
+  "secondary": {
+    "id": "abyssalport:dreadium_crystal_fragment",
+    "count": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#%#",
+    "% %",
+    "#%#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blaze_powder"
+    },
+    "%": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "abyssalport:embossed_ring"
+  }
+}

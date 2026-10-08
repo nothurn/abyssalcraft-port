@@ -1,0 +1,24 @@
+{
+  "textures": {
+    "stone": "minecraft:block/deepslate_tiles",
+    "top": "minecraft:block/polished_blackstone"
+  },
+  "elements": [
+    {
+      "from": [3, 0, 3], "to": [13, 3, 13],
+      "faces": {
+        "north": {"texture": "#stone"}, "south": {"texture": "#stone"},
+        "east": {"texture": "#stone"}, "west": {"texture": "#stone"},
+        "up": {"texture": "#top"}, "down": {"texture": "#stone"}
+      }
+    },
+    {
+      "from": [5, 3, 5], "to": [11, 16, 11],
+      "faces": {
+        "north": {"texture": "#stone"}, "south": {"texture": "#stone"},
+        "east": {"texture": "#stone"}, "west": {"texture": "#stone"},
+        "up": {"texture": "#top"}, "down": {"texture": "#stone"}
+      }
+    }
+  ]
+}

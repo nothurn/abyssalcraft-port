@@ -1,0 +1,16 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": [
+    {
+      "item": "abyssalport:coralium_ore"
+    },
+    {
+      "item": "abyssalport:abyssal_coralium_ore"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:coralium_crystal",
+    "count": 2
+  },
+  "experience": 0.1
+}

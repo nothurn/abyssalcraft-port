@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:magnesium_crystal_fragment"
+    }
+  },
+  "result": {
+    "id": "abyssalport:magnesium_crystal_shard"
+  }
+}

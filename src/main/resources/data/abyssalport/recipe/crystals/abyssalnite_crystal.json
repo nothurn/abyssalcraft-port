@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:abyssalnite_crystal_shard"
+    }
+  },
+  "result": {
+    "id": "abyssalport:abyssalnite_crystal"
+  }
+}

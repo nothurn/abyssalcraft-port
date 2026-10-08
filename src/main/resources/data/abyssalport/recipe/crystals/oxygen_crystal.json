@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:oxygen_crystal_shard"
+    }
+  },
+  "result": {
+    "id": "abyssalport:oxygen_crystal"
+  }
+}

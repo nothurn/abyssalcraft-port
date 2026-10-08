@@ -1,0 +1,15 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "abyssalport:silica_crystal_shard"
+  },
+  "result": {
+    "id": "abyssalport:silicon_crystal_shard",
+    "count": 1
+  },
+  "experience": 0.1,
+  "secondary": {
+    "id": "abyssalport:oxygen_crystal_shard",
+    "count": 2
+  }
+}

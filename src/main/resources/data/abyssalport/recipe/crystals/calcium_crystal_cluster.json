@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:calcium_crystal"
+    }
+  },
+  "result": {
+    "id": "abyssalport:calcium_crystal_cluster"
+  }
+}

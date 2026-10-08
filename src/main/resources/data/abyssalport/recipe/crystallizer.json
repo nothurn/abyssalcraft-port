@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "RFR",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "abyssalport:dreadstone_bricks"
+    },
+    "R": {
+      "item": "abyssalport:dreadium_block"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "id": "abyssalport:crystallizer"
+  }
+}

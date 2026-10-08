@@ -1,0 +1,20 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": [
+    {
+      "item": "abyssalport:nitre_ore"
+    },
+    {
+      "item": "abyssalport:abyssal_nitre_ore"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:potassium_crystal",
+    "count": 2
+  },
+  "experience": 0.1,
+  "secondary": {
+    "id": "abyssalport:nitrate_crystal",
+    "count": 2
+  }
+}

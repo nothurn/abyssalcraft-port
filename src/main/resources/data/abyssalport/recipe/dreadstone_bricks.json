@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "abyssalport:dreadstone"
+    }
+  },
+  "result": {
+    "id": "abyssalport:dreadstone_bricks",
+    "count": 4
+  }
+}

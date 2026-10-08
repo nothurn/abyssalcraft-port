@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "abyssalport:abyssalnite_ingot"
+    }
+  },
+  "result": {
+    "id": "abyssalport:abyssalnite_block"
+  }
+}

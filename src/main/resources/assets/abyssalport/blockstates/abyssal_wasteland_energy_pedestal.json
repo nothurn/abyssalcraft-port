@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "tilted=false": {
+      "model": "abyssalport:block/abyssal_wasteland_energy_pedestal"
+    },
+    "tilted=true": {
+      "model": "abyssalport:block/abyssal_wasteland_energy_pedestal_tilted"
+    }
+  }
+}

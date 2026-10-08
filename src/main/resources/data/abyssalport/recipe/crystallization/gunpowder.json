@@ -1,0 +1,15 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "minecraft:gunpowder"
+  },
+  "result": {
+    "id": "abyssalport:nitrate_crystal_shard",
+    "count": 16
+  },
+  "experience": 0.1,
+  "secondary": {
+    "id": "abyssalport:sulfur_crystal_shard",
+    "count": 4
+  }
+}

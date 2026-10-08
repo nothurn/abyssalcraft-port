@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "abyssalport:copper_crystal",
+    "count": 1
+  },
+  "experience": 0.1
+}

@@ -1,0 +1,122 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+
+> Task :compileJava FAILED
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsWoodGameTests.java:53: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+            var player=helper.makeMockServerPlayerInLevel(); player.setGameMode(GameType.SURVIVAL);
+                             ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsWoodGameTests.java:100: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var level=helper.getLevel(); var player=helper.makeMockServerPlayerInLevel(); player.setGameMode(GameType.SURVIVAL);
+                                                      ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsWoodGameTests.java:102: Fehler: Methode für is(Block) nicht geeignet
+        helper.assertTrue(craft(helper,player,input(new String[]{"H  ","   ","   "})).is(DarklandsWoodContent.PLANKS.get()),"Hollow log has no native plank recipe");
+                                                                                     ^
+    Methode ItemStack.is(TagKey<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in TagKey<Item> konvertiert werden)
+    Methode ItemStack.is(Item) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in Item konvertiert werden)
+    Methode ItemStack.is(Predicate<Holder<Item>>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in Predicate<Holder<Item>> konvertiert werden)
+    Methode ItemStack.is(Holder<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in Holder<Item> konvertiert werden)
+    Methode ItemStack.is(HolderSet<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, Block kann nicht in HolderSet<Item> konvertiert werden)
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsWoodGameTests.java:122: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+        var player=helper.makeMockServerPlayerInLevel(); var shears=new ItemStack(Items.SHEARS);
+                         ^
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsWoodGameTests.java:127: Fehler: Methode für is(LeavesBlock) nicht geeignet
+            helper.assertTrue(drops.size()==1&&drops.getFirst().is(DarklandsWoodContent.LEAVES.get()),"Native shears/Silk Touch leaf harvest is broken");
+                                                               ^
+    Methode ItemStack.is(TagKey<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, LeavesBlock kann nicht in TagKey<Item> konvertiert werden)
+    Methode ItemStack.is(Item) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, LeavesBlock kann nicht in Item konvertiert werden)
+    Methode ItemStack.is(Predicate<Holder<Item>>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, LeavesBlock kann nicht in Predicate<Holder<Item>> konvertiert werden)
+    Methode ItemStack.is(Holder<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, LeavesBlock kann nicht in Holder<Item> konvertiert werden)
+    Methode ItemStack.is(HolderSet<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, LeavesBlock kann nicht in HolderSet<Item> konvertiert werden)
+B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsWoodGameTests.java:133: Fehler: Methode für is(SaplingBlock) nicht geeignet
+            for(var drop:drops) { helper.assertTrue(drop.is(DarklandsWoodContent.SAPLING.get()),"Leaf loot invents apples/another resource"); seedlings+=drop.getCount(); }
+                                                        ^
+    Methode ItemStack.is(TagKey<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, SaplingBlock kann nicht in TagKey<Item> konvertiert werden)
+    Methode ItemStack.is(Item) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, SaplingBlock kann nicht in Item konvertiert werden)
+    Methode ItemStack.is(Predicate<Holder<Item>>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, SaplingBlock kann nicht in Predicate<Holder<Item>> konvertiert werden)
+    Methode ItemStack.is(Holder<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, SaplingBlock kann nicht in Holder<Item> konvertiert werden)
+    Methode ItemStack.is(HolderSet<Item>) ist nicht anwendbar
+      (Keine übereinstimmenden Argumente, SaplingBlock kann nicht in HolderSet<Item> konvertiert werden)
+Hinweis: B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\client\AbyssalPortClient.java verwendet oder überschreibt eine veraltete API.
+Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+3 Fehler
+3 Warnungen
+
+[Incubating] Problems report is available at: file:///B:/Claude/Projekte/AbyssalCraftPort/modern/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  Hinweis: B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\client\AbyssalPortClient.java verwendet oder überschreibt eine veraltete API.
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsWoodGameTests.java:102: Fehler: Methode für is(Block) nicht geeignet
+          helper.assertTrue(craft(helper,player,input(new String[]{"H  ","   ","   "})).is(DarklandsWoodContent.PLANKS.get()),"Hollow log has no native plank recipe");
+                                                                                       ^
+      Methode ItemStack.is(TagKey<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in TagKey<Item> konvertiert werden)
+      Methode ItemStack.is(Item) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in Item konvertiert werden)
+      Methode ItemStack.is(Predicate<Holder<Item>>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in Predicate<Holder<Item>> konvertiert werden)
+      Methode ItemStack.is(Holder<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in Holder<Item> konvertiert werden)
+      Methode ItemStack.is(HolderSet<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, Block kann nicht in HolderSet<Item> konvertiert werden)
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsWoodGameTests.java:127: Fehler: Methode für is(LeavesBlock) nicht geeignet
+              helper.assertTrue(drops.size()==1&&drops.getFirst().is(DarklandsWoodContent.LEAVES.get()),"Native shears/Silk Touch leaf harvest is broken");
+                                                                 ^
+      Methode ItemStack.is(TagKey<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, LeavesBlock kann nicht in TagKey<Item> konvertiert werden)
+      Methode ItemStack.is(Item) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, LeavesBlock kann nicht in Item konvertiert werden)
+      Methode ItemStack.is(Predicate<Holder<Item>>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, LeavesBlock kann nicht in Predicate<Holder<Item>> konvertiert werden)
+      Methode ItemStack.is(Holder<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, LeavesBlock kann nicht in Holder<Item> konvertiert werden)
+      Methode ItemStack.is(HolderSet<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, LeavesBlock kann nicht in HolderSet<Item> konvertiert werden)
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsWoodGameTests.java:133: Fehler: Methode für is(SaplingBlock) nicht geeignet
+              for(var drop:drops) { helper.assertTrue(drop.is(DarklandsWoodContent.SAPLING.get()),"Leaf loot invents apples/another resource"); seedlings+=drop.getCount(); }
+                                                          ^
+      Methode ItemStack.is(TagKey<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, SaplingBlock kann nicht in TagKey<Item> konvertiert werden)
+      Methode ItemStack.is(Item) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, SaplingBlock kann nicht in Item konvertiert werden)
+      Methode ItemStack.is(Predicate<Holder<Item>>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, SaplingBlock kann nicht in Predicate<Holder<Item>> konvertiert werden)
+      Methode ItemStack.is(Holder<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, SaplingBlock kann nicht in Holder<Item> konvertiert werden)
+      Methode ItemStack.is(HolderSet<Item>) ist nicht anwendbar
+        (Keine übereinstimmenden Argumente, SaplingBlock kann nicht in HolderSet<Item> konvertiert werden)
+  Hinweis: Wiederholen Sie die Kompilierung mit -Xlint:deprecation, um Details zu erhalten.
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsWoodGameTests.java:53: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+              var player=helper.makeMockServerPlayerInLevel(); player.setGameMode(GameType.SURVIVAL);
+                               ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsWoodGameTests.java:100: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          var level=helper.getLevel(); var player=helper.makeMockServerPlayerInLevel(); player.setGameMode(GameType.SURVIVAL);
+                                                        ^
+  B:\Claude\Projekte\AbyssalCraftPort\modern\src\main\java\dev\abyssalport\DarklandsWoodGameTests.java:122: Warnung: [removal] makeMockServerPlayerInLevel() in GameTestHelper ist veraltet und wurde zum Entfernen markiert
+          var player=helper.makeMockServerPlayerInLevel(); var shears=new ItemStack(Items.SHEARS);
+                           ^
+  3 Fehler
+  3 Warnungen
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1s
+2 actionable tasks: 1 executed, 1 up-to-date

@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "minecraft:blaze_powder"
+  },
+  "result": {
+    "id": "abyssalport:blaze_crystal_shard",
+    "count": 4
+  },
+  "experience": 0.1
+}

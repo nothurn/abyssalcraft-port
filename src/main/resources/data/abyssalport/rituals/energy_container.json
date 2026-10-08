@@ -1,0 +1,20 @@
+{
+  "energy_cost": 100,
+  "duration_ticks": 20,
+  "altar_input": "abyssalport:energy_pedestal",
+  "preserve_energy": true,
+  "offerings": [
+    "abyssalport:energy_collector",
+    "abyssalport:shadow_shard",
+    "abyssalport:energy_collector",
+    "abyssalport:shadow_shard",
+    "abyssalport:energy_collector",
+    "abyssalport:shadow_shard",
+    "abyssalport:energy_collector",
+    "abyssalport:shadow_shard"
+  ],
+  "result": {
+    "item": "abyssalport:energy_container",
+    "count": 1
+  }
+}

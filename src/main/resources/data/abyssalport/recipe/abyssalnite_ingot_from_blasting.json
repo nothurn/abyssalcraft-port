@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "abyssalport:abyssalnite_ore"
+  },
+  "result": {
+    "id": "abyssalport:abyssalnite_ingot"
+  },
+  "experience": 3.0,
+  "cookingtime": 100
+}

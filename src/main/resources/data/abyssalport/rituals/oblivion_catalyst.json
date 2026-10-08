@@ -1,0 +1,20 @@
+{
+  "energy_cost": 5000,
+  "duration_ticks": 200,
+  "altar_input": "minecraft:ender_eye",
+  "living_sacrifice": true,
+  "offerings": [
+    "minecraft:redstone",
+    "abyssalport:oblivion_shard",
+    "minecraft:redstone",
+    "abyssalport:oblivion_shard",
+    "minecraft:redstone",
+    "abyssalport:oblivion_shard",
+    "minecraft:redstone",
+    "abyssalport:oblivion_shard"
+  ],
+  "result": {
+    "item": "abyssalport:oblivion_catalyst",
+    "count": 1
+  }
+}

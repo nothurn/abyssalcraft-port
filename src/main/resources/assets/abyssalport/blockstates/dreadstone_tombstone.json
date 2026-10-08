@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "abyssalport:block/dreadstone_tombstone"
+    },
+    "facing=east": {
+      "model": "abyssalport:block/dreadstone_tombstone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "abyssalport:block/dreadstone_tombstone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "abyssalport:block/dreadstone_tombstone",
+      "y": 270
+    }
+  }
+}

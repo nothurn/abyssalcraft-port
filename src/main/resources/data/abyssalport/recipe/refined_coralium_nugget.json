@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "abyssalport:refined_coralium_ingot"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:refined_coralium_nugget",
+    "count": 9
+  }
+}

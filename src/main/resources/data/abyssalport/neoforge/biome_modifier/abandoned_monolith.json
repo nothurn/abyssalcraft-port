@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:dark_forest",
+    "minecraft:swamp",
+    "abyssalport:darklands",
+    "abyssalport:darklands_plains",
+    "abyssalport:darklands_forest",
+    "abyssalport:darklands_highlands",
+    "abyssalport:darklands_mountains"
+  ],
+  "features": "abyssalport:abandoned_monolith",
+  "step": "surface_structures"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:transmutation",
+  "ingredient": {
+    "item": "abyssalport:iron_crystal_cluster"
+  },
+  "result": {
+    "id": "minecraft:iron_ingot",
+    "count": 1
+  },
+  "experience": 0.2
+}

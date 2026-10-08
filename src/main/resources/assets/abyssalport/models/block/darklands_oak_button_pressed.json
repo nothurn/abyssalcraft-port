@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "abyssalport:block/darklands_oak_planks"
+  }
+}

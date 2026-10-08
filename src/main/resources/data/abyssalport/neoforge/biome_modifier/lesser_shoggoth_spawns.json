@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "minecraft:dark_forest",
+    "minecraft:swamp",
+    "abyssalport:darklands",
+    "abyssalport:darklands_plains",
+    "abyssalport:darklands_forest",
+    "abyssalport:darklands_highlands",
+    "abyssalport:darklands_mountains"
+  ],
+  "spawners": {
+    "type": "abyssalport:lesser_shoggoth",
+    "weight": 2,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

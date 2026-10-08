@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "darklands_oak_slab",
+  "pattern": [
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "abyssalport:darklands_oak_planks"
+    }
+  },
+  "result": {
+    "id": "abyssalport:darklands_oak_slab",
+    "count": 6
+  }
+}

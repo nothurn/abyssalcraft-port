@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "abyssalport:block/abyssal_wasteland_energy_relay"
+    },
+    "facing=east": {
+      "model": "abyssalport:block/abyssal_wasteland_energy_relay",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "abyssalport:block/abyssal_wasteland_energy_relay",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "abyssalport:block/abyssal_wasteland_energy_relay",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "abyssalport:block/abyssal_wasteland_energy_relay",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "abyssalport:block/abyssal_wasteland_energy_relay",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "minecraft:prismarine_bricks"
+  },
+  "result": {
+    "id": "abyssalport:silica_crystal",
+    "count": 4
+  },
+  "experience": 0.1,
+  "secondary": {
+    "id": "abyssalport:beryl_crystal",
+    "count": 4
+  }
+}

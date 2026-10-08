@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:abyssal_zombie",
+    "abyssalport:asorah",
+    "abyssalport:spectral_dragon",
+    "abyssalport:depths_ghoul",
+    "abyssalport:lesser_abyssal_shoggoth",
+    "abyssalport:abyssal_shoggoth",
+    "abyssalport:greater_abyssal_shoggoth"
+  ]
+}

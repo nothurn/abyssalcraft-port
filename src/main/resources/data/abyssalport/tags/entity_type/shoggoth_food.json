@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:evil_cow",
+    "abyssalport:evil_chicken",
+    "abyssalport:evil_pig",
+    "abyssalport:evil_sheep",
+    "abyssalport:demon_cow",
+    "abyssalport:demon_chicken",
+    "abyssalport:demon_pig",
+    "abyssalport:demon_sheep"
+  ]
+}

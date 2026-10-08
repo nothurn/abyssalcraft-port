@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "abyssalport:block/darklands_oak_planks",
+    "side": "abyssalport:block/darklands_oak_planks",
+    "top": "abyssalport:block/darklands_oak_planks"
+  }
+}

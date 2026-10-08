@@ -1,0 +1,14 @@
+{
+  "type": "abyssalport:ranged_ore",
+  "config": {
+    "target": {
+      "predicate_type": "minecraft:tag_match",
+      "tag": "minecraft:stone_ore_replaceables"
+    },
+    "state": {
+      "Name": "abyssalport:nitre_ore"
+    },
+    "min_size": 4,
+    "max_size": 5
+  }
+}

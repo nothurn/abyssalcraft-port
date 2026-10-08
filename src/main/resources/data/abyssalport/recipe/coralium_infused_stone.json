@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "CCC",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "C": {
+      "item": "abyssalport:coralium_gem_cluster_3"
+    }
+  },
+  "result": {
+    "id": "abyssalport:coralium_infused_stone",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": {"model": "abyssalport:block/energy_relay"},
+    "facing=east": {"model": "abyssalport:block/energy_relay", "y": 90},
+    "facing=south": {"model": "abyssalport:block/energy_relay", "y": 180},
+    "facing=west": {"model": "abyssalport:block/energy_relay", "y": 270},
+    "facing=up": {"model": "abyssalport:block/energy_relay", "x": 270},
+    "facing=down": {"model": "abyssalport:block/energy_relay", "x": 90}
+  }
+}

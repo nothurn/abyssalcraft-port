@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "abyssalport:block/darklands_oak_planks"
+  }
+}

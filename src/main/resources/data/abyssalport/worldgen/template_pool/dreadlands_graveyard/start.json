@@ -1,0 +1,59 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/dread_small",
+        "processors": "abyssalport:dreadlands_graveyard",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/dread_medium",
+        "processors": "abyssalport:dreadlands_graveyard",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/dread_large",
+        "processors": "abyssalport:dreadlands_graveyard",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/elysian_small",
+        "processors": "abyssalport:dreadlands_graveyard",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/elysian_medium",
+        "processors": "abyssalport:dreadlands_graveyard",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "abyssalport:graveyard/elysian_large",
+        "processors": "abyssalport:dreadlands_graveyard",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

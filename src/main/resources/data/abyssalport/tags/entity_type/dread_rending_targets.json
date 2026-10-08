@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:dreadling",
+    "abyssalport:dreadguard",
+    "abyssalport:dread_spawn",
+    "abyssalport:greater_dread_spawn",
+    "abyssalport:lesser_dreadbeast",
+    "abyssalport:dreaded_ghoul",
+    "abyssalport:lesser_dreaded_shoggoth",
+    "abyssalport:dreaded_shoggoth",
+    "abyssalport:greater_dreaded_shoggoth",
+    "abyssalport:demon_cow",
+    "abyssalport:demon_chicken",
+    "abyssalport:demon_pig",
+    "abyssalport:demon_sheep"
+  ]
+}

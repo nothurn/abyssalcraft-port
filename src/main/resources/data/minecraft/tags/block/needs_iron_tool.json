@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:abyssalnite_ore",
+    "abyssalport:abyssalnite_block",
+    "abyssalport:coralium_ore",
+    "abyssalport:nitre_ore",
+    "abyssalport:abyssal_nitre_ore",
+    "abyssalport:abyssal_iron_ore",
+    "abyssalport:abyssal_gold_ore",
+    "abyssalport:abyssal_diamond_ore",
+    "abyssalport:refined_coralium_block"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:abyssal_stone_brick_slab",
+    "abyssalport:darkstone_slab",
+    "abyssalport:darkstone_cobblestone_slab"
+  ]
+}

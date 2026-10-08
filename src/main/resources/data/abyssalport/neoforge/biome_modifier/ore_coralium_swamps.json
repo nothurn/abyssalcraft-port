@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#abyssalport:coralium_swamps",
+  "features": "abyssalport:ore_coralium_swamps",
+  "step": "underground_ores"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": {
+    "item": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "abyssalport:iron_crystal_shard",
+    "count": 1
+  },
+  "experience": 0.1
+}

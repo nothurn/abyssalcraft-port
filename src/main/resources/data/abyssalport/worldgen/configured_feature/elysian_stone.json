@@ -1,0 +1,14 @@
+{
+  "type": "abyssalport:ranged_ore",
+  "config": {
+    "target": {
+      "predicate_type": "minecraft:block_match",
+      "block": "abyssalport:dreadstone"
+    },
+    "state": {
+      "Name": "abyssalport:elysian_stone"
+    },
+    "min_size": 24,
+    "max_size": 24
+  }
+}

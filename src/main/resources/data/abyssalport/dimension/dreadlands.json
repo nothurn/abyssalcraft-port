@@ -1,0 +1,11 @@
+{
+  "type": "abyssalport:dreadlands",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "abyssalport:dreadlands",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "abyssalport:dreadlands"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "abyssalport:block/darkstone_slab"
+    },
+    "type=double": {
+      "model": "abyssalport:block/darkstone"
+    },
+    "type=top": {
+      "model": "abyssalport:block/darkstone_slab_top"
+    }
+  }
+}

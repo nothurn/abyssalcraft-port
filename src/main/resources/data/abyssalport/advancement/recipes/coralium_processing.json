@@ -1,0 +1,51 @@
+{
+  "criteria": {
+    "sample": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "abyssalport:coralium_gem"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sample"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "abyssalport:coralium_gem_cluster_2",
+      "abyssalport:coralium_gem_cluster_3",
+      "abyssalport:coralium_gem_cluster_4",
+      "abyssalport:coralium_gem_cluster_5",
+      "abyssalport:coralium_gem_cluster_6",
+      "abyssalport:coralium_gem_cluster_7",
+      "abyssalport:coralium_gem_cluster_8",
+      "abyssalport:coralium_gem_cluster_9",
+      "abyssalport:coralium_gems_from_cluster_2",
+      "abyssalport:coralium_gems_from_cluster_3",
+      "abyssalport:coralium_gems_from_cluster_4",
+      "abyssalport:coralium_gems_from_cluster_5",
+      "abyssalport:coralium_gems_from_cluster_6",
+      "abyssalport:coralium_gems_from_cluster_7",
+      "abyssalport:coralium_gems_from_cluster_8",
+      "abyssalport:coralium_gems_from_cluster_9",
+      "abyssalport:coralium_gem_cluster_4_combined",
+      "abyssalport:coralium_gem_cluster_5_combined",
+      "abyssalport:coralium_gem_cluster_6_combined",
+      "abyssalport:coralium_gem_cluster_7_combined",
+      "abyssalport:coralium_gem_cluster_8_combined",
+      "abyssalport:coralium_gem_cluster_9_combined",
+      "abyssalport:coralium_infused_stone",
+      "abyssalport:coralium_infused_stone_dense",
+      "abyssalport:coralium_pearl_from_smelting",
+      "abyssalport:coralium_pearl_from_blasting",
+      "abyssalport:coralium_gem_from_smelting",
+      "abyssalport:coralium_gem_from_blasting"
+    ]
+  }
+}

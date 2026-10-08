@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "abyssalport:darklands_oak_logs"
+  },
+  "result": {
+    "id": "minecraft:charcoal"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

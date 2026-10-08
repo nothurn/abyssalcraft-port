@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "metal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalport:abyssalnite_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "abyssalport:abyssalnite_pickaxe",
+      "abyssalport:abyssalnite_axe",
+      "abyssalport:abyssalnite_shovel",
+      "abyssalport:abyssalnite_sword",
+      "abyssalport:abyssalnite_hoe",
+      "abyssalport:abyssalnite_helmet",
+      "abyssalport:abyssalnite_chestplate",
+      "abyssalport:abyssalnite_leggings",
+      "abyssalport:abyssalnite_boots",
+      "abyssalport:abyssalnite_block",
+      "abyssalport:abyssalnite_nugget",
+      "abyssalport:abyssalnite_ingot_from_nuggets",
+      "abyssalport:abyssalnite_ingot_from_block"
+    ]
+  }
+}

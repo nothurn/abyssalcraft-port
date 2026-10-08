@@ -1,0 +1,16 @@
+{
+  "type": "abyssalport:crystallization",
+  "ingredient": [
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "result": {
+    "id": "abyssalport:carbon_crystal",
+    "count": 1
+  },
+  "experience": 0.1
+}

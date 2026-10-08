@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "abyssalport:wasteland_graveyard",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 824298,
+    "spacing": 16,
+    "separation": 10
+  }
+}

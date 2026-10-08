@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "sample": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "abyssalport:transmutation_gem"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sample"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "abyssalport:oblivion_shard"
+    ]
+  }
+}

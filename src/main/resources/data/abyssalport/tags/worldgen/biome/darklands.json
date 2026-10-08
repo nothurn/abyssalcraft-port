@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "abyssalport:darklands",
+    "abyssalport:darklands_plains",
+    "abyssalport:darklands_forest",
+    "abyssalport:darklands_highlands",
+    "abyssalport:darklands_mountains"
+  ]
+}
